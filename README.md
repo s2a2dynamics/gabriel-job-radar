@@ -2,12 +2,12 @@
 
 Dashboard permanente de oportunidades profesionales para Gabriel Suárez.
 
-Áreas prioritarias:
-- Data Science / Data & AI
-- Quantitative Research / Quantitative Analysis
-- Scientific Computing / Numerical Computing
-- Optimization / Operations Research
-- Data Engineering
-- Applied Scientist / Quant Software Engineering
+Áreas prioritarias: Data Science / Data & AI, Quantitative Research, Scientific Computing, Optimization, Data Engineering y Quant Software Engineering.
 
-El dashboard se mantiene separado entre vacantes verificadas y objetivos por verificar.
+## Capas
+- `index.html`: radar, recomendadas y plan de acción diario.
+- `preparacion.html`: centro de preparación específica por candidatura.
+- `data/opportunities.json`: radar completo.
+- `data/recommended.json`: Top 10 diario.
+- `data/action-plan.json`: agenda diaria.
+- `data/application-packs.json`: dossiers ATS, CV, TFG/TFM, gaps, pitch, preguntas y checklist.
