@@ -1,101 +1,22 @@
 {
-  "date": "2026-08-17",
-  "headline": "Objetivo de hoy: convertir el radar en candidaturas de calidad",
-  "daily_goal": {
-    "applications": 3,
-    "validations": 2,
-    "prep_minutes": 45,
-    "followups": 0
-  },
-  "primary_actions": [
-    {
-      "id": "apply-leversys",
-      "type": "Aplicar",
-      "priority": 1,
-      "company": "Leversys",
-      "role": "Quantitative Analyst",
-      "time_minutes": 45,
-      "cv": "CV Quant / Scientific",
-      "why_now": "Oferta oficial abierta y muy alineada con el Máster en Matemáticas Avanzadas y el trabajo de Gabriel en análisis espectral, matrices y programación.",
-      "steps": [
-        "Adaptar el resumen profesional a quantitative analysis y modelización.",
-        "Subir TFM y TFG a la primera mitad del CV con 2–3 bullets de impacto computacional.",
-        "Destacar Python, algoritmos, matrices, valores singulares y capacidad de investigación.",
-        "Enviar candidatura y registrar el estado como Aplicada en el radar."
-      ],
-      "url": "https://jobs.lever.co/leversys/72aabed1-8525-4d14-9c61-42ade1c9c5ec"
-    },
-    {
-      "id": "apply-cabify",
-      "type": "Aplicar",
-      "priority": 2,
-      "company": "Cabify",
-      "role": "Data Scientist",
-      "time_minutes": 45,
-      "cv": "CV Data / AI",
-      "why_now": "Madrid, fuente oficial y buena combinación entre Matemáticas, Informática y experiencia profesional de software.",
-      "steps": [
-        "Reforzar Python, SQL y análisis de datos en el CV.",
-        "Traducir TFG/TFM a lenguaje de experimentación numérica, algoritmos y análisis computacional.",
-        "Añadir 1–2 proyectos de GitHub relevantes si demuestran datos, algoritmos o Python.",
-        "Enviar candidatura y marcarla como Aplicada."
-      ],
-      "url": "https://job-boards.greenhouse.io/cabify/jobs/8462001002"
-    },
-    {
-      "id": "prepare-cern",
-      "type": "Preparar candidatura",
-      "priority": 3,
-      "company": "CERN",
-      "role": "Early Career Professionals – Technical Field",
-      "time_minutes": 40,
-      "cv": "CV Quant / Scientific",
-      "why_now": "Programa early-career y entorno donde el perfil científico-computacional de Gabriel puede diferenciarse claramente.",
-      "steps": [
-        "Adaptar el perfil a scientific computing, numerical methods y software engineering.",
-        "Preparar una explicación de 120 palabras del TFM orientada a computación científica.",
-        "Seleccionar tres habilidades técnicas demostrables: Python/C, Linux/Git y métodos numéricos.",
-        "Revisar requisitos finales y completar candidatura si encajan."
-      ],
-      "url": "https://careers.cern/programmes/entry-level-technical-field/"
-    }
+  "date":"2026-08-17",
+  "headline":"Objetivo de hoy: preparar y enviar candidaturas verificadas de alta calidad",
+  "daily_goal":{"applications":3,"validations":2,"prep_minutes":60,"followups":0},
+  "primary_actions":[
+    {"id":"apply-leversys","type":"Aplicar","priority":1,"company":"Leversys","role":"Quantitative Analyst","time_minutes":50,"cv":"CV Quant / Scientific","why_now":"Oferta oficial abierta, full-time e híbrida en Londres. Acepta candidatos sin experiencia previa si su base cuantitativa/programación es fuerte.","steps":["Abrir el Centro de preparación y completar el dossier Leversys.","Adaptar CV Quant con TFM/TFG, Python/C, matrices, valores singulares y análisis numérico.","Revisar bonos convertibles, Black-Scholes y procesos estocásticos a nivel introductorio.","Enviar candidatura y marcarla Aplicada en el radar."],"url":"https://jobs.lever.co/leversys/72aabed1-8525-4d14-9c61-42ade1c9c5ec"},
+    {"id":"apply-cern-devops","type":"Aplicar","priority":2,"company":"CERN","role":"DevOps Engineer for Data Management — IT-SD-DMS-2026-196-GRAE","time_minutes":45,"cv":"CV Quant / Scientific","why_now":"Vacante entry-level del programa University Graduates; el perfil combina software, Linux/Git/CI-CD y capacidad matemática-computacional.","steps":["Abrir el dossier CERN DevOps en el Centro de preparación.","Subir Linux, Git, Maven, CI/CD, Java y Python en el CV.","Repasar Docker/Kubernetes básicos antes de enviar.","Verificar requisitos específicos de la ficha y aplicar si cumple."],"url":"https://careers.cern/programmes/entry-level-university-graduates/"},
+    {"id":"apply-cern-storage","type":"Aplicar","priority":3,"company":"CERN","role":"Computing Engineer - Data Storage System — IT-SD-GSS-2026-197-GRAE","time_minutes":45,"cv":"CV Quant / Scientific","why_now":"Vacante entry-level en Software Engineering & IT. Puede aprovechar Matemáticas+Informática, Linux, Python/C, algoritmos, Git y 42 Madrid.","steps":["Abrir el dossier CERN Data Storage.","Seleccionar un proyecto de 42 Madrid que demuestre sistemas/C/algoritmos.","Repasar storage distribuido, I/O y Linux.","Adaptar CV y aplicar si los requisitos específicos encajan."],"url":"https://careers.cern/programmes/entry-level-university-graduates/"}
   ],
-  "validation_queue": [
-    {
-      "company": "Accenture",
-      "role": "Data & AI Strategy Data Science Analyst",
-      "action": "Confirmar que la oferta continúa abierta en el portal oficial y revisar si el nivel sigue siendo Early Career.",
-      "url": "https://www.accenture.com/es-es/careers/jobdetails?id=R00295425_es"
-    },
-    {
-      "company": "Prima",
-      "role": "Quantitative Analyst",
-      "action": "Localizar la publicación oficial de la empresa y confirmar requisitos de experiencia antes de invertir tiempo en adaptar el CV.",
-      "url": "https://es.linkedin.com/jobs/view/quantitative-analyst-math-physics-engineering-degrees-at-prima-4435544701"
-    }
+  "validation_queue":[
+    {"company":"Accenture","role":"Data & AI Strategy Data Science Analyst","action":"La búsqueda pública sigue mostrando la posición, pero la URL oficial redirige al buscador. Confirmar que la candidatura sigue disponible antes de adaptar el CV.","url":"https://www.accenture.com/es-es/careers/jobdetails?id=R00295425_es"},
+    {"company":"Prima","role":"Quantitative Analyst","action":"Localizar fuente oficial y confirmar disponibilidad/seniority. No dedicar adaptación extensa hasta verificarla.","url":"https://es.linkedin.com/jobs/view/quantitative-analyst-math-physics-engineering-degrees-at-prima-4435544701"}
   ],
-  "interview_prep": [
-    {
-      "topic": "Pitch profesional",
-      "minutes": 10,
-      "task": "Preparar una presentación de 60–90 segundos: Matemáticas + Informática + Máster + Inetum + transición hacia Quant/Data/Scientific Computing."
-    },
-    {
-      "topic": "TFG/TFM",
-      "minutes": 15,
-      "task": "Explicar problema, método, parte computacional y resultado sin jerga académica innecesaria. Preparar versión de 2 minutos y de 30 segundos."
-    },
-    {
-      "topic": "Python y algoritmos",
-      "minutes": 10,
-      "task": "Repasar estructuras de datos, complejidad, manipulación de arrays/matrices y ejercicios cortos de programación."
-    },
-    {
-      "topic": "Quant / probabilidad",
-      "minutes": 10,
-      "task": "Repasar probabilidad condicionada, esperanza, varianza, distribuciones, álgebra lineal y razonamiento lógico."
-    }
+  "interview_prep":[
+    {"topic":"Pitch profesional","minutes":10,"task":"Preparar versión de 60 segundos: Matemáticas + Informática + Máster + Inetum + objetivo Quant/Data/Scientific Computing."},
+    {"topic":"TFG/TFM","minutes":15,"task":"Preparar versión técnica de 2 minutos y ejecutiva de 30 segundos con problema, método, parte computacional y resultado."},
+    {"topic":"Quant","minutes":20,"task":"Probabilidad, esperanza/varianza, procesos estocásticos básicos, Black-Scholes conceptual y bonos convertibles."},
+    {"topic":"Systems/DevOps","minutes":15,"task":"Linux, CI/CD, Docker/Kubernetes básicos y explicación concreta del flujo de despliegue usado en Inetum."}
   ],
-  "success_definition": "Día completado = 2–3 candidaturas de alta calidad, 2 vacantes revalidadas y 45 minutos de preparación técnica. Calidad > volumen.",
-  "generated_at": "2026-08-17T21:19:00+02:00"
+  "success_definition":"Día completado = Leversys enviada + 1–2 candidaturas CERN verificadas y preparadas/enviadas + 2 vacantes revalidadas + 60 minutos de preparación técnica. Calidad > volumen.",
+  "generated_at":"2026-08-17T21:24:00+02:00"
 }
