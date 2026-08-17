@@ -1,0 +1,101 @@
+{
+  "date": "2026-08-17",
+  "headline": "Objetivo de hoy: convertir el radar en candidaturas de calidad",
+  "daily_goal": {
+    "applications": 3,
+    "validations": 2,
+    "prep_minutes": 45,
+    "followups": 0
+  },
+  "primary_actions": [
+    {
+      "id": "apply-leversys",
+      "type": "Aplicar",
+      "priority": 1,
+      "company": "Leversys",
+      "role": "Quantitative Analyst",
+      "time_minutes": 45,
+      "cv": "CV Quant / Scientific",
+      "why_now": "Oferta oficial abierta y muy alineada con el Máster en Matemáticas Avanzadas y el trabajo de Gabriel en análisis espectral, matrices y programación.",
+      "steps": [
+        "Adaptar el resumen profesional a quantitative analysis y modelización.",
+        "Subir TFM y TFG a la primera mitad del CV con 2–3 bullets de impacto computacional.",
+        "Destacar Python, algoritmos, matrices, valores singulares y capacidad de investigación.",
+        "Enviar candidatura y registrar el estado como Aplicada en el radar."
+      ],
+      "url": "https://jobs.lever.co/leversys/72aabed1-8525-4d14-9c61-42ade1c9c5ec"
+    },
+    {
+      "id": "apply-cabify",
+      "type": "Aplicar",
+      "priority": 2,
+      "company": "Cabify",
+      "role": "Data Scientist",
+      "time_minutes": 45,
+      "cv": "CV Data / AI",
+      "why_now": "Madrid, fuente oficial y buena combinación entre Matemáticas, Informática y experiencia profesional de software.",
+      "steps": [
+        "Reforzar Python, SQL y análisis de datos en el CV.",
+        "Traducir TFG/TFM a lenguaje de experimentación numérica, algoritmos y análisis computacional.",
+        "Añadir 1–2 proyectos de GitHub relevantes si demuestran datos, algoritmos o Python.",
+        "Enviar candidatura y marcarla como Aplicada."
+      ],
+      "url": "https://job-boards.greenhouse.io/cabify/jobs/8462001002"
+    },
+    {
+      "id": "prepare-cern",
+      "type": "Preparar candidatura",
+      "priority": 3,
+      "company": "CERN",
+      "role": "Early Career Professionals – Technical Field",
+      "time_minutes": 40,
+      "cv": "CV Quant / Scientific",
+      "why_now": "Programa early-career y entorno donde el perfil científico-computacional de Gabriel puede diferenciarse claramente.",
+      "steps": [
+        "Adaptar el perfil a scientific computing, numerical methods y software engineering.",
+        "Preparar una explicación de 120 palabras del TFM orientada a computación científica.",
+        "Seleccionar tres habilidades técnicas demostrables: Python/C, Linux/Git y métodos numéricos.",
+        "Revisar requisitos finales y completar candidatura si encajan."
+      ],
+      "url": "https://careers.cern/programmes/entry-level-technical-field/"
+    }
+  ],
+  "validation_queue": [
+    {
+      "company": "Accenture",
+      "role": "Data & AI Strategy Data Science Analyst",
+      "action": "Confirmar que la oferta continúa abierta en el portal oficial y revisar si el nivel sigue siendo Early Career.",
+      "url": "https://www.accenture.com/es-es/careers/jobdetails?id=R00295425_es"
+    },
+    {
+      "company": "Prima",
+      "role": "Quantitative Analyst",
+      "action": "Localizar la publicación oficial de la empresa y confirmar requisitos de experiencia antes de invertir tiempo en adaptar el CV.",
+      "url": "https://es.linkedin.com/jobs/view/quantitative-analyst-math-physics-engineering-degrees-at-prima-4435544701"
+    }
+  ],
+  "interview_prep": [
+    {
+      "topic": "Pitch profesional",
+      "minutes": 10,
+      "task": "Preparar una presentación de 60–90 segundos: Matemáticas + Informática + Máster + Inetum + transición hacia Quant/Data/Scientific Computing."
+    },
+    {
+      "topic": "TFG/TFM",
+      "minutes": 15,
+      "task": "Explicar problema, método, parte computacional y resultado sin jerga académica innecesaria. Preparar versión de 2 minutos y de 30 segundos."
+    },
+    {
+      "topic": "Python y algoritmos",
+      "minutes": 10,
+      "task": "Repasar estructuras de datos, complejidad, manipulación de arrays/matrices y ejercicios cortos de programación."
+    },
+    {
+      "topic": "Quant / probabilidad",
+      "minutes": 10,
+      "task": "Repasar probabilidad condicionada, esperanza, varianza, distribuciones, álgebra lineal y razonamiento lógico."
+    }
+  ],
+  "success_definition": "Día completado = 2–3 candidaturas de alta calidad, 2 vacantes revalidadas y 45 minutos de preparación técnica. Calidad > volumen.",
+  "generated_at": "2026-08-17T21:19:00+02:00"
+}
