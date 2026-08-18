@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "last_updated": "2026-08-18",
+  "applications": [
+    {
+      "id": "kpmg-ai-transformation-manager-26417-20260817",
+      "company": "KPMG España",
+      "role": "AI Transformation Manager",
+      "reference": "26417",
+      "location": "Madrid, Spain",
+      "applied_date": "2026-08-17",
+      "status": "Applied",
+      "stage": "Application submitted",
+      "source": "KPMG Careers",
+      "evidence": "Submission confirmation captured in conversation",
+      "cv_version": "CV específico KPMG / AI Transformation",
+      "priority": "A+",
+      "next_action": "Networking with Talent Acquisition, Lighthouse/Data & AI and hiring-area contacts; prepare interview stories",
+      "follow_up_date": "2026-08-24",
+      "notes": "Formal application confirmed as submitted."
+    },
+    {
+      "id": "openai-applied-ai-architect-large-enterprise-20260818",
+      "company": "OpenAI",
+      "role": "Applied AI Architect, Large Enterprise",
+      "reference": "",
+      "location": "Madrid, Spain",
+      "applied_date": "2026-08-18",
+      "status": "Applied",
+      "stage": "Application submitted",
+      "source": "OpenAI Careers / Ashby",
+      "evidence": "Ashby confirmation: application successfully submitted",
+      "cv_version": "CV OpenAI Applied AI Architect, Large Enterprise",
+      "priority": "A+",
+      "next_action": "Targeted networking with OpenAI Spain/EMEA, Applied AI, GTM and Recruiting contacts; prepare interview narrative",
+      "follow_up_date": "2026-08-25",
+      "notes": "Application submitted successfully on 18 Aug 2026."
+    }
+  ]
+}
