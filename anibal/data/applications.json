@@ -3,6 +3,23 @@
   "last_updated": "2026-08-19",
   "applications": [
     {
+      "id": "servicenow-advisory-solution-consultant-telecommunications-20260819",
+      "company": "ServiceNow",
+      "role": "Advisory Solution Consultant, Telecommunications",
+      "reference": "",
+      "location": "Madrid, Spain",
+      "applied_date": "2026-08-19",
+      "status": "Applied",
+      "stage": "Application submitted",
+      "source": "ServiceNow Careers",
+      "evidence": "Application confirmed by candidate in conversation",
+      "cv_version": "CV ServiceNow Advisory Solution Consultant - Telecommunications",
+      "priority": "A+",
+      "next_action": "Targeted networking with ServiceNow Solution Consulting and Telecom leadership; follow up with Alberto Melero / Javier Molina Rivas and prepare telecom-to-AI transformation interview stories",
+      "follow_up_date": "2026-08-26",
+      "notes": "Formal application submitted on 19 Aug 2026. Strong fit through Nokia Siemens Networks / Telefonica Venezuela, CANTV, enterprise customer leadership, telecom domain and current AI/cloud transformation work."
+    },
+    {
       "id": "kpmg-ai-transformation-manager-26417-20260817",
       "company": "KPMG España",
       "role": "AI Transformation Manager",
