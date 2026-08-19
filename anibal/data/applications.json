@@ -3,6 +3,23 @@
   "last_updated": "2026-08-19",
   "applications": [
     {
+      "id": "capgemini-go-to-market-ia-476007-20260819",
+      "company": "Capgemini",
+      "role": "Go-To-Market IA",
+      "reference": "476007",
+      "location": "Madrid, Spain",
+      "applied_date": "2026-08-19",
+      "status": "Applied",
+      "stage": "Application submitted",
+      "source": "Capgemini Careers",
+      "evidence": "Application confirmed by candidate in conversation",
+      "cv_version": "CV Capgemini Go-To-Market IA",
+      "priority": "A+",
+      "next_action": "Targeted networking with Capgemini AI, GTM and technology transformation leadership; prepare stories on opportunity shaping, RFPs, strategic accounts, business cases and AI/cloud transformation",
+      "follow_up_date": "2026-08-26",
+      "notes": "Formal application submitted on 19 Aug 2026. Tailored CV and cover letter prepared for Go-To-Market IA (476007)."
+    },
+    {
       "id": "servicenow-advisory-solution-consultant-telecommunications-20260819",
       "company": "ServiceNow",
       "role": "Advisory Solution Consultant, Telecommunications",
