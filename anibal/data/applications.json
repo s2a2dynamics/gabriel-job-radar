@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-08-18",
+  "last_updated": "2026-08-19",
   "applications": [
     {
       "id": "kpmg-ai-transformation-manager-26417-20260817",
@@ -35,6 +35,23 @@
       "next_action": "Targeted networking with OpenAI Spain/EMEA, Applied AI, GTM and Recruiting contacts; prepare interview narrative",
       "follow_up_date": "2026-08-25",
       "notes": "Application submitted successfully on 18 Aug 2026."
+    },
+    {
+      "id": "accenture-principal-agentic-ai-r00290253-20260818",
+      "company": "Accenture",
+      "role": "Principal Agentic AI Transformation Lead - Hands On",
+      "reference": "R00290253",
+      "location": "Madrid, Spain",
+      "applied_date": "2026-08-18",
+      "status": "Applied",
+      "stage": "Application submitted",
+      "source": "Accenture Careers",
+      "evidence": "Accenture candidate portal confirmation: Postulación Recibida",
+      "cv_version": "CV Accenture Principal Agentic AI Transformation Lead",
+      "priority": "A",
+      "next_action": "Targeted networking with role-linked Accenture contacts; prepare evidence on agents, APIs, enterprise integration, governance and hands-on delivery",
+      "follow_up_date": "2026-08-25",
+      "notes": "Formal application submitted and confirmed on 18 Aug 2026."
     }
   ]
 }
