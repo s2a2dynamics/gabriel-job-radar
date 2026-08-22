@@ -1,7 +1,24 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-08-19",
+  "last_updated": "2026-08-22",
   "applications": [
+    {
+      "id": "telefonica-tech-head-strategic-projects-20260822",
+      "company": "Telefónica Tech",
+      "role": "Head of Strategic Projects",
+      "reference": "",
+      "location": "Madrid, Spain",
+      "applied_date": "2026-08-22",
+      "status": "Applied",
+      "stage": "Application submitted",
+      "source": "Telefónica Careers",
+      "evidence": "Application confirmed by candidate in conversation",
+      "cv_version": "Technology Strategy | Strategic Projects | AI & Cloud Transformation",
+      "priority": "A+",
+      "next_action": "Targeted networking with Telefónica Tech strategic projects and technology leadership; prepare interview stories linking Nokia/Telefónica experience with current AI, cloud and transformation execution",
+      "follow_up_date": "2026-08-29",
+      "notes": "Formal application submitted on 22 Aug 2026. Tailored CV and cover letter prepared for Head of Strategic Projects."
+    },
     {
       "id": "capgemini-go-to-market-ia-476007-20260819",
       "company": "Capgemini",
