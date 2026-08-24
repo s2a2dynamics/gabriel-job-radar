@@ -5,6 +5,7 @@ Dashboard permanente de oportunidades profesionales para Gabriel Suárez.
 Áreas prioritarias: Data Science / Data & AI, Quantitative Research, Scientific Computing, Optimization, Data Engineering y Quant Software Engineering.
 
 ## Capas
+
 - `index.html`: radar, recomendadas y plan de acción diario.
 - `preparacion.html`: centro de preparación específica por candidatura.
 - `data/opportunities.json`: radar completo.
@@ -13,3 +14,15 @@ Dashboard permanente de oportunidades profesionales para Gabriel Suárez.
 - `data/application-packs.json`: dossiers ATS, CV, TFG/TFM, gaps, pitch, preguntas y checklist.
 
 La actualización diaria debe priorizar fuentes oficiales y retirar o degradar oportunidades cuando la vacante ya no aparezca en el portal oficial.
+
+## Aníbal Career Agent
+
+`anibal/` incorpora un análisis de vacantes bajo demanda protegido por Google
+Sign-In. El radar público sigue siendo visible sin autenticación; solo la llamada
+al Career Agent requiere una cuenta autorizada. El ID token vive únicamente en
+memoria durante la pestaña y nunca se guarda en almacenamiento del navegador.
+
+```bash
+npm test
+npm run typecheck
+```

@@ -1,20 +1,748 @@
-<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Aníbal AI & Tech Opportunity Radar</title><style>:root{--bg:#07101d;--panel:#101c2d;--panel2:#142338;--text:#edf5ff;--muted:#9fb2c8;--line:#243b55;--accent:#55d6be;--gold:#ffd166;--red:#ff6b6b}*{box-sizing:border-box}body{margin:0;font-family:Inter,system-ui,sans-serif;background:linear-gradient(135deg,#07101d,#0b1728 45%,#0b1e2c);color:var(--text)}a{color:inherit}.wrap{max-width:1500px;margin:auto;padding:28px}.hero{padding:30px;border:1px solid var(--line);border-radius:24px;background:linear-gradient(135deg,rgba(85,214,190,.12),rgba(100,181,246,.07))}h1{font-size:clamp(30px,4vw,54px);margin:0 0 8px}.hero p{color:var(--muted);max-width:1000px;line-height:1.55}.tagline{color:var(--accent);font-weight:800;text-transform:uppercase;letter-spacing:.12em;font-size:12px}.stamp{display:inline-block;margin-top:10px;padding:6px 10px;border:1px solid var(--line);border-radius:999px;color:var(--muted);font-size:12px}.nav a{color:var(--accent);margin-right:16px;text-decoration:none;font-weight:700}.kpis{display:grid;grid-template-columns:repeat(5,1fr);gap:12px;margin:18px 0}.kpi{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:17px}.kpi b{display:block;font-size:27px}.kpi span{color:var(--muted);font-size:12px}.section{margin-top:24px}.alert{border-left:4px solid var(--gold);background:#2b2616;padding:15px 17px;border-radius:10px;color:#ffe6a4;line-height:1.55}.recommend{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.rec{background:linear-gradient(150deg,var(--panel2),#102130);border:1px solid #31506a;border-radius:18px;padding:18px}.rec .score{font-weight:900;font-size:25px;color:var(--accent)}.muted{color:var(--muted)}.badge{display:inline-block;padding:4px 8px;margin:3px;border-radius:999px;background:#1b3349;color:#cce8ff;font-size:11px}.badge.applied{background:#30305b;color:#d8d4ff}.badge.closed{background:#562626;color:#ffd0d0}.badge.hot{background:#503d16;color:#ffe49c}.controls{display:grid;grid-template-columns:2fr repeat(4,1fr);gap:10px;margin:18px 0}.controls input,.controls select{width:100%;background:var(--panel);border:1px solid var(--line);color:var(--text);padding:12px;border-radius:11px}.tablewrap{overflow:auto;border:1px solid var(--line);border-radius:16px;background:var(--panel)}table{width:100%;border-collapse:collapse;min-width:1420px}th,td{padding:13px 12px;border-bottom:1px solid var(--line);vertical-align:top;text-align:left}th{position:sticky;top:0;background:#0d1929;color:#9fc1df;font-size:12px;text-transform:uppercase}td{font-size:13px}.scorepill{font-weight:900;border-radius:999px;padding:6px 10px;background:#173e38;color:#8ef0d7;display:inline-block}.apply{display:inline-block;padding:8px 10px;border-radius:9px;text-decoration:none;font-weight:800;background:var(--accent);color:#052019;font-size:12px}.fit{max-width:350px}.foot{color:var(--muted);font-size:12px;margin:20px 0 40px;line-height:1.5}@media(max-width:900px){.kpis{grid-template-columns:repeat(2,1fr)}.controls{grid-template-columns:1fr 1fr}.recommend{grid-template-columns:1fr}.wrap{padding:15px}}</style></head><body><main class="wrap"><section class="hero"><div class="tagline">S2A2 Dynamics · Career Intelligence</div><h1>Aníbal AI & Tech Opportunity Radar</h1><p>Dirección ejecutiva + transformación + IA + cloud + telecom + consultoría + ejecución. Prioridad: España → Europa → Canadá → Australia → USA.</p><div class="nav"><a href="./candidaturas.html">CRM / Pipeline</a><a href="./portfolio.html">Executive Technology Portfolio</a></div><div class="stamp">Última revisión: 24 agosto 2026 · vacantes verificadas cuando fue posible</div></section><div class="kpis"><div class="kpi"><b id="active">0</b><span>activas</span></div><div class="kpi"><b id="top">0</b><span>score ≥ 90</span></div><div class="kpi"><b id="spain">0</b><span>activas España</span></div><div class="kpi"><b id="applied">0</b><span>postuladas</span></div><div class="kpi"><b id="closed">0</b><span>cerradas / dudosas</span></div></div><section class="section"><div class="alert"><b>Cambios 24/08:</b> hoy vence el plazo de Telefónica IA Contact Center y Telefónica Hiperautomatización & IA. Entran RBC · Director AI Business Enablement (Canadá) 95/100, NTT DATA · Director AI & Automation (Australia) 96/100, Deloitte · Director AI & Data Sydney 95/100 y UOW Global Enterprises · Director AI Transformation 94/100. Se añade también Telefónica Account Specialist Data, IA y Servicios Gestionados (Barcelona) 95/100.</div></section><section class="section"><h2>🔥 Recomendadas hoy</h2><div id="recs" class="recommend"></div></section><section class="section"><h2>Radar completo</h2><div class="controls"><input id="q" placeholder="Buscar cargo, empresa, skill..."><select id="geo"><option value="">Todas</option><option>España</option><option>Europa</option><option>Canadá</option><option>Australia</option><option>USA</option></select><select id="track"><option value="">Todos</option><option>Executive</option><option>Advisory</option><option>Architecture</option><option>Program</option></select><select id="min"><option value="0">Cualquier score</option><option value="85">85+</option><option value="90">90+</option><option value="95">95+</option></select><select id="status"><option value="active">Activas</option><option value="all">Todas</option><option value="closed">Cerradas / dudosas</option></select></div><div class="tablewrap"><table><thead><tr><th>Score</th><th>Oportunidad</th><th>Empresa</th><th>Ubicación</th><th>Carril</th><th>Encaje</th><th>Gap / riesgo</th><th>Estado</th><th>Acción</th></tr></thead><tbody id="rows"></tbody></table></div></section><p class="foot">Score orientativo basado en seniority, transformación, IA/cloud, capacidad hands-on, relación C-level, telecom, consultoría, delivery y probabilidad práctica.</p></main><script>const jobs=[
-{score:99,title:'Head of Strategic Projects',company:'Telefónica Tech',loc:'Madrid',geo:'España',track:'Executive',fit:'Portfolio estratégico, Cloud/IA, tecnologías emergentes y orquestación transversal.',gap:'Cuantificar escala e impacto.',url:'https://jobs.telefonica.com/job/MADRID-Tech_Head-of-Strategic-Projects/1406910233/',status:'active',verified:'24/08 · oficial',applied:true},
-{score:98,title:'IA y Estrategia de Modelos de Atención Contact Center',company:'Telefónica España',loc:'Madrid preferente / nacional',geo:'España',track:'Executive',fit:'Estrategia y gobierno de IA, GenAI, agentes, automatización, business cases, KPIs y adopción.',gap:'Gap Contact Center/Genesys.',url:'https://jobs.telefonica.com/job/TE_DC_G1_ARQUITECTURA-SOLUCIONES-HIPERAUTOMATIZACION-1/1423449733/',status:'active',verified:'24/08 · oficial · cierre HOY',priority:true,hot:true},
-{score:97,title:'Jefe de Proyectos Hiperautomatización & IA',company:'Telefónica España',loc:'Madrid',geo:'España',track:'Executive',fit:'GenAI/agentes + automatización + APIs + KPIs + coordinación multiárea.',gap:'Pide trayectoria específica automatización/IA.',url:'https://jobs.telefonica.com/job/JEFE-DE-PROYECTOS-HIPERAUTOMATIZACION-%26-IA/1423562733/',status:'active',verified:'24/08 · oficial · cierre HOY',priority:true,hot:true},
-{score:96,title:'AI Transformation Consulting Leader',company:'Microsoft',loc:'Reading / Paris / Amsterdam',geo:'Europa',track:'Executive',fit:'AI adoption, operating models, governance, business value, C-level, pre-sales y delivery EMEA.',gap:'People leadership multinacional y ubicación fuera de España.',url:'https://careers.microsoft.com/v2/global/en/locations/paris.html',status:'active',verified:'24/08 · oficial',priority:true},
-{score:96,title:'Director AI & Automation',company:'NTT DATA',loc:'Sydney / Melbourne',geo:'Australia',track:'Executive',fit:'Rediseño del trabajo con AI agents, automatización, managed services, transformación y delivery.',gap:'ANZ y profundidad en managed services a escala.',url:'https://nttlimited.wd3.myworkdayjobs.com/en-US/NTT_Careers/job/Director-AI---Automation_R-145608',status:'active',verified:'24/08 · oficial · cierre 19/09',priority:true},
-{score:96,title:'Tech_Data Sales Consultant',company:'Telefónica Tech',loc:'Madrid',geo:'España',track:'Advisory',fit:'Preventa consultiva AI/Data, ofertas >2M€, business cases y grandes clientes.',gap:'ML/GenAI productivo debe probarse con casos concretos.',url:'https://jobs.telefonica.com/job/MADRID-Tech_Data-Sales-Consultant/1365156733/',status:'active',verified:'24/08 · oficial',priority:true},
-{score:95,title:'Account Specialist Data, IA y Servicios Gestionados',company:'Telefónica España',loc:'Barcelona / Cataluña-Aragón',geo:'España',track:'Advisory',fit:'Venta consultiva compleja, Data & AI, GenAI, cloud, AI governance y grandes cuentas.',gap:'Ubicación Barcelona y evidencia de cierres Data/AI.',url:'https://jobs.telefonica.com/job/BARCELONA-TE_FC_ACCOUNT-SPECIALISTDATA%2C-INTELIGENCIA-ARTIFICIAL-Y-SERVICIOS-GESTIONADOS/1407584833/',status:'active',verified:'24/08 · oficial',priority:true},
-{score:95,title:'Director, AI Business Enablement',company:'RBC',loc:'Toronto',geo:'Canadá',track:'Executive',fit:'VP/SVP engagement, pipeline AI, POCs rápidos, process redesign, business cases y delivery partnership.',gap:'Work authorization Canadá y experiencia financiera específica.',url:'https://ca.indeed.com/viewjob?jk=40a817f95be408cc',status:'active',verified:'24/08 · plazo 30/09',priority:true},
-{score:95,title:'Director | AI & Data',company:'Deloitte',loc:'Sydney',geo:'Australia',track:'Executive',fit:'C-suite advisory, AI strategy, GenAI, agentic strategy, cloud/data y business development.',gap:'Australia + expectativa de consulting sales AI/Data consolidada.',url:'https://jobs.deloitte.com.au/job/Sydney-Director-AI-%26-Data-Sydney-NSW/1365762566/',status:'active',verified:'24/08 · oficial',priority:true},
-{score:94,title:'Director AI Transformation',company:'UOW Global Enterprises',loc:'Wollongong / Australia or India',geo:'Australia',track:'Executive',fit:'Enterprise AI governance, assurance, delivery oversight, responsible AI y executive engagement.',gap:'Right-to-work Australia/India; sector educación.',url:'https://au.linkedin.com/jobs/view/director-ai-transformation-at-uow-global-enterprises-4444555203',status:'active',verified:'24/08 · cierre 30/08',priority:false},
-{score:94,title:'Director/a Inteligencia Artificial',company:'KPMG España · LIGHTHOUSE',loc:'Madrid',geo:'España',track:'Executive',fit:'Practice leadership, preventa, alta dirección, AI/Data strategy y negocio.',gap:'+10 años específicos en Data/AI consulting.',url:'https://carreras.kpmg.es/job/Madrid-Directora-Inteligencia-Artificial-28046/1272607901/',status:'active',verified:'24/08 · oficial',priority:true},
-{score:94,title:'Partner Solutions Architect, Agentic Next Gen Development',company:'AWS',loc:'Madrid / Barcelona',geo:'España',track:'Architecture',fit:'Partner GTM, agentic development, workshops y arquitectura.',gap:'Bedrock/AgentCore, Python y frameworks agentic.',url:'https://www.amazon.jobs/en/jobs/10459692/partner-solutions-architect-agentic-next-gen-development-aws-partner-field-emea',status:'active',verified:'24/08 · oficial',priority:false},
-{score:92,title:'Director, AI Transformation',company:'Mammoth Brands / Harry’s',loc:'New York',geo:'USA',track:'Executive',fit:'Enterprise AI transformation y adopción con ownership ejecutivo.',gap:'USA work authorization y contexto CPG.',url:'https://to.indeed.com/aangdbhrdn4l',status:'active',verified:'24/08 · fuente empleo',priority:false},
-{score:92,title:'Director, AI Transformation',company:'Pillsbury Winthrop Shaw Pittman',loc:'New York',geo:'USA',track:'Executive',fit:'AI engagement, communication, transformation e innovation.',gap:'USA work authorization y sector legal.',url:'https://to.indeed.com/aac2vsr84nfm',status:'active',verified:'24/08 · fuente empleo',priority:false},
-{score:91,title:'Manager - Technology Strategy & Value Creation',company:'KPMG España',loc:'Madrid',geo:'España',track:'Advisory',fit:'Technology strategy, transformación digital y value creation.',gap:'Sesgo M&A/Technology Due Diligence.',url:'https://carreras.kpmg.es/job/Madrid-Manager-Technology-Strategy-%26-Value-Creation-28046/1278788401/',status:'active',verified:'24/08 · oficial'},
-{score:90,title:'Director/a Agentic AI',company:'KPMG España',loc:'Madrid',geo:'España',track:'Executive',fit:'Head of Practice, agentic AI, governance, enterprise integration y ventas.',gap:'Stretch fuerte por requisitos técnicos/tenure Agentic.',url:'https://carreras.kpmg.es/job/Madrid-Directora-Agentic-AI-28046/1387768833/',status:'active',verified:'24/08 · oficial'},
-{score:96,title:'Principal Agentic AI Transformation Lead - Hands On',company:'Accenture',loc:'Madrid / España',geo:'España',track:'Executive',fit:'Agentic AI, transformación y delivery hands-on.',gap:'Python/agent frameworks a escala.',url:'https://www.accenture.com/es-es/careers/jobdetails?id=R00290253_es',status:'active',verified:'24/08 · oficial',applied:true},
-{score:96,title:'Applied AI Architect, Large Enterprise',company:'OpenAI',loc:'Madrid',geo:'España',track:'Advisory',fit:'AI strategy + arquitectura + enterprise adoption.',gap:'Ya no figura públicamente en Madrid.',url:'https://openai.com/careers/search/',status:'closed',verified:'24/08 · retirada/no pública',applied:true},
-{score:98,title:'Director, Enterprise AI Transformation',company:'Cint',loc:'Barcelona',geo:'España',track:'Executive',fit:'AI transformation office, governance, adoption y value realization.',gap:'No verificada hoy en endpoint oficial.',url:'https://jobs.smartrecruiters.com/Cint',status:'closed',verified:'24/08 · dudosa/no verificable'}];function badge(j){if(j.applied)return'<span class="badge applied">POSTULADA</span>';if(j.status==='closed')return'<span class="badge closed">NO ACTIVA / DUDOSA</span>';if(j.hot)return'<span class="badge hot">URGENTE</span>';return'<span class="badge">ACTIVA</span>'}function filtered(){const q=document.getElementById('q').value.toLowerCase(),geo=document.getElementById('geo').value,track=document.getElementById('track').value,min=+document.getElementById('min').value,status=document.getElementById('status').value;return jobs.filter(j=>(status==='all'||j.status===status)&&(!geo||j.geo===geo)&&(!track||j.track===track)&&j.score>=min&&(!q||(j.title+' '+j.company+' '+j.fit+' '+j.gap).toLowerCase().includes(q)))}function render(){const arr=filtered().sort((a,b)=>b.score-a.score);document.getElementById('rows').innerHTML=arr.map(j=>`<tr><td><span class="scorepill">${j.score}</span></td><td><b>${j.title}</b><br><span class="muted">${j.verified}</span></td><td>${j.company}</td><td>${j.loc}</td><td>${j.track}</td><td class="fit">${j.fit}</td><td class="fit">${j.gap}</td><td>${badge(j)}</td><td><a class="apply" target="_blank" rel="noopener" href="${j.url}">Abrir</a></td></tr>`).join('');const rec=jobs.filter(j=>j.priority&&j.status==='active'&&!j.applied).sort((a,b)=>b.score-a.score).slice(0,10);document.getElementById('recs').innerHTML=rec.map(j=>`<div class="rec"><div class="score">${j.score}/100</div><h3>${j.title}</h3><b>${j.company}</b><p class="muted">${j.loc}</p><p>${j.fit}</p>${badge(j)}<br><br><a class="apply" target="_blank" rel="noopener" href="${j.url}">Abrir vacante</a></div>`).join('');document.getElementById('active').textContent=jobs.filter(j=>j.status==='active').length;document.getElementById('top').textContent=jobs.filter(j=>j.status==='active'&&j.score>=90).length;document.getElementById('spain').textContent=jobs.filter(j=>j.status==='active'&&j.geo==='España').length;document.getElementById('applied').textContent=jobs.filter(j=>j.applied).length;document.getElementById('closed').textContent=jobs.filter(j=>j.status==='closed').length}['q','geo','track','min','status'].forEach(id=>document.getElementById(id).addEventListener('input',render));render();</script></body></html>
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Aníbal AI & Tech Opportunity Radar</title>
+    <link rel="stylesheet" href="./career-agent.css" />
+    <script src="https://accounts.google.com/gsi/client" async defer></script>
+    <style>
+      :root {
+        --bg: #07101d;
+        --panel: #101c2d;
+        --panel2: #142338;
+        --text: #edf5ff;
+        --muted: #9fb2c8;
+        --line: #243b55;
+        --accent: #55d6be;
+        --gold: #ffd166;
+        --red: #ff6b6b;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        font-family: Inter, system-ui, sans-serif;
+        background: linear-gradient(135deg, #07101d, #0b1728 45%, #0b1e2c);
+        color: var(--text);
+      }
+      a {
+        color: inherit;
+      }
+      .wrap {
+        max-width: 1500px;
+        margin: auto;
+        padding: 28px;
+      }
+      .hero {
+        padding: 30px;
+        border: 1px solid var(--line);
+        border-radius: 24px;
+        background: linear-gradient(
+          135deg,
+          rgba(85, 214, 190, 0.12),
+          rgba(100, 181, 246, 0.07)
+        );
+      }
+      h1 {
+        font-size: clamp(30px, 4vw, 54px);
+        margin: 0 0 8px;
+      }
+      .hero p {
+        color: var(--muted);
+        max-width: 1000px;
+        line-height: 1.55;
+      }
+      .tagline {
+        color: var(--accent);
+        font-weight: 800;
+        text-transform: uppercase;
+        letter-spacing: 0.12em;
+        font-size: 12px;
+      }
+      .stamp {
+        display: inline-block;
+        margin-top: 10px;
+        padding: 6px 10px;
+        border: 1px solid var(--line);
+        border-radius: 999px;
+        color: var(--muted);
+        font-size: 12px;
+      }
+      .nav a {
+        color: var(--accent);
+        margin-right: 16px;
+        text-decoration: none;
+        font-weight: 700;
+      }
+      .kpis {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 12px;
+        margin: 18px 0;
+      }
+      .kpi {
+        background: var(--panel);
+        border: 1px solid var(--line);
+        border-radius: 16px;
+        padding: 17px;
+      }
+      .kpi b {
+        display: block;
+        font-size: 27px;
+      }
+      .kpi span {
+        color: var(--muted);
+        font-size: 12px;
+      }
+      .section {
+        margin-top: 24px;
+      }
+      .alert {
+        border-left: 4px solid var(--gold);
+        background: #2b2616;
+        padding: 15px 17px;
+        border-radius: 10px;
+        color: #ffe6a4;
+        line-height: 1.55;
+      }
+      .recommend {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 12px;
+      }
+      .rec {
+        background: linear-gradient(150deg, var(--panel2), #102130);
+        border: 1px solid #31506a;
+        border-radius: 18px;
+        padding: 18px;
+      }
+      .rec .score {
+        font-weight: 900;
+        font-size: 25px;
+        color: var(--accent);
+      }
+      .muted {
+        color: var(--muted);
+      }
+      .badge {
+        display: inline-block;
+        padding: 4px 8px;
+        margin: 3px;
+        border-radius: 999px;
+        background: #1b3349;
+        color: #cce8ff;
+        font-size: 11px;
+      }
+      .badge.applied {
+        background: #30305b;
+        color: #d8d4ff;
+      }
+      .badge.closed {
+        background: #562626;
+        color: #ffd0d0;
+      }
+      .badge.hot {
+        background: #503d16;
+        color: #ffe49c;
+      }
+      .controls {
+        display: grid;
+        grid-template-columns: 2fr repeat(4, 1fr);
+        gap: 10px;
+        margin: 18px 0;
+      }
+      .controls input,
+      .controls select {
+        width: 100%;
+        background: var(--panel);
+        border: 1px solid var(--line);
+        color: var(--text);
+        padding: 12px;
+        border-radius: 11px;
+      }
+      .tablewrap {
+        overflow: auto;
+        border: 1px solid var(--line);
+        border-radius: 16px;
+        background: var(--panel);
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        min-width: 1420px;
+      }
+      th,
+      td {
+        padding: 13px 12px;
+        border-bottom: 1px solid var(--line);
+        vertical-align: top;
+        text-align: left;
+      }
+      th {
+        position: sticky;
+        top: 0;
+        background: #0d1929;
+        color: #9fc1df;
+        font-size: 12px;
+        text-transform: uppercase;
+      }
+      td {
+        font-size: 13px;
+      }
+      .scorepill {
+        font-weight: 900;
+        border-radius: 999px;
+        padding: 6px 10px;
+        background: #173e38;
+        color: #8ef0d7;
+        display: inline-block;
+      }
+      .apply {
+        display: inline-block;
+        padding: 8px 10px;
+        border-radius: 9px;
+        text-decoration: none;
+        font-weight: 800;
+        background: var(--accent);
+        color: #052019;
+        font-size: 12px;
+      }
+      .fit {
+        max-width: 350px;
+      }
+      .foot {
+        color: var(--muted);
+        font-size: 12px;
+        margin: 20px 0 40px;
+        line-height: 1.5;
+      }
+      @media (max-width: 900px) {
+        .kpis {
+          grid-template-columns: repeat(2, 1fr);
+        }
+        .controls {
+          grid-template-columns: 1fr 1fr;
+        }
+        .recommend {
+          grid-template-columns: 1fr;
+        }
+        .wrap {
+          padding: 15px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="wrap">
+      <section class="hero">
+        <div class="tagline">S2A2 Dynamics · Career Intelligence</div>
+        <h1>Aníbal AI & Tech Opportunity Radar</h1>
+        <p>
+          Dirección ejecutiva + transformación + IA + cloud + telecom +
+          consultoría + ejecución. Prioridad: España → Europa → Canadá →
+          Australia → USA.
+        </p>
+        <div class="nav">
+          <a href="./candidaturas.html">CRM / Pipeline</a
+          ><a href="./portfolio.html">Executive Technology Portfolio</a>
+        </div>
+        <div class="stamp">
+          Última revisión: 24 agosto 2026 · vacantes verificadas cuando fue
+          posible
+        </div>
+      </section>
+      <div class="kpis">
+        <div class="kpi"><b id="active">0</b><span>activas</span></div>
+        <div class="kpi"><b id="top">0</b><span>score ≥ 90</span></div>
+        <div class="kpi"><b id="spain">0</b><span>activas España</span></div>
+        <div class="kpi"><b id="applied">0</b><span>postuladas</span></div>
+        <div class="kpi">
+          <b id="closed">0</b><span>cerradas / dudosas</span>
+        </div>
+      </div>
+      <section class="section">
+        <div class="alert">
+          <b>Cambios 24/08:</b> hoy vence el plazo de Telefónica IA Contact
+          Center y Telefónica Hiperautomatización & IA. Entran RBC · Director AI
+          Business Enablement (Canadá) 95/100, NTT DATA · Director AI &
+          Automation (Australia) 96/100, Deloitte · Director AI & Data Sydney
+          95/100 y UOW Global Enterprises · Director AI Transformation 94/100.
+          Se añade también Telefónica Account Specialist Data, IA y Servicios
+          Gestionados (Barcelona) 95/100.
+        </div>
+      </section>
+      <section
+        id="career-agent"
+        class="section career-agent"
+        aria-labelledby="career-agent-title"
+      >
+        <div class="agent-head">
+          <div>
+            <div class="tagline">Career Agent · análisis bajo demanda</div>
+            <h2 id="career-agent-title">
+              Convierte una vacante en evidencia accionable
+            </h2>
+            <p class="muted">
+              Selecciona una oportunidad, inicia sesión con la cuenta autorizada
+              y pega la descripción completa. El análisis solo se ejecuta cuando
+              tú lo solicitas.
+            </p>
+          </div>
+          <div class="agent-auth">
+            <div id="google-signin"></div>
+            <button
+              id="agent-signout"
+              class="agent-secondary"
+              type="button"
+              hidden
+            >
+              Cerrar sesión
+            </button>
+          </div>
+        </div>
+        <p
+          id="agent-auth-status"
+          class="agent-status"
+          role="status"
+          aria-live="polite"
+        >
+          Cargando acceso seguro…
+        </p>
+        <form id="agent-form" class="agent-form">
+          <fieldset id="agent-fields" disabled>
+            <div class="agent-grid">
+              <label
+                >Empresa<input id="agent-company" maxlength="200" required
+              /></label>
+              <label
+                >Rol<input id="agent-role" maxlength="200" required
+              /></label>
+              <label
+                >Ubicación<input id="agent-location" maxlength="200"
+              /></label>
+            </div>
+            <label
+              >Descripción completa<textarea
+                id="agent-description"
+                minlength="200"
+                maxlength="50000"
+                required
+                placeholder="Pega aquí la descripción oficial completa de la vacante (mínimo 200 caracteres)."
+              ></textarea>
+            </label>
+            <div class="agent-form-footer">
+              <span id="agent-description-count" class="muted">0 / 50.000</span>
+              <button
+                id="agent-submit"
+                class="agent-primary"
+                type="submit"
+                disabled
+              >
+                Analizar vacante
+              </button>
+            </div>
+          </fieldset>
+        </form>
+        <div
+          id="agent-result"
+          class="agent-result"
+          hidden
+          aria-live="polite"
+        ></div>
+      </section>
+      <section class="section">
+        <h2>🔥 Recomendadas hoy</h2>
+        <div id="recs" class="recommend"></div>
+      </section>
+      <section class="section">
+        <h2>Radar completo</h2>
+        <div class="controls">
+          <input id="q" placeholder="Buscar cargo, empresa, skill..." /><select
+            id="geo"
+          >
+            <option value="">Todas</option>
+            <option>España</option>
+            <option>Europa</option>
+            <option>Canadá</option>
+            <option>Australia</option>
+            <option>USA</option></select
+          ><select id="track">
+            <option value="">Todos</option>
+            <option>Executive</option>
+            <option>Advisory</option>
+            <option>Architecture</option>
+            <option>Program</option></select
+          ><select id="min">
+            <option value="0">Cualquier score</option>
+            <option value="85">85+</option>
+            <option value="90">90+</option>
+            <option value="95">95+</option></select
+          ><select id="status">
+            <option value="active">Activas</option>
+            <option value="all">Todas</option>
+            <option value="closed">Cerradas / dudosas</option>
+          </select>
+        </div>
+        <div class="tablewrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Score</th>
+                <th>Oportunidad</th>
+                <th>Empresa</th>
+                <th>Ubicación</th>
+                <th>Carril</th>
+                <th>Encaje</th>
+                <th>Gap / riesgo</th>
+                <th>Estado</th>
+                <th>Acción</th>
+              </tr>
+            </thead>
+            <tbody id="rows"></tbody>
+          </table>
+        </div>
+      </section>
+      <p class="foot">
+        Score orientativo basado en seniority, transformación, IA/cloud,
+        capacidad hands-on, relación C-level, telecom, consultoría, delivery y
+        probabilidad práctica.
+      </p>
+    </main>
+    <script>
+      const jobs = [
+        {
+          score: 99,
+          title: "Head of Strategic Projects",
+          company: "Telefónica Tech",
+          loc: "Madrid",
+          geo: "España",
+          track: "Executive",
+          fit: "Portfolio estratégico, Cloud/IA, tecnologías emergentes y orquestación transversal.",
+          gap: "Cuantificar escala e impacto.",
+          url: "https://jobs.telefonica.com/job/MADRID-Tech_Head-of-Strategic-Projects/1406910233/",
+          status: "active",
+          verified: "24/08 · oficial",
+          applied: true,
+        },
+        {
+          score: 98,
+          title: "IA y Estrategia de Modelos de Atención Contact Center",
+          company: "Telefónica España",
+          loc: "Madrid preferente / nacional",
+          geo: "España",
+          track: "Executive",
+          fit: "Estrategia y gobierno de IA, GenAI, agentes, automatización, business cases, KPIs y adopción.",
+          gap: "Gap Contact Center/Genesys.",
+          url: "https://jobs.telefonica.com/job/TE_DC_G1_ARQUITECTURA-SOLUCIONES-HIPERAUTOMATIZACION-1/1423449733/",
+          status: "active",
+          verified: "24/08 · oficial · cierre HOY",
+          priority: true,
+          hot: true,
+        },
+        {
+          score: 97,
+          title: "Jefe de Proyectos Hiperautomatización & IA",
+          company: "Telefónica España",
+          loc: "Madrid",
+          geo: "España",
+          track: "Executive",
+          fit: "GenAI/agentes + automatización + APIs + KPIs + coordinación multiárea.",
+          gap: "Pide trayectoria específica automatización/IA.",
+          url: "https://jobs.telefonica.com/job/JEFE-DE-PROYECTOS-HIPERAUTOMATIZACION-%26-IA/1423562733/",
+          status: "active",
+          verified: "24/08 · oficial · cierre HOY",
+          priority: true,
+          hot: true,
+        },
+        {
+          score: 96,
+          title: "AI Transformation Consulting Leader",
+          company: "Microsoft",
+          loc: "Reading / Paris / Amsterdam",
+          geo: "Europa",
+          track: "Executive",
+          fit: "AI adoption, operating models, governance, business value, C-level, pre-sales y delivery EMEA.",
+          gap: "People leadership multinacional y ubicación fuera de España.",
+          url: "https://careers.microsoft.com/v2/global/en/locations/paris.html",
+          status: "active",
+          verified: "24/08 · oficial",
+          priority: true,
+        },
+        {
+          score: 96,
+          title: "Director AI & Automation",
+          company: "NTT DATA",
+          loc: "Sydney / Melbourne",
+          geo: "Australia",
+          track: "Executive",
+          fit: "Rediseño del trabajo con AI agents, automatización, managed services, transformación y delivery.",
+          gap: "ANZ y profundidad en managed services a escala.",
+          url: "https://nttlimited.wd3.myworkdayjobs.com/en-US/NTT_Careers/job/Director-AI---Automation_R-145608",
+          status: "active",
+          verified: "24/08 · oficial · cierre 19/09",
+          priority: true,
+        },
+        {
+          score: 96,
+          title: "Tech_Data Sales Consultant",
+          company: "Telefónica Tech",
+          loc: "Madrid",
+          geo: "España",
+          track: "Advisory",
+          fit: "Preventa consultiva AI/Data, ofertas >2M€, business cases y grandes clientes.",
+          gap: "ML/GenAI productivo debe probarse con casos concretos.",
+          url: "https://jobs.telefonica.com/job/MADRID-Tech_Data-Sales-Consultant/1365156733/",
+          status: "active",
+          verified: "24/08 · oficial",
+          priority: true,
+        },
+        {
+          score: 95,
+          title: "Account Specialist Data, IA y Servicios Gestionados",
+          company: "Telefónica España",
+          loc: "Barcelona / Cataluña-Aragón",
+          geo: "España",
+          track: "Advisory",
+          fit: "Venta consultiva compleja, Data & AI, GenAI, cloud, AI governance y grandes cuentas.",
+          gap: "Ubicación Barcelona y evidencia de cierres Data/AI.",
+          url: "https://jobs.telefonica.com/job/BARCELONA-TE_FC_ACCOUNT-SPECIALISTDATA%2C-INTELIGENCIA-ARTIFICIAL-Y-SERVICIOS-GESTIONADOS/1407584833/",
+          status: "active",
+          verified: "24/08 · oficial",
+          priority: true,
+        },
+        {
+          score: 95,
+          title: "Director, AI Business Enablement",
+          company: "RBC",
+          loc: "Toronto",
+          geo: "Canadá",
+          track: "Executive",
+          fit: "VP/SVP engagement, pipeline AI, POCs rápidos, process redesign, business cases y delivery partnership.",
+          gap: "Work authorization Canadá y experiencia financiera específica.",
+          url: "https://ca.indeed.com/viewjob?jk=40a817f95be408cc",
+          status: "active",
+          verified: "24/08 · plazo 30/09",
+          priority: true,
+        },
+        {
+          score: 95,
+          title: "Director | AI & Data",
+          company: "Deloitte",
+          loc: "Sydney",
+          geo: "Australia",
+          track: "Executive",
+          fit: "C-suite advisory, AI strategy, GenAI, agentic strategy, cloud/data y business development.",
+          gap: "Australia + expectativa de consulting sales AI/Data consolidada.",
+          url: "https://jobs.deloitte.com.au/job/Sydney-Director-AI-%26-Data-Sydney-NSW/1365762566/",
+          status: "active",
+          verified: "24/08 · oficial",
+          priority: true,
+        },
+        {
+          score: 94,
+          title: "Director AI Transformation",
+          company: "UOW Global Enterprises",
+          loc: "Wollongong / Australia or India",
+          geo: "Australia",
+          track: "Executive",
+          fit: "Enterprise AI governance, assurance, delivery oversight, responsible AI y executive engagement.",
+          gap: "Right-to-work Australia/India; sector educación.",
+          url: "https://au.linkedin.com/jobs/view/director-ai-transformation-at-uow-global-enterprises-4444555203",
+          status: "active",
+          verified: "24/08 · cierre 30/08",
+          priority: false,
+        },
+        {
+          score: 94,
+          title: "Director/a Inteligencia Artificial",
+          company: "KPMG España · LIGHTHOUSE",
+          loc: "Madrid",
+          geo: "España",
+          track: "Executive",
+          fit: "Practice leadership, preventa, alta dirección, AI/Data strategy y negocio.",
+          gap: "+10 años específicos en Data/AI consulting.",
+          url: "https://carreras.kpmg.es/job/Madrid-Directora-Inteligencia-Artificial-28046/1272607901/",
+          status: "active",
+          verified: "24/08 · oficial",
+          priority: true,
+        },
+        {
+          score: 94,
+          title: "Partner Solutions Architect, Agentic Next Gen Development",
+          company: "AWS",
+          loc: "Madrid / Barcelona",
+          geo: "España",
+          track: "Architecture",
+          fit: "Partner GTM, agentic development, workshops y arquitectura.",
+          gap: "Bedrock/AgentCore, Python y frameworks agentic.",
+          url: "https://www.amazon.jobs/en/jobs/10459692/partner-solutions-architect-agentic-next-gen-development-aws-partner-field-emea",
+          status: "active",
+          verified: "24/08 · oficial",
+          priority: false,
+        },
+        {
+          score: 92,
+          title: "Director, AI Transformation",
+          company: "Mammoth Brands / Harry’s",
+          loc: "New York",
+          geo: "USA",
+          track: "Executive",
+          fit: "Enterprise AI transformation y adopción con ownership ejecutivo.",
+          gap: "USA work authorization y contexto CPG.",
+          url: "https://to.indeed.com/aangdbhrdn4l",
+          status: "active",
+          verified: "24/08 · fuente empleo",
+          priority: false,
+        },
+        {
+          score: 92,
+          title: "Director, AI Transformation",
+          company: "Pillsbury Winthrop Shaw Pittman",
+          loc: "New York",
+          geo: "USA",
+          track: "Executive",
+          fit: "AI engagement, communication, transformation e innovation.",
+          gap: "USA work authorization y sector legal.",
+          url: "https://to.indeed.com/aac2vsr84nfm",
+          status: "active",
+          verified: "24/08 · fuente empleo",
+          priority: false,
+        },
+        {
+          score: 91,
+          title: "Manager - Technology Strategy & Value Creation",
+          company: "KPMG España",
+          loc: "Madrid",
+          geo: "España",
+          track: "Advisory",
+          fit: "Technology strategy, transformación digital y value creation.",
+          gap: "Sesgo M&A/Technology Due Diligence.",
+          url: "https://carreras.kpmg.es/job/Madrid-Manager-Technology-Strategy-%26-Value-Creation-28046/1278788401/",
+          status: "active",
+          verified: "24/08 · oficial",
+        },
+        {
+          score: 90,
+          title: "Director/a Agentic AI",
+          company: "KPMG España",
+          loc: "Madrid",
+          geo: "España",
+          track: "Executive",
+          fit: "Head of Practice, agentic AI, governance, enterprise integration y ventas.",
+          gap: "Stretch fuerte por requisitos técnicos/tenure Agentic.",
+          url: "https://carreras.kpmg.es/job/Madrid-Directora-Agentic-AI-28046/1387768833/",
+          status: "active",
+          verified: "24/08 · oficial",
+        },
+        {
+          score: 96,
+          title: "Principal Agentic AI Transformation Lead - Hands On",
+          company: "Accenture",
+          loc: "Madrid / España",
+          geo: "España",
+          track: "Executive",
+          fit: "Agentic AI, transformación y delivery hands-on.",
+          gap: "Python/agent frameworks a escala.",
+          url: "https://www.accenture.com/es-es/careers/jobdetails?id=R00290253_es",
+          status: "active",
+          verified: "24/08 · oficial",
+          applied: true,
+        },
+        {
+          score: 96,
+          title: "Applied AI Architect, Large Enterprise",
+          company: "OpenAI",
+          loc: "Madrid",
+          geo: "España",
+          track: "Advisory",
+          fit: "AI strategy + arquitectura + enterprise adoption.",
+          gap: "Ya no figura públicamente en Madrid.",
+          url: "https://openai.com/careers/search/",
+          status: "closed",
+          verified: "24/08 · retirada/no pública",
+          applied: true,
+        },
+        {
+          score: 98,
+          title: "Director, Enterprise AI Transformation",
+          company: "Cint",
+          loc: "Barcelona",
+          geo: "España",
+          track: "Executive",
+          fit: "AI transformation office, governance, adoption y value realization.",
+          gap: "No verificada hoy en endpoint oficial.",
+          url: "https://jobs.smartrecruiters.com/Cint",
+          status: "closed",
+          verified: "24/08 · dudosa/no verificable",
+        },
+      ];
+      window.anibalJobs = jobs;
+      function badge(j) {
+        if (j.applied) return '<span class="badge applied">POSTULADA</span>';
+        if (j.status === "closed")
+          return '<span class="badge closed">NO ACTIVA / DUDOSA</span>';
+        if (j.hot) return '<span class="badge hot">URGENTE</span>';
+        return '<span class="badge">ACTIVA</span>';
+      }
+      function filtered() {
+        const q = document.getElementById("q").value.toLowerCase(),
+          geo = document.getElementById("geo").value,
+          track = document.getElementById("track").value,
+          min = +document.getElementById("min").value,
+          status = document.getElementById("status").value;
+        return jobs.filter(
+          (j) =>
+            (status === "all" || j.status === status) &&
+            (!geo || j.geo === geo) &&
+            (!track || j.track === track) &&
+            j.score >= min &&
+            (!q ||
+              (j.title + " " + j.company + " " + j.fit + " " + j.gap)
+                .toLowerCase()
+                .includes(q)),
+        );
+      }
+      function render() {
+        const arr = filtered().sort((a, b) => b.score - a.score);
+        document.getElementById("rows").innerHTML = arr
+          .map(
+            (j) =>
+              `<tr><td><span class="scorepill">${j.score}</span></td><td><b>${j.title}</b><br><span class="muted">${j.verified}</span></td><td>${j.company}</td><td>${j.loc}</td><td>${j.track}</td><td class="fit">${j.fit}</td><td class="fit">${j.gap}</td><td>${badge(j)}</td><td><a class="apply" target="_blank" rel="noopener" href="${j.url}">Abrir</a> <button class="agent-action" type="button" data-agent-job="${jobs.indexOf(j)}">Preparar candidatura</button></td></tr>`,
+          )
+          .join("");
+        const rec = jobs
+          .filter((j) => j.priority && j.status === "active" && !j.applied)
+          .sort((a, b) => b.score - a.score)
+          .slice(0, 10);
+        document.getElementById("recs").innerHTML = rec
+          .map(
+            (j) =>
+              `<div class="rec"><div class="score">${j.score}/100</div><h3>${j.title}</h3><b>${j.company}</b><p class="muted">${j.loc}</p><p>${j.fit}</p>${badge(j)}<br><br><a class="apply" target="_blank" rel="noopener" href="${j.url}">Abrir vacante</a> <button class="agent-action" type="button" data-agent-job="${jobs.indexOf(j)}">Preparar candidatura</button></div>`,
+          )
+          .join("");
+        document.getElementById("active").textContent = jobs.filter(
+          (j) => j.status === "active",
+        ).length;
+        document.getElementById("top").textContent = jobs.filter(
+          (j) => j.status === "active" && j.score >= 90,
+        ).length;
+        document.getElementById("spain").textContent = jobs.filter(
+          (j) => j.status === "active" && j.geo === "España",
+        ).length;
+        document.getElementById("applied").textContent = jobs.filter(
+          (j) => j.applied,
+        ).length;
+        document.getElementById("closed").textContent = jobs.filter(
+          (j) => j.status === "closed",
+        ).length;
+      }
+      ["q", "geo", "track", "min", "status"].forEach((id) =>
+        document.getElementById(id).addEventListener("input", render),
+      );
+      render();
+    </script>
+    <script src="./career-agent.js" defer></script>
+  </body>
+</html>
