@@ -1,7 +1,41 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-08-22",
+  "last_updated": "2026-08-24",
   "applications": [
+    {
+      "id": "telefonica-ia-estrategia-contact-center-20260824",
+      "company": "Telefónica España",
+      "role": "IA y Estrategia de Modelos de Atención Contact Center",
+      "reference": "1423449733",
+      "location": "Madrid preferred / Spain",
+      "applied_date": "2026-08-24",
+      "status": "Applied",
+      "stage": "Application submitted",
+      "source": "Telefónica Careers",
+      "evidence": "Application confirmed by candidate in conversation",
+      "cv_version": "CV Telefónica IA y Estrategia Contact Center",
+      "priority": "A+",
+      "next_action": "Prepare interview stories on AI portfolio governance, GenAI/agentic AI, customer experience, telecom transformation and cross-functional orchestration",
+      "follow_up_date": "2026-08-31",
+      "notes": "Formal application submitted on 24 Aug 2026. Tailored CV and cover letter prepared."
+    },
+    {
+      "id": "telefonica-jefe-proyectos-hiperautomatizacion-ia-20260824",
+      "company": "Telefónica España",
+      "role": "Jefe de Proyectos Hiperautomatización & IA",
+      "reference": "1423562733",
+      "location": "Madrid, Spain",
+      "applied_date": "2026-08-24",
+      "status": "Applied",
+      "stage": "Application submitted",
+      "source": "Telefónica Careers",
+      "evidence": "Application confirmed by candidate in conversation",
+      "cv_version": "CV Telefónica Jefe de Proyectos Hiperautomatización & IA",
+      "priority": "A+",
+      "next_action": "Prepare interview stories on complex program leadership, GenAI/agents, automation, cloud/APIs, governance, KPIs and telecom operations",
+      "follow_up_date": "2026-08-31",
+      "notes": "Formal application submitted on 24 Aug 2026. Tailored CV and cover letter prepared."
+    },
     {
       "id": "telefonica-tech-head-strategic-projects-20260822",
       "company": "Telefónica Tech",
