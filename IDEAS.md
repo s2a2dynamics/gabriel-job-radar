@@ -1,4 +1,5 @@
 # IDEAS — Gabriel Job Radar
 
 - ✅ Integrar Career Agent protegido en el radar público de Aníbal.
-- 💡 Añadir dossier de candidatura trazable sin completar datos por inferencia.
+- ✅ Dossier de candidatura trazable sin completar datos por inferencia.
+- 💡 Añadir Fit Analyzer después de validar fuentes primarias del candidato.

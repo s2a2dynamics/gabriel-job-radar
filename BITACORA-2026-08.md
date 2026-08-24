@@ -14,3 +14,18 @@
 
 ### Pendiente / Próximos pasos
 - [ ] Diseñar el dossier de candidatura con evidencia y estados de validación explícitos.
+
+## 2026-08-24 — Dossier trazable publicado
+
+**Estado al inicio**: análisis protegido visible; dossier aún pendiente.
+
+### Qué se hizo
+- Añadida acción explícita posterior al análisis y render seguro sin persistencia.
+- UI separa evidencia, pendientes, cronología, validaciones y afirmaciones prohibidas.
+- Tests 4/4; producción escritorio/móvil y consola: PASS.
+
+### Decisiones tomadas
+- **No es un CV**: el radar muestra el inventario de evidencia antes de generar documentos.
+
+### Pendiente / Próximos pasos
+- [ ] Validar fuentes primarias y diseñar Fit Analyzer trazable.
