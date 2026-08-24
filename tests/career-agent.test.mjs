@@ -17,11 +17,23 @@ test("Aníbal radar exposes the protected Career Agent controls", () => {
     'id="google-signin"',
     'id="agent-form"',
     'id="agent-description"',
+    'id="agent-build-dossier"',
+    'id="agent-dossier-result"',
     "data-agent-job=",
     'src="./career-agent.js"',
   ]) {
     assert.match(html, new RegExp(marker));
   }
+});
+
+test("dossier generation is explicit, authenticated and non-persistent", () => {
+  assert.match(script, /buildDossierButton\.addEventListener\(["']click["']/);
+  assert.match(script, /api\/build-dossier/);
+  assert.match(script, /analysis: latestAnalysis/);
+  assert.match(script, /authorization: `Bearer \$\{idToken\}`/);
+  assert.match(script, /pendingProfileItems/);
+  assert.match(script, /doNotClaim/);
+  assert.doesNotMatch(script, /localStorage|sessionStorage|indexedDB/);
 });
 
 test("analysis remains explicit and sends bearer auth plus requestId", () => {

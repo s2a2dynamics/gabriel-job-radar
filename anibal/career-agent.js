@@ -1,13 +1,16 @@
 (() => {
   "use strict";
 
-  const API_URL =
+  const ANALYZE_API_URL =
     "https://career-agent-api-jd2uqc2g4a-ew.a.run.app/api/analyze-job";
+  const DOSSIER_API_URL =
+    "https://career-agent-api-jd2uqc2g4a-ew.a.run.app/api/build-dossier";
   const GOOGLE_CLIENT_ID =
     "721604659809-betff2smpf2aofiv71fe71gnis54tq73.apps.googleusercontent.com";
   const MIN_DESCRIPTION_LENGTH = 200;
 
   let idToken = null;
+  let latestAnalysis = null;
 
   const panel = document.getElementById("career-agent");
   const signInContainer = document.getElementById("google-signin");
@@ -22,6 +25,9 @@
   const descriptionCount = document.getElementById("agent-description-count");
   const submitButton = document.getElementById("agent-submit");
   const resultContainer = document.getElementById("agent-result");
+  const dossierActions = document.getElementById("agent-dossier-actions");
+  const buildDossierButton = document.getElementById("agent-build-dossier");
+  const dossierContainer = document.getElementById("agent-dossier-result");
 
   if (
     !panel ||
@@ -36,7 +42,10 @@
     !descriptionInput ||
     !descriptionCount ||
     !submitButton ||
-    !resultContainer
+    !resultContainer ||
+    !dossierActions ||
+    !buildDossierButton ||
+    !dossierContainer
   ) {
     return;
   }
@@ -60,9 +69,12 @@
     message = "Inicia sesión para habilitar el análisis.",
   ) => {
     idToken = null;
+    latestAnalysis = null;
     fields.disabled = true;
     signOutButton.hidden = true;
     resultContainer.hidden = true;
+    dossierActions.hidden = true;
+    dossierContainer.hidden = true;
     setStatus(message);
     updateSubmitState();
   };
@@ -169,6 +181,78 @@
 
     resultContainer.append(grid);
     resultContainer.hidden = false;
+    latestAnalysis = analysis;
+    dossierActions.hidden = false;
+  };
+
+  const appendDossierList = (container, title, items) => {
+    const section = document.createElement("details");
+    section.className = "agent-dossier-section";
+
+    const summary = document.createElement("summary");
+    summary.textContent = `${title} (${items.length})`;
+    section.append(summary);
+
+    const list = document.createElement("ul");
+    items.forEach((value) => {
+      const item = document.createElement("li");
+      item.textContent = value;
+      list.append(item);
+    });
+    section.append(list);
+    container.append(section);
+  };
+
+  const renderDossier = (dossier, requestId) => {
+    dossierContainer.replaceChildren();
+
+    const heading = document.createElement("h3");
+    heading.textContent = `Dossier de evidencia · ${dossier.target.role}`;
+    dossierContainer.append(heading);
+
+    const meta = document.createElement("p");
+    meta.className = "muted";
+    meta.textContent = `Perfil v${dossier.profile.schemaVersion} · ${dossier.profile.lastUpdated} · Trazabilidad: ${requestId || "request ID no disponible"}`;
+    dossierContainer.append(meta);
+
+    const warning = document.createElement("p");
+    warning.className = "agent-dossier-warning";
+    warning.textContent =
+      "Este dossier separa evidencia verificada de datos pendientes. No es un CV final.";
+    dossierContainer.append(warning);
+
+    appendDossierList(
+      dossierContainer,
+      "Evidencia verificada",
+      dossier.verifiedEvidence.map(
+        (item) =>
+          `${item.statement} · evidencia: ${item.evidenceIds.join(", ")}`,
+      ),
+    );
+    appendDossierList(
+      dossierContainer,
+      "Perfil pendiente o desconocido",
+      dossier.pendingProfileItems.map(
+        (item) =>
+          `${item.category}: ${item.value ?? "null"} · ${item.status} · evidencia: ${item.evidenceIds.join(", ") || "sin evidencia"}`,
+      ),
+    );
+    appendDossierList(
+      dossierContainer,
+      "Cronología profesional",
+      dossier.experienceTimeline.map(
+        (item) =>
+          `${item.organization} — ${item.role} · inicio: ${item.startDate ?? "null"} · fin: ${item.endDate ?? "null"} · ubicación: ${item.location ?? "null"} · ${item.status}`,
+      ),
+    );
+    appendDossierList(
+      dossierContainer,
+      "Validaciones pendientes",
+      dossier.pendingValidation,
+    );
+    appendDossierList(dossierContainer, "No afirmar", dossier.doNotClaim);
+
+    dossierContainer.hidden = false;
   };
 
   const errorMessageForStatus = (status) => {
@@ -194,6 +278,9 @@
     roleInput.value = job.title ?? "";
     locationInput.value = job.loc ?? "";
     resultContainer.hidden = true;
+    dossierActions.hidden = true;
+    dossierContainer.hidden = true;
+    latestAnalysis = null;
     updateSubmitState();
     panel.scrollIntoView({ behavior: "smooth", block: "start" });
     window.setTimeout(() => descriptionInput.focus(), 350);
@@ -228,10 +315,13 @@
     submitButton.disabled = true;
     submitButton.textContent = "Analizando…";
     resultContainer.hidden = true;
+    dossierActions.hidden = true;
+    dossierContainer.hidden = true;
+    latestAnalysis = null;
     setStatus("Analizando la descripción. No cierres esta pestaña.");
 
     try {
-      const response = await fetch(API_URL, {
+      const response = await fetch(ANALYZE_API_URL, {
         method: "POST",
         mode: "cors",
         cache: "no-store",
@@ -277,6 +367,70 @@
       window.clearTimeout(timeout);
       submitButton.textContent = "Analizar vacante";
       updateSubmitState();
+    }
+  });
+
+  buildDossierButton.addEventListener("click", async () => {
+    if (!idToken || !latestAnalysis) return;
+
+    const requestId =
+      window.crypto?.randomUUID?.() ?? `dossier-${Date.now().toString(36)}`;
+    const controller = new AbortController();
+    const timeout = window.setTimeout(() => controller.abort(), 15_000);
+    buildDossierButton.disabled = true;
+    buildDossierButton.textContent = "Construyendo dossier…";
+    dossierContainer.hidden = true;
+    setStatus("Organizando evidencia verificada y datos pendientes.");
+
+    try {
+      const response = await fetch(DOSSIER_API_URL, {
+        method: "POST",
+        mode: "cors",
+        cache: "no-store",
+        referrerPolicy: "strict-origin",
+        signal: controller.signal,
+        headers: {
+          authorization: `Bearer ${idToken}`,
+          "content-type": "application/json",
+          "x-request-id": requestId,
+        },
+        body: JSON.stringify({
+          target: {
+            company: companyInput.value.trim(),
+            role: roleInput.value.trim(),
+            location: locationInput.value.trim() || null,
+          },
+          analysis: latestAnalysis,
+        }),
+      });
+
+      const responseBody = await response.json().catch(() => ({}));
+      if (!response.ok) {
+        if (response.status === 401 || response.status === 403) {
+          setSignedOut(errorMessageForStatus(response.status));
+          authStatus.classList.add("error");
+        } else {
+          setStatus(errorMessageForStatus(response.status), "error");
+        }
+        return;
+      }
+
+      renderDossier(responseBody, response.headers.get("x-request-id"));
+      setStatus(
+        "Dossier trazable completado. Revisa primero los pendientes y las prohibiciones.",
+        "success",
+      );
+    } catch (error) {
+      setStatus(
+        error?.name === "AbortError"
+          ? "El dossier superó el tiempo máximo. Inténtalo de nuevo."
+          : "No se pudo conectar con el generador de dossier.",
+        "error",
+      );
+    } finally {
+      window.clearTimeout(timeout);
+      buildDossierButton.disabled = false;
+      buildDossierButton.textContent = "Crear dossier trazable";
     }
   });
 

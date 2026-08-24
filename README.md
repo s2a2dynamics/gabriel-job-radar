@@ -21,6 +21,9 @@ La actualización diaria debe priorizar fuentes oficiales y retirar o degradar o
 Sign-In. El radar público sigue siendo visible sin autenticación; solo la llamada
 al Career Agent requiere una cuenta autorizada. El ID token vive únicamente en
 memoria durante la pestaña y nunca se guarda en almacenamiento del navegador.
+Tras un análisis correcto, el usuario puede crear explícitamente un dossier que separa
+evidencias verificadas, cronología incompleta, validaciones pendientes y afirmaciones prohibidas.
+El dossier tampoco se persiste ni genera texto profesional libre.
 
 ```bash
 npm test

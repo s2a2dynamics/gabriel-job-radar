@@ -171,6 +171,52 @@
   color: var(--muted);
 }
 
+.agent-dossier-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.agent-dossier-actions[hidden] {
+  display: none;
+}
+
+.agent-dossier-result {
+  margin-top: 18px;
+  border: 1px solid #486279;
+  border-radius: 14px;
+  background: #0a1726;
+  padding: 16px;
+}
+
+.agent-dossier-result h3 {
+  margin: 0 0 8px;
+  color: var(--gold);
+}
+
+.agent-dossier-warning {
+  border-left: 4px solid var(--gold);
+  padding: 10px 12px;
+  color: #ffe6a4;
+  background: rgba(80, 61, 22, 0.55);
+}
+
+.agent-dossier-section {
+  border-top: 1px solid var(--line);
+  padding: 10px 0;
+}
+
+.agent-dossier-section summary {
+  cursor: pointer;
+  font-weight: 800;
+}
+
+.agent-dossier-section ul {
+  color: var(--muted);
+  line-height: 1.5;
+}
+
 @media (max-width: 900px) {
   .agent-head,
   .agent-form-footer {
@@ -190,5 +236,10 @@
 
   .agent-primary {
     width: 100%;
+  }
+
+  .agent-dossier-actions {
+    align-items: stretch;
+    flex-direction: column;
   }
 }
