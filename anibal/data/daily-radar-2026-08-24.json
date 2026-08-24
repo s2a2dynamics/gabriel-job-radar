@@ -1,0 +1,15 @@
+{
+  "date":"2026-08-24",
+  "verified_official_only":true,
+  "top_priorities":[
+    {"score":98,"company":"Telefonica Espana","role":"IA y Estrategia de Modelos de Atencion Contact Center","location":"Madrid preferente / nacional","status":"active_until_2026-08-24","url":"https://jobs.telefonica.com/job/TE_DC_G1_ARQUITECTURA-SOLUCIONES-HIPERAUTOMATIZACION-1/1423449733/","cv":"AI Transformation | Customer Operations | Telecom | Executive Program Leadership","contact":"Javier Trigueros Moreno"},
+    {"score":97,"company":"Telefonica Espana","role":"Jefe de Proyectos Hiperautomatizacion & IA","location":"Madrid","status":"active_until_2026-08-24","url":"https://jobs.telefonica.com/job/JEFE-DE-PROYECTOS-HIPERAUTOMATIZACION-%26-IA/1423562733/","cv":"Telecom | AI & Hyperautomation | Technology Program Leadership","contact":"Javier Trigueros Moreno"},
+    {"score":96,"company":"Microsoft","role":"AI Transformation Consulting Leader","location":"Reading / Paris / Amsterdam","status":"active_until_filled","url":"https://careers.microsoft.com/v2/global/en/locations/paris.html","cv":"Executive AI Transformation | Consulting Leadership | Cloud & Business Value"},
+    {"score":96,"company":"Telefonica Tech","role":"Data Sales Consultant","location":"Madrid","status":"active","url":"https://jobs.telefonica.com/job/MADRID-Tech_Data-Sales-Consultant/1365156733/","cv":"Enterprise AI | Strategic Accounts | Consultative Sales | Data & Cloud Transformation"},
+    {"score":95,"company":"AWS","role":"Partner Solutions Architect, Agentic Business Processes","location":"Madrid / Barcelona","status":"active","url":"https://www.amazon.jobs/en/jobs/10459692/partner-solutions-architect-agentic-next-gen-development-aws-partner-field-emea","cv":"AI Transformation | Solution Architecture | Partner GTM | Agentic AI"},
+    {"score":94,"company":"KPMG Espana","role":"Director/a Inteligencia Artificial","location":"Madrid","status":"active","url":"https://carreras.kpmg.es/job/Madrid-Directora-Inteligencia-Artificial-28046/1272607901/","cv":"Executive AI Transformation | Data & AI Strategy | Consulting Leadership"},
+    {"score":93,"company":"AWS","role":"Principal Agentic Transformation & Customer Engagement - Telecom","location":"Mountain View, CA","status":"active","url":"https://amazon.jobs/en/jobs/10465710/principal-agentic-transformation-customer-engagement-aws-industries-telecom","cv":"Telecom Executive | Agentic AI Transformation | Strategic Accounts | GTM"}
+  ],
+  "applied_excluded_from_attack":["Telefonica Tech - Head of Strategic Projects","OpenAI - Applied AI Architect, Large Enterprise","Accenture - Principal Agentic AI Transformation Lead","KPMG - AI Transformation Manager","ServiceNow - Advisory Solution Consultant, Telecommunications","Capgemini - Go-To-Market IA"],
+  "notes":["Only vacancies verified on official employer sources are included as active priorities in this snapshot.","Telefonica Contact Center and Hyperautomation roles close on 2026-08-24.","Third-party-only or doubtful vacancies must not be treated as verified active until an official employer source is confirmed."]
+}
