@@ -30,6 +30,13 @@ La decisión muestra Fit, selection probability, priority y cada ajuste trazable
 revisan antes de enviarse; solo tres oportunidades documentadas tienen un prefill curado y las
 demás quedan en blanco, sin inferencia por empresa o familia AI.
 
+## Beta familiar
+
+`family/` resuelve primero la identidad contra `/api/me` y muestra únicamente el workspace del
+miembro autenticado. Aníbal conserva su perfil validado; Gabriel permanece en
+`onboarding_pending` hasta aportar fuentes aprobadas y confirmar sus claims. El navegador no puede
+seleccionar un workspace, no accede directamente a Firestore y no persiste el token.
+
 ```bash
 npm test
 npm run typecheck

@@ -9,6 +9,8 @@
     "https://career-agent-api-jd2uqc2g4a-ew.a.run.app/api/analyze-fit";
   const DECISION_API_URL =
     "https://career-agent-api-jd2uqc2g4a-ew.a.run.app/api/decision";
+  const ME_API_URL =
+    "https://career-agent-api-jd2uqc2g4a-ew.a.run.app/api/me";
   const GOOGLE_CLIENT_ID =
     "721604659809-betff2smpf2aofiv71fe71gnis54tq73.apps.googleusercontent.com";
   const MIN_DESCRIPTION_LENGTH = 200;
@@ -136,7 +138,7 @@
     updateSubmitState();
   };
 
-  const handleCredential = (response) => {
+  const handleCredential = async (response) => {
     if (!response || typeof response.credential !== "string") {
       setSignedOut(
         "Google no devolvió una credencial válida. Inténtalo de nuevo.",
@@ -146,13 +148,48 @@
     }
 
     idToken = response.credential;
-    fields.disabled = false;
+    fields.disabled = true;
     signOutButton.hidden = false;
-    setStatus(
-      "Sesión Google lista. La autorización final se valida en el servidor.",
-      "success",
-    );
-    updateSubmitState();
+    setStatus("Validando tu espacio profesional…");
+
+    try {
+      const requestId =
+        window.crypto?.randomUUID?.() ?? `member-${Date.now().toString(36)}`;
+      const memberResponse = await fetch(ME_API_URL, {
+        method: "GET",
+        mode: "cors",
+        cache: "no-store",
+        referrerPolicy: "strict-origin",
+        headers: {
+          authorization: `Bearer ${idToken}`,
+          "x-request-id": requestId,
+        },
+      });
+      const member = await memberResponse.json().catch(() => ({}));
+      if (!memberResponse.ok) {
+        setSignedOut(errorMessageForStatus(memberResponse.status));
+        authStatus.classList.add("error");
+        return;
+      }
+      if (member.profileStatus !== "ready") {
+        fields.disabled = true;
+        setStatus(
+          `Hola ${member.displayName}. Tu espacio está aislado y el Master Profile sigue pendiente de validación.`,
+        );
+        updateSubmitState();
+        return;
+      }
+
+      fields.disabled = false;
+      setStatus(
+        `Hola ${member.displayName}. Tu Master Profile está listo y aislado en tu espacio privado.`,
+        "success",
+      );
+      updateSubmitState();
+    } catch {
+      setSignedOut("No se pudo validar tu espacio profesional.");
+      authStatus.classList.add("error");
+    }
   };
 
   const initializeGoogleSignIn = (attempt = 0) => {
@@ -402,8 +439,12 @@
   const errorMessageForStatus = (status) => {
     if (status === 400)
       return "Revisa los campos y la longitud de la descripción.";
-    if (status === 401 || status === 403)
-      return "La sesión no está autorizada. Inicia sesión de nuevo con la cuenta permitida.";
+    if (status === 401)
+      return "La sesión ha caducado. Inicia sesión de nuevo.";
+    if (status === 403)
+      return "Esta cuenta todavía no pertenece a la beta familiar.";
+    if (status === 409)
+      return "Tu Master Profile está pendiente de validación; no se ejecutará el análisis todavía.";
     if (status === 502 || status === 503)
       return "El analizador no está disponible temporalmente. Inténtalo más tarde.";
     return "No se pudo completar el análisis.";
