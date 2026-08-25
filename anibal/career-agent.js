@@ -5,12 +5,17 @@
     "https://career-agent-api-jd2uqc2g4a-ew.a.run.app/api/analyze-job";
   const DOSSIER_API_URL =
     "https://career-agent-api-jd2uqc2g4a-ew.a.run.app/api/build-dossier";
+  const FIT_API_URL =
+    "https://career-agent-api-jd2uqc2g4a-ew.a.run.app/api/analyze-fit";
+  const DECISION_API_URL =
+    "https://career-agent-api-jd2uqc2g4a-ew.a.run.app/api/decision";
   const GOOGLE_CLIENT_ID =
     "721604659809-betff2smpf2aofiv71fe71gnis54tq73.apps.googleusercontent.com";
   const MIN_DESCRIPTION_LENGTH = 200;
 
   let idToken = null;
   let latestAnalysis = null;
+  let latestFit = null;
 
   const panel = document.getElementById("career-agent");
   const signInContainer = document.getElementById("google-signin");
@@ -25,6 +30,17 @@
   const descriptionCount = document.getElementById("agent-description-count");
   const submitButton = document.getElementById("agent-submit");
   const resultContainer = document.getElementById("agent-result");
+  const fitActions = document.getElementById("agent-fit-actions");
+  const analyzeFitButton = document.getElementById("agent-analyze-fit");
+  const fitContainer = document.getElementById("agent-fit-result");
+  const decisionActions = document.getElementById("agent-decision-actions");
+  const decisionSignalsInput = document.getElementById(
+    "agent-decision-signals",
+  );
+  const buildDecisionButton = document.getElementById(
+    "agent-build-decision",
+  );
+  const decisionContainer = document.getElementById("agent-decision-result");
   const dossierActions = document.getElementById("agent-dossier-actions");
   const buildDossierButton = document.getElementById("agent-build-dossier");
   const dossierContainer = document.getElementById("agent-dossier-result");
@@ -43,6 +59,13 @@
     !descriptionCount ||
     !submitButton ||
     !resultContainer ||
+    !fitActions ||
+    !analyzeFitButton ||
+    !fitContainer ||
+    !decisionActions ||
+    !decisionSignalsInput ||
+    !buildDecisionButton ||
+    !decisionContainer ||
     !dossierActions ||
     !buildDossierButton ||
     !dossierContainer
@@ -55,6 +78,38 @@
     authStatus.className = `agent-status${type ? ` ${type}` : ""}`;
   };
 
+  const parseDecisionSignals = () => {
+    const signals = decisionSignalsInput.value
+      .split(",")
+      .map((signal) => signal.trim())
+      .filter(Boolean);
+    if (
+      signals.length === 0 ||
+      signals.some(
+        (signal) => !/^[a-z0-9]+(?:_[a-z0-9]+)*$/.test(signal),
+      ) ||
+      new Set(signals).size !== signals.length
+    ) {
+      return null;
+    }
+    return signals;
+  };
+
+  const resetDerivedResults = () => {
+    latestFit = null;
+    fitActions.hidden = true;
+    fitContainer.hidden = true;
+    decisionActions.hidden = true;
+    decisionContainer.hidden = true;
+    analyzeFitButton.disabled = false;
+    buildDecisionButton.disabled = true;
+  };
+
+  const updateDecisionState = () => {
+    buildDecisionButton.disabled =
+      !idToken || !latestAnalysis || !latestFit || !parseDecisionSignals();
+  };
+
   const updateSubmitState = () => {
     const length = descriptionInput.value.trim().length;
     descriptionCount.textContent = `${length.toLocaleString("es-ES")} / 50.000`;
@@ -63,6 +118,7 @@
       !companyInput.value.trim() ||
       !roleInput.value.trim() ||
       length < MIN_DESCRIPTION_LENGTH;
+    updateDecisionState();
   };
 
   const setSignedOut = (
@@ -70,6 +126,7 @@
   ) => {
     idToken = null;
     latestAnalysis = null;
+    resetDerivedResults();
     fields.disabled = true;
     signOutButton.hidden = true;
     resultContainer.hidden = true;
@@ -182,7 +239,94 @@
     resultContainer.append(grid);
     resultContainer.hidden = false;
     latestAnalysis = analysis;
+    fitActions.hidden = false;
     dossierActions.hidden = false;
+  };
+
+  const createScoreMetric = (label, value) => {
+    const metric = document.createElement("div");
+    metric.className = "agent-score-metric";
+    const score = document.createElement("b");
+    score.textContent = String(value);
+    const caption = document.createElement("span");
+    caption.textContent = label;
+    metric.append(score, caption);
+    return metric;
+  };
+
+  const renderFit = (fit, requestId) => {
+    fitContainer.replaceChildren();
+    const heading = document.createElement("h3");
+    heading.textContent = "Fit objetivo";
+    const meta = document.createElement("p");
+    meta.className = "muted";
+    meta.textContent = `Trazabilidad: ${requestId || "request ID no disponible"}`;
+    const scores = document.createElement("div");
+    scores.className = "agent-score-grid";
+    scores.append(
+      createScoreMetric("Fit", fit.score),
+      createScoreMetric("Confianza de evidencia", fit.confidence),
+      createScoreMetric("Recomendación", fit.applicationRecommendation),
+    );
+    const details = document.createElement("div");
+    details.className = "agent-result-grid";
+    details.append(
+      createResultCard(
+        "Fortalezas trazables",
+        fit.strengths.map(
+          (item) => `${item.requirement}: ${item.evidence}`,
+        ),
+      ),
+      createResultCard(
+        "Gaps visibles",
+        fit.gaps.map(
+          (item) =>
+            `${item.classification} · ${item.requirement}: ${item.rationale}`,
+        ),
+      ),
+    );
+    fitContainer.append(heading, meta, scores, details);
+    fitContainer.hidden = false;
+    latestFit = fit;
+    decisionActions.hidden = false;
+    updateDecisionState();
+  };
+
+  const renderDecision = (decision, requestId) => {
+    decisionContainer.replaceChildren();
+    const heading = document.createElement("h3");
+    heading.textContent = "Prioridad calibrada";
+    const meta = document.createElement("p");
+    meta.className = "muted";
+    meta.textContent = `Confianza de calibración: ${decision.calibrationConfidence} · Trazabilidad: ${requestId || "request ID no disponible"}`;
+    const scores = document.createElement("div");
+    scores.className = "agent-score-grid";
+    scores.append(
+      createScoreMetric("Fit", decision.fitScore),
+      createScoreMetric("Probability", decision.selectionProbability),
+      createScoreMetric("Priority", decision.priorityScore),
+      createScoreMetric("Acción", decision.recommendation),
+    );
+    const details = document.createElement("div");
+    details.className = "agent-result-grid";
+    details.append(
+      createResultCard(
+        "Señales positivas",
+        decision.positiveSignals.map(
+          (item) =>
+            `+${item.adjustment} · ${item.explanation} · outcome: ${item.outcomeApplicationId}`,
+        ),
+      ),
+      createResultCard(
+        "Riesgos y ajustes",
+        decision.negativeSignals.map(
+          (item) =>
+            `${item.adjustment} · ${item.explanation}${item.outcomeApplicationId ? ` · outcome: ${item.outcomeApplicationId}` : ""}`,
+        ),
+      ),
+    );
+    decisionContainer.append(heading, meta, scores, details);
+    decisionContainer.hidden = false;
   };
 
   const appendDossierList = (container, title, items) => {
@@ -277,7 +421,11 @@
     companyInput.value = job.company ?? "";
     roleInput.value = job.title ?? "";
     locationInput.value = job.loc ?? "";
+    decisionSignalsInput.value = Array.isArray(job.decisionSignals)
+      ? job.decisionSignals.join(", ")
+      : "";
     resultContainer.hidden = true;
+    resetDerivedResults();
     dossierActions.hidden = true;
     dossierContainer.hidden = true;
     latestAnalysis = null;
@@ -302,6 +450,7 @@
   [companyInput, roleInput, locationInput, descriptionInput].forEach((input) =>
     input.addEventListener("input", updateSubmitState),
   );
+  decisionSignalsInput.addEventListener("input", updateDecisionState);
 
   form.addEventListener("submit", async (event) => {
     event.preventDefault();
@@ -315,6 +464,7 @@
     submitButton.disabled = true;
     submitButton.textContent = "Analizando…";
     resultContainer.hidden = true;
+    resetDerivedResults();
     dossierActions.hidden = true;
     dossierContainer.hidden = true;
     latestAnalysis = null;
@@ -367,6 +517,138 @@
       window.clearTimeout(timeout);
       submitButton.textContent = "Analizar vacante";
       updateSubmitState();
+    }
+  });
+
+  analyzeFitButton.addEventListener("click", async () => {
+    if (!idToken || !latestAnalysis) return;
+
+    const requestId =
+      window.crypto?.randomUUID?.() ?? `fit-${Date.now().toString(36)}`;
+    const controller = new AbortController();
+    const timeout = window.setTimeout(() => controller.abort(), 15_000);
+    analyzeFitButton.disabled = true;
+    analyzeFitButton.textContent = "Calculando Fit…";
+    fitContainer.hidden = true;
+    decisionActions.hidden = true;
+    decisionContainer.hidden = true;
+    latestFit = null;
+    setStatus("Comparando requisitos con evidencia trazable del perfil.");
+
+    try {
+      const response = await fetch(FIT_API_URL, {
+        method: "POST",
+        mode: "cors",
+        cache: "no-store",
+        referrerPolicy: "strict-origin",
+        signal: controller.signal,
+        headers: {
+          authorization: `Bearer ${idToken}`,
+          "content-type": "application/json",
+          "x-request-id": requestId,
+        },
+        body: JSON.stringify({ jobAnalysis: latestAnalysis }),
+      });
+      const responseBody = await response.json().catch(() => ({}));
+      if (!response.ok) {
+        if (response.status === 401 || response.status === 403) {
+          setSignedOut(errorMessageForStatus(response.status));
+          authStatus.classList.add("error");
+        } else {
+          setStatus(errorMessageForStatus(response.status), "error");
+        }
+        return;
+      }
+
+      renderFit(responseBody, response.headers.get("x-request-id"));
+      setStatus(
+        "Fit objetivo calculado. Revisa gaps y señales antes de calibrar prioridad.",
+        "success",
+      );
+    } catch (error) {
+      setStatus(
+        error?.name === "AbortError"
+          ? "El Fit superó el tiempo máximo. Inténtalo de nuevo."
+          : "No se pudo conectar con Fit Analyzer.",
+        "error",
+      );
+    } finally {
+      window.clearTimeout(timeout);
+      analyzeFitButton.disabled = false;
+      analyzeFitButton.textContent = "Calcular Fit objetivo";
+    }
+  });
+
+  buildDecisionButton.addEventListener("click", async () => {
+    const opportunitySignals = parseDecisionSignals();
+    if (!idToken || !latestAnalysis || !latestFit || !opportunitySignals) {
+      setStatus(
+        "Revisa las señales: deben ser únicas, usar minúsculas y guion bajo.",
+        "error",
+      );
+      return;
+    }
+
+    const requestId =
+      window.crypto?.randomUUID?.() ?? `decision-${Date.now().toString(36)}`;
+    const controller = new AbortController();
+    const timeout = window.setTimeout(() => controller.abort(), 15_000);
+    buildDecisionButton.disabled = true;
+    buildDecisionButton.textContent = "Calibrando prioridad…";
+    decisionContainer.hidden = true;
+    setStatus("Separando Fit objetivo de probabilidad práctica.");
+
+    try {
+      const response = await fetch(DECISION_API_URL, {
+        method: "POST",
+        mode: "cors",
+        cache: "no-store",
+        referrerPolicy: "strict-origin",
+        signal: controller.signal,
+        headers: {
+          authorization: `Bearer ${idToken}`,
+          "content-type": "application/json",
+          "x-request-id": requestId,
+        },
+        body: JSON.stringify({
+          jobAnalysis: latestAnalysis,
+          opportunitySignals,
+        }),
+      });
+      const responseBody = await response.json().catch(() => ({}));
+      if (!response.ok) {
+        if (response.status === 401 || response.status === 403) {
+          setSignedOut(errorMessageForStatus(response.status));
+          authStatus.classList.add("error");
+        } else {
+          setStatus(errorMessageForStatus(response.status), "error");
+        }
+        return;
+      }
+      if (responseBody.fitScore !== latestFit.score) {
+        setStatus(
+          "El Fit de la decisión no coincide con el Fit mostrado. No se presentará el resultado.",
+          "error",
+        );
+        return;
+      }
+
+      renderDecision(responseBody, response.headers.get("x-request-id"));
+      setStatus(
+        "Prioridad calibrada. Los ajustes muestran su outcome y explicación.",
+        "success",
+      );
+    } catch (error) {
+      setStatus(
+        error?.name === "AbortError"
+          ? "La calibración superó el tiempo máximo. Inténtalo de nuevo."
+          : "No se pudo conectar con Application Decision.",
+        "error",
+      );
+    } finally {
+      window.clearTimeout(timeout);
+      buildDecisionButton.textContent = "Calibrar prioridad";
+      updateDecisionState();
     }
   });
 

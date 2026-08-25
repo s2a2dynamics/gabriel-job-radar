@@ -351,6 +351,43 @@
           hidden
           aria-live="polite"
         ></div>
+        <div id="agent-fit-actions" class="agent-dossier-actions" hidden>
+          <button id="agent-analyze-fit" class="agent-primary" type="button">
+            Calcular Fit objetivo
+          </button>
+          <span class="muted"
+            >Compara la vacante con el Master Profile sin ocultar gaps.</span
+          >
+        </div>
+        <div
+          id="agent-fit-result"
+          class="agent-score-result"
+          hidden
+          aria-live="polite"
+        ></div>
+        <div id="agent-decision-actions" class="agent-decision-actions" hidden>
+          <label for="agent-decision-signals"
+            >Señales de selección, separadas por comas</label
+          >
+          <input
+            id="agent-decision-signals"
+            maxlength="1200"
+            placeholder="technology_leadership, transformation, telecommunications"
+          />
+          <p class="muted">
+            Revisa estas señales antes de calibrar. Deben usar minúsculas y
+            guion bajo; si no existen, no se infieren por empresa ni por familia AI.
+          </p>
+          <button id="agent-build-decision" class="agent-primary" type="button">
+            Calibrar prioridad
+          </button>
+        </div>
+        <div
+          id="agent-decision-result"
+          class="agent-score-result"
+          hidden
+          aria-live="polite"
+        ></div>
         <div id="agent-dossier-actions" class="agent-dossier-actions" hidden>
           <button id="agent-build-dossier" class="agent-primary" type="button">
             Crear dossier trazable
@@ -440,6 +477,14 @@
           status: "active",
           verified: "24/08 · oficial",
           applied: true,
+          decisionSignals: [
+            "technology_leadership",
+            "transformation",
+            "telecommunications",
+            "enterprise_integration",
+            "ai_strategy",
+            "strategic_customer",
+          ],
         },
         {
           score: 98,
@@ -582,6 +627,13 @@
           status: "active",
           verified: "24/08 · oficial",
           priority: true,
+          decisionSignals: [
+            "ai_strategy",
+            "executive_leadership",
+            "consulting",
+            "data_ai",
+            "business_development",
+          ],
         },
         {
           score: 94,
@@ -664,6 +716,14 @@
           status: "active",
           verified: "24/08 · oficial",
           applied: true,
+          decisionSignals: [
+            "agentic_ai",
+            "hands_on",
+            "principal_level",
+            "deep_technical",
+            "enterprise_integration",
+            "production_ai",
+          ],
         },
         {
           score: 96,
