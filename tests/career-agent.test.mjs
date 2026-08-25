@@ -19,11 +19,45 @@ test("Aníbal radar exposes the protected Career Agent controls", () => {
     'id="agent-description"',
     'id="agent-build-dossier"',
     'id="agent-dossier-result"',
+    'id="agent-analyze-fit"',
+    'id="agent-fit-result"',
+    'id="agent-decision-signals"',
+    'id="agent-build-decision"',
+    'id="agent-decision-result"',
     "data-agent-job=",
     'src="./career-agent.js"',
   ]) {
     assert.match(html, new RegExp(marker));
   }
+});
+
+test("fit and outcome calibration remain explicit and ordered", () => {
+  assert.match(script, /analyzeFitButton\.addEventListener\(["']click["']/);
+  assert.match(script, /api\/analyze-fit/);
+  assert.match(script, /JSON\.stringify\(\{ jobAnalysis: latestAnalysis \}\)/);
+  assert.match(script, /buildDecisionButton\.addEventListener\(["']click["']/);
+  assert.match(script, /api\/decision/);
+  assert.match(script, /opportunitySignals/);
+  assert.match(script, /responseBody\.fitScore !== latestFit\.score/);
+  assert.match(script, /outcomeApplicationId/);
+  assert.doesNotMatch(script, /localStorage|sessionStorage|indexedDB/);
+});
+
+test("only documented opportunities carry curated decision signals", () => {
+  for (const signal of [
+    "technology_leadership",
+    "telecommunications",
+    "ai_strategy",
+    "data_ai",
+    "agentic_ai",
+    "hands_on",
+    "principal_level",
+    "production_ai",
+  ]) {
+    assert.match(html, new RegExp(`"${signal}"`));
+  }
+  assert.match(script, /Array\.isArray\(job\.decisionSignals\)/);
+  assert.match(script, /decisionSignalsInput\.value = [\s\S]*: "";/);
 });
 
 test("dossier generation is explicit, authenticated and non-persistent", () => {
