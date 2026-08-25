@@ -77,6 +77,15 @@ test("analysis remains explicit and sends bearer auth plus requestId", () => {
   assert.doesNotMatch(script, /localStorage|sessionStorage/);
 });
 
+test("member workspace is resolved before enabling career analysis", () => {
+  assert.match(script, /api\/me/);
+  assert.match(script, /member\.profileStatus !== ["']ready["']/);
+  assert.match(script, /fields\.disabled = true/);
+  assert.match(script, /fields\.disabled = false/);
+  assert.match(script, /beta familiar/);
+  assert.doesNotMatch(script, /workspaceId\s*:/);
+});
+
 test("frontend contains no Google AI API key", () => {
   assert.doesNotMatch(`${html}\n${script}`, /AIza[0-9A-Za-z_-]{30,}/);
 });

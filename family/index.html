@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Career Agent · Beta familiar</title>
+    <link rel="stylesheet" href="./family.css" />
+    <script src="https://accounts.google.com/gsi/client" async defer></script>
+    <script src="./family.js" defer></script>
+  </head>
+  <body>
+    <main>
+      <p class="eyebrow">S2A2 Dynamics · acceso privado</p>
+      <h1>Career Agent · Beta familiar</h1>
+      <p class="intro">
+        Aníbal y Gabriel tienen espacios profesionales separados. La identidad
+        autenticada decide qué perfil se utiliza; no se puede seleccionar el
+        perfil de otra persona desde esta página.
+      </p>
+
+      <section class="card" aria-labelledby="access-title">
+        <h2 id="access-title">Tu espacio</h2>
+        <div id="google-signin"></div>
+        <button id="signout" type="button" hidden>Cerrar sesión</button>
+        <p id="status" role="status">Inicia sesión con tu cuenta invitada.</p>
+        <div id="member" hidden>
+          <dl>
+            <div><dt>Miembro</dt><dd id="member-name">—</dd></div>
+            <div><dt>Perfil</dt><dd id="profile-status">—</dd></div>
+          </dl>
+          <p id="next-step"></p>
+          <a id="open-agent" class="primary" href="../anibal/" hidden>
+            Abrir Career Agent
+          </a>
+        </div>
+      </section>
+
+      <nav aria-label="Radares familiares">
+        <a href="../">Radar de Gabriel</a>
+        <a href="../anibal/">Radar de Aníbal</a>
+      </nav>
+      <p class="privacy">
+        El token permanece únicamente en memoria durante esta pestaña. Esta
+        página no descarga perfiles ni accede directamente a Firestore.
+      </p>
+    </main>
+  </body>
+</html>
