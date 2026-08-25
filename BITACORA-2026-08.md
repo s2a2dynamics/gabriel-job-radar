@@ -44,3 +44,18 @@
 
 ### Pendiente / Próximos pasos
 - [ ] Añadir outcomes reales y mantener baja la confianza mientras haya pocas muestras.
+
+## 2026-08-25 — Portal de acceso familiar
+
+**Estado al inicio**: Radar de Aníbal autenticado; sin entrada común ni estado de Gabriel.
+
+### Qué se hizo
+- Publicado `/family/` con contexto resuelto por `/api/me`, sin selector de workspace.
+- Aníbal muestra perfil validado; Gabriel queda `onboarding_pending` sin claims inferidos.
+- PR #4, tests 9/9, escritorio 1512 px y móvil 390×844 sin overflow: PASS.
+
+### Decisiones tomadas
+- **Token en memoria**: la web no consulta Firestore ni persiste identidad o candidatura.
+
+### Pendiente / Próximos pasos
+- [ ] Confirmar correo Google de Gabriel antes de habilitar su membresía.
