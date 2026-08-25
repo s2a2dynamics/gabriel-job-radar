@@ -25,6 +25,11 @@ Tras un análisis correcto, el usuario puede crear explícitamente un dossier qu
 evidencias verificadas, cronología incompleta, validaciones pendientes y afirmaciones prohibidas.
 El dossier tampoco se persiste ni genera texto profesional libre.
 
+Career Agent v1.1 añade dos pasos explícitos posteriores: Fit objetivo y prioridad calibrada.
+La decisión muestra Fit, selection probability, priority y cada ajuste trazable. Las señales se
+revisan antes de enviarse; solo tres oportunidades documentadas tienen un prefill curado y las
+demás quedan en blanco, sin inferencia por empresa o familia AI.
+
 ```bash
 npm test
 npm run typecheck

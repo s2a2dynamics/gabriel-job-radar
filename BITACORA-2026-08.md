@@ -28,4 +28,19 @@
 - **No es un CV**: el radar muestra el inventario de evidencia antes de generar documentos.
 
 ### Pendiente / Próximos pasos
-- [ ] Validar fuentes primarias y diseñar Fit Analyzer trazable.
+- [x] Validar fuentes y publicar Fit Analyzer con decisión calibrada trazable.
+
+## 2026-08-25 — Career Agent v1.1 publicado
+
+**Estado al inicio**: Radar con Job Analysis y dossier; sin Fit ni prioridad calibrada.
+
+### Qué se hizo
+- Añadidos pasos explícitos Fit → Decision, scores y ajustes con trazabilidad visible.
+- Señales curadas solo para Telefónica, KPMG y Accenture; el resto queda sin inferencia.
+- PR #3 publicado; tests 6/6 y KPMG producción 77/62/72 desktop/móvil: PASS.
+
+### Decisiones tomadas
+- **Token en memoria**: no cambia auth ni persistencia; el Radar público sigue abierto.
+
+### Pendiente / Próximos pasos
+- [ ] Añadir outcomes reales y mantener baja la confianza mientras haya pocas muestras.
