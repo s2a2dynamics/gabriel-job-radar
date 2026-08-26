@@ -1,0 +1,138 @@
+{
+  "date": "2026-08-26",
+  "verified_official_only": true,
+  "top_priorities": [
+    {
+      "score": 95,
+      "company": "Telefonica Espana",
+      "role": "Account Specialist Data, Inteligencia Artificial y Servicios Gestionados",
+      "location": "Cataluna / Aragon (Barcelona)",
+      "status": "active",
+      "url": "https://jobs.telefonica.com/job/BARCELONA-TE_FC_ACCOUNT-SPECIALISTDATA,-INTELIGENCIA-ARTIFICIAL-Y-SERVICIOS-GESTIONADOS/1407584833/",
+      "cv": "Strategic Accounts | Data & AI | Consultative Sales | Telecom Transformation",
+      "fit": "Strong match in strategic accounts, telecom, executive customer engagement, consultative selling, transformation and AI/cloud positioning.",
+      "gap": "Location/territory is Cataluna-Aragon and direct evidence of closed Data/AI deals must be framed conservatively."
+    },
+    {
+      "score": 93,
+      "company": "Google Cloud",
+      "role": "Technical Account Manager, Google Cloud Consulting (Multiple Languages)",
+      "location": "Madrid, Spain / Warsaw, Poland",
+      "status": "active",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/80041212983026374-technical-account-manager/",
+      "cv": "Cloud Transformation | Strategic Enterprise Customers | Technology Programs | Executive Advisory",
+      "fit": "Excellent alignment with customer-facing transformation programs, engineering background, executive stakeholder management, strategic roadmaps and cloud adoption.",
+      "gap": "Role is labelled Mid and asks for cloud operations/migrations depth; Spain redeployment-eligible candidates are prioritised."
+    },
+    {
+      "score": 90,
+      "company": "KPMG Espana",
+      "role": "Director/a Inteligencia Artificial",
+      "location": "Madrid",
+      "status": "active",
+      "url": "https://carreras.kpmg.es/job/Madrid-Directora-Inteligencia-Artificial-28046/1272607901/",
+      "cv": "Executive AI Transformation | Consulting Leadership | Strategic Accounts | Business Value",
+      "fit": "Strong leadership, executive stakeholder, commercial, pre-sales and transformation fit.",
+      "gap": "Requires 10+ years specifically in Data/AI/advanced analytics consulting; do not overclaim this tenure."
+    }
+  ],
+  "recommended_verified": [
+    {
+      "score": 91,
+      "company": "Telefonica",
+      "role": "Experto en Transformacion Digital y Gobierno del Dato",
+      "location": "Madrid",
+      "status": "active",
+      "url": "https://jobs.telefonica.com/job/MADRID-Experto-en-Transformaci%C3%B3n-Digital-y-Gobierno-del-Dato-ESG-Sostenibilidad/1401300233/",
+      "cv": "Digital Transformation | Data Governance | Program Leadership | Telecom",
+      "gap": "Specific ESG/Workiva and formal data-governance depth are not core profile strengths."
+    },
+    {
+      "score": 86,
+      "company": "Amazon",
+      "role": "Sr. Technical Program Manager, Procurement",
+      "location": "Barcelona, Spain",
+      "status": "active",
+      "url": "https://www.amazon.jobs/en-gb/jobs/10479721/sr-technical-program-manager-procurement",
+      "cv": "Technical Program Leadership | AI Transformation | Cross-functional Delivery | Technology Strategy",
+      "gap": "Explicit software-development and direct software-engineering-team experience are material requirements and must be evidenced carefully."
+    },
+    {
+      "score": 84,
+      "company": "KPMG Espana",
+      "role": "Director/a Agentic AI",
+      "location": "Madrid",
+      "status": "active",
+      "url": "https://carreras.kpmg.es/job/Madrid-Directora-Agentic-AI-28046/1387768833/",
+      "cv": "AI Transformation | Agentic AI | Enterprise Architecture | Practice Leadership",
+      "gap": "Stretch after Accenture feedback: KPMG requires continuous Agentic AI experience since 2023, Practice Lead background, deep architecture and AI postgraduate qualification."
+    },
+    {
+      "score": 82,
+      "company": "Telefonica Tech",
+      "role": "Tech_Experto/a PaaS IA Services",
+      "location": "Madrid",
+      "status": "active",
+      "url": "https://jobs.telefonica.com/job/MADRID-Tech_Expertoa-Paas-IA-Services/1415171333/",
+      "cv": "Cloud & AI Architecture | APIs | Telecom Platforms | Technology Delivery",
+      "gap": "Deep MLOps, Kubernetes/OpenStack, AI serving and production-model operations are material technical gaps."
+    },
+    {
+      "score": 80,
+      "company": "AWS",
+      "role": "Customer Solutions Manager, ANZ",
+      "location": "Sydney, Australia",
+      "status": "active",
+      "url": "https://www.amazon.jobs/en/jobs/10499444/customer-solutions-manager-anz",
+      "cv": "AI & Cloud Transformation | Customer Strategy | Program Leadership | Executive Advisory",
+      "gap": "Requires Australia-based eligibility/practical mobility and strong AWS/cloud implementation evidence; certifications are preferred."
+    }
+  ],
+  "new_opportunities": [
+    "Google Cloud - Technical Account Manager, Google Cloud Consulting - Madrid/Warsaw; official page active and crawled 2026-08-26.",
+    "Amazon - Sr. Technical Program Manager, Procurement - Barcelona; official page active.",
+    "AWS - Customer Solutions Manager, ANZ - Sydney; official page active, relevant to international mobility but lower geographic priority."
+  ],
+  "closures_or_changes": [
+    {
+      "company": "SAP",
+      "role": "Head of Strategic Initiatives & Responsible Growth",
+      "change": "Official SAP page now states 'Sorry, this position has been filled.' Exclude from active radar."
+    },
+    {
+      "company": "Accenture",
+      "role": "Principal Agentic AI Transformation Lead - Hands On",
+      "change": "CRM records rejection received 2026-08-25 before interview. Closed and excluded from recommendations; outcome should calibrate highly hands-on Principal Agentic AI roles only."
+    }
+  ],
+  "follow_ups_due": [
+    {"company":"Capgemini","role":"Go-To-Market IA","due":"2026-08-26"},
+    {"company":"ServiceNow","role":"Advisory Solution Consultant, Telecommunications","due":"2026-08-26"},
+    {"company":"KPMG Espana","role":"AI Transformation Manager","due":"2026-08-24","status":"overdue"},
+    {"company":"OpenAI","role":"Applied AI Architect, Large Enterprise","due":"2026-08-25","status":"overdue"}
+  ],
+  "applied_excluded_from_attack": [
+    "AWS - Partner Solutions Architect, Agentic Next Gen Development",
+    "Telefonica Tech - Data Sales Consultant",
+    "Microsoft - AI Transformation Consulting Leader",
+    "Telefonica Espana - IA y Estrategia de Modelos de Atencion Contact Center",
+    "Telefonica Espana - Jefe de Proyectos Hiperautomatizacion & IA",
+    "Telefonica Tech - Head of Strategic Projects",
+    "Capgemini - Go-To-Market IA",
+    "ServiceNow - Advisory Solution Consultant, Telecommunications",
+    "KPMG Espana - AI Transformation Manager",
+    "OpenAI - Applied AI Architect, Large Enterprise",
+    "Accenture - Principal Agentic AI Transformation Lead - Hands On (Rejected)"
+  ],
+  "contact_suggestions": [
+    "Google TAM: target Google Cloud Consulting / Customer Engineering or TAM leadership and Google recruiting in Spain; no named hiring manager verified.",
+    "Telefonica Account Specialist: target Data & AI enterprise sales leadership and internal referral paths for Cataluna/Aragon; no named hiring manager verified.",
+    "KPMG Director AI: target Lighthouse / AI, Data & Analytics leadership and Talent Acquisition; no named hiring manager verified."
+  ],
+  "notes": [
+    "Only opportunities verified on official employer pages are marked active.",
+    "Applied opportunities are excluded from attack recommendations.",
+    "The Accenture rejection is treated as calibration evidence, not as a blanket penalty against AI roles.",
+    "Scores are directional fit assessments, not employer selection probabilities."
+  ]
+}
