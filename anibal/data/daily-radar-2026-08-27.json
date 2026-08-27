@@ -1,0 +1,66 @@
+{
+  "date": "2026-08-27",
+  "status": "verified",
+  "attack_today": [
+    {
+      "company": "Telefónica España",
+      "role": "Account Specialist Data, Inteligencia Artificial y Servicios Gestionados",
+      "location": "Cataluña / Aragón, Spain",
+      "official_url": "https://jobs.telefonica.com/job/BARCELONA-TE_FC_ACCOUNT-SPECIALISTDATA,-INTELIGENCIA-ARTIFICIAL-Y-SERVICIOS-GESTIONADOS/1407584833/",
+      "priority": "high",
+      "reason": "Strong overlap with telecom, strategic enterprise customers, consultative Data/AI sales, cloud, managed services and executive engagement."
+    },
+    {
+      "company": "SAP",
+      "role": "Technical Service Senior Manager (TSM) - ECS EMEA North",
+      "reference": "458327",
+      "location": "Madrid, Spain",
+      "posted_date": "2026-08-26",
+      "official_url": "https://jobs.sap.com/job/Madrid-SAP-Technical-Service-Senior-Manager-%28TSM%29-ECS-EMEA-North-M-28020/1430366133/",
+      "priority": "medium_stretch",
+      "reason": "Strong customer-facing cloud transformation, governance, roadmaps and escalation overlap, but mandatory hands-on SAP Basis and 7+ years SAP technical operations are material gaps."
+    },
+    {
+      "company": "Amazon",
+      "role": "Sr Technical Program Manager, GO-AI",
+      "reference": "10481821",
+      "location": "Massachusetts, USA",
+      "official_url": "https://www.amazon.jobs/es/jobs/10481821/sr-technical-program-manager-go-ai",
+      "priority": "medium_stretch",
+      "reason": "Strong AI transformation and technical program leadership scope; gaps include robotics/computer vision/model deployment and US work eligibility."
+    }
+  ],
+  "verified_recommended": [
+    "Telefónica España — Account Specialist Data, IA y Servicios Gestionados",
+    "SAP — Technical Service Senior Manager (TSM), ECS EMEA North",
+    "Amazon — Sr Technical Program Manager, GO-AI",
+    "Amazon — Principal TPM, Prime Video AI Automation",
+    "Amazon — Principal Tech Program Manager, Sponsored Ads",
+    "Capgemini Invent — Strategy and Transformation Consultant"
+  ],
+  "excluded_or_changes": [
+    {"company":"Google Cloud","role":"Technical Account Manager, Google Cloud Consulting","change":"Applied 2026-08-26; exclude from attack/recommendations and move to follow-up."},
+    {"company":"Accenture","role":"Principal Agentic AI Transformation Lead - Hands On","change":"Rejected pre-interview; closed."},
+    {"company":"SAP","role":"Head of Strategic Initiatives & Responsible Growth","change":"Previously detected as filled/closed; do not recommend."},
+    {"company":"Amazon","role":"Sr Technical Vehicle Program Manager","change":"Active but not recommended due to mandatory automotive/commercial mobility experience."}
+  ],
+  "follow_ups": [
+    {"company":"KPMG España","role":"AI Transformation Manager","due":"2026-08-24"},
+    {"company":"OpenAI","role":"Applied AI Architect, Large Enterprise","due":"2026-08-25"},
+    {"company":"Capgemini","role":"Go-To-Market IA","due":"2026-08-26"},
+    {"company":"ServiceNow","role":"Advisory Solution Consultant, Telecommunications","due":"2026-08-26"},
+    {"company":"Telefónica Tech","role":"Head of Strategic Projects","due":"2026-08-29"},
+    {"company":"Telefónica Tech","role":"Data Sales Consultant","due":"2026-08-31"},
+    {"company":"Microsoft","role":"AI Transformation Consulting Leader","due":"2026-08-31"},
+    {"company":"Telefónica España","role":"IA y Estrategia de Modelos de Atención Contact Center","due":"2026-08-31"},
+    {"company":"Telefónica España","role":"Jefe de Proyectos Hiperautomatización & IA","due":"2026-08-31"},
+    {"company":"Amazon Web Services (AWS)","role":"Partner Solutions Architect, Agentic Next Gen Development","due":"2026-09-01"},
+    {"company":"Google Cloud","role":"Technical Account Manager, Google Cloud Consulting","due":"2026-09-02"}
+  ],
+  "email": {
+    "to": "suarez.anibal@gmail.com",
+    "subject": "Radar profesional — 27/08/2026 | 3 oportunidades prioritarias",
+    "gmail_message_id": "1a041cece24d1802",
+    "sent": true
+  }
+}
