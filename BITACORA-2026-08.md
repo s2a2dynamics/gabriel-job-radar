@@ -59,3 +59,23 @@
 
 ### Pendiente / Próximos pasos
 - [ ] Confirmar correo Google de Gabriel antes de habilitar su membresía.
+
+## 2026-08-28 — Radar Gabriel: verificación estricta + C1
+
+### Qué se hizo
+- Revalidación contra páginas oficiales activas de CERN, Optiver, Jane Street, Leversys e IMC.
+- Incorporadas dos oportunidades nuevas y postulables: **IMC Graduate Quant Researcher — Digital Assets (Zug)** e **Intropic Quantitative Analyst (Client Solutions) (London)**.
+- Retirado de recomendadas **IMC Graduate Software Engineer 2027**: exige estar en último año y Gabriel terminó el Máster en julio de 2026.
+- Actualizado el perfil con **English C1 certified**: el inglés deja de ser gap y pasa a ser fortaleza; la preparación se concentra en comunicación técnica y entrevistas.
+- Actualizados `daily-verified.json`, `recommended.json`, `action-plan.json`, `application-packs.json` e `interview-simulations.json` en `main`.
+
+### Prioridades del día
+1. CERN Full-Stack Software Engineer 199 — deadline 02/09.
+2. Optiver Graduate Quantitative Researcher 2027 Start.
+3. IMC Graduate Quant Researcher — Digital Assets (Zug).
+
+### Deadlines cercanos
+- CERN Data & Reporting Specialist — **30/08/2026**: aplicar solo si puede demostrar SQL sólido.
+- CERN Full-Stack 199 — **02/09/2026**.
+- CERN 207/208 — **09/09/2026**.
+- Optiver Career Kickstarter Tech — **13/09/2026 17:00 CET**.
