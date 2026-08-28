@@ -1,0 +1,199 @@
+{
+  "date": "2026-08-28",
+  "generated_at": "2026-08-28T08:00:00+02:00",
+  "summary": {
+    "priority_count": 3,
+    "verified_recommended_count": 8,
+    "new_notable_count": 3,
+    "application_responses_since_last_run": 0,
+    "notes": "Applied opportunities in CRM are excluded from attack recommendations. Fresh verification performed against official career pages."
+  },
+  "attack_today": [
+    {
+      "rank": 1,
+      "company": "Telefónica España",
+      "role": "Account Specialist Data, Inteligencia Artificial y Servicios Gestionados",
+      "location": "Cataluña / Aragón, Spain",
+      "fit_estimate": 93,
+      "selection_probability_estimate": 82,
+      "recommendation": "attack",
+      "why": "Very strong match across strategic enterprise customers, complex consultative sales, Data/AI, cloud, managed services, executive interlocution and telecom transformation.",
+      "gaps": ["Role location is Cataluña/Aragón rather than Madrid", "Formal Data/AI governance credentials are valued but not mandatory"],
+      "cv_recommended": "Strategic Accounts | Data & AI | Cloud Transformation | Telecom",
+      "official_url": "https://jobs.telefonica.com/job/BARCELONA-TE_FC_ACCOUNT-SPECIALISTDATA%2C-INTELIGENCIA-ARTIFICIAL-Y-SERVICIOS-GESTIONADOS/1407584833/",
+      "action_center_url": "https://s2a2dynamics.github.io/gabriel-job-radar/anibal/accion.html?company=Telefonica&role=Account%20Specialist%20Data%20AI%20Servicios%20Gestionados"
+    },
+    {
+      "rank": 2,
+      "company": "Telefónica España",
+      "role": "Account Specialist Cloud",
+      "location": "Madrid, Spain",
+      "fit_estimate": 91,
+      "selection_probability_estimate": 81,
+      "recommendation": "attack",
+      "why": "Strong Madrid-based fit combining strategic account leadership, telecom, cloud transformation, consultative selling and executive customer engagement.",
+      "gaps": ["Need to foreground recent hyperscaler/cloud evidence and quantified commercial impact"],
+      "cv_recommended": "Strategic Accounts | Cloud Transformation | Enterprise Technology | Telecom",
+      "official_url": "https://jobs.telefonica.com/job/MADRID-TE_FC_ACCOUNT-SPECIALIST-CLOUD/1402503633/",
+      "action_center_url": "https://s2a2dynamics.github.io/gabriel-job-radar/anibal/accion.html?company=Telefonica&role=Account%20Specialist%20Cloud"
+    },
+    {
+      "rank": 3,
+      "company": "Salesforce",
+      "role": "Client Solution Consultant, Data Foundation",
+      "location": "London, United Kingdom",
+      "fit_estimate": 85,
+      "selection_probability_estimate": 67,
+      "recommendation": "apply",
+      "why": "Good match for C-level advisory, data/AI transformation, governance, architecture and consultative pre-sales; strong business-technology translation profile.",
+      "gaps": ["UK work authorization may be a barrier", "Direct Informatica/MuleSoft platform depth is not currently evidenced"],
+      "cv_recommended": "AI & Data Transformation | Solution Consulting | Enterprise Architecture | Strategic Customers",
+      "official_url": "https://careers.salesforce.com/en/jobs/jr341592/solution-engineer-mulesoft/",
+      "action_center_url": "https://s2a2dynamics.github.io/gabriel-job-radar/anibal/accion.html?company=Salesforce&role=Client%20Solution%20Consultant%20Data%20Foundation"
+    }
+  ],
+  "recommended_verified": [
+    {
+      "company": "ServiceNow",
+      "role": "Sr Advisory Solution Consultant",
+      "location": "Madrid, Spain",
+      "status": "active",
+      "recommendation": "stretch",
+      "fit_estimate": 74,
+      "selection_probability_estimate": 55,
+      "main_gap": "Requires 5+ years in technical pre-sales/solutions architecture ideally for a cybersecurity vendor and complex cyber SaaS sales.",
+      "official_url": "https://careers.servicenow.com/jobs/744000145754969/sr-advisory-solution-consultant/"
+    },
+    {
+      "company": "Salesforce",
+      "role": "Account Executive Digital, Edu",
+      "location": "Madrid / Barcelona, Spain",
+      "status": "active",
+      "recommendation": "apply",
+      "fit_estimate": 79,
+      "selection_probability_estimate": 63,
+      "main_gap": "Role favors quota-carrying enterprise software sales and Public Sector/Marketing & Commerce platform depth.",
+      "official_url": "https://careers.salesforce.com/en/jobs/jr342619/account-executive-digital-edu/"
+    },
+    {
+      "company": "Amazon",
+      "role": "Sr. Technical Program Manager, Procurement",
+      "location": "Spain",
+      "status": "active",
+      "recommendation": "stretch",
+      "fit_estimate": 77,
+      "selection_probability_estimate": 57,
+      "main_gap": "Explicit software-development and direct engineering-team tenure may reduce eligibility.",
+      "official_url": "https://www.amazon.jobs/en/jobs/10479721/sr-technical-program-manager-procurement"
+    },
+    {
+      "company": "Salesforce",
+      "role": "Enterprise Architect Agentforce & Data Cloud",
+      "location": "Mexico City, Mexico",
+      "status": "active",
+      "recommendation": "apply",
+      "fit_estimate": 87,
+      "selection_probability_estimate": 66,
+      "main_gap": "Direct Salesforce/Agentforce/Data Cloud enterprise platform depth needs stronger evidence.",
+      "official_url": "https://careers.salesforce.com/en/jobs/jr332855/enterprise-architect-agentforce-data-cloud-mexico/"
+    },
+    {
+      "company": "Salesforce",
+      "role": "Principal Solution Engineer - Telecommunications & Media",
+      "location": "Johannesburg, South Africa",
+      "status": "active",
+      "recommendation": "apply",
+      "fit_estimate": 86,
+      "selection_probability_estimate": 64,
+      "main_gap": "Strong telecom and pre-sales fit, but Salesforce platform-specific technical credibility and relocation/work authorization need validation.",
+      "official_url": "https://careers.salesforce.com/en/jobs/jr347020/principal-solution-engineer/"
+    },
+    {
+      "company": "Amazon",
+      "role": "Sr. Technical Program Manager, Amazon Customer Service",
+      "location": "Toronto, Canada",
+      "status": "active",
+      "recommendation": "stretch",
+      "fit_estimate": 78,
+      "selection_probability_estimate": 54,
+      "main_gap": "Requires 3+ years software development plus 5+ years TPM directly with software engineering teams; conversational AI context is attractive but tenure requirements are explicit.",
+      "official_url": "https://amazon.jobs/en/jobs/10496165/sr-technical-program-manager-amazon-customer-service"
+    },
+    {
+      "company": "SAP",
+      "role": "SAP Technical Service Senior Manager (TSM) - ECS EMEA North",
+      "location": "Madrid, Spain",
+      "status": "active",
+      "recommendation": "skip",
+      "fit_estimate": 61,
+      "selection_probability_estimate": 30,
+      "main_gap": "7+ years SAP technical administration and hands-on SAP Basis are explicit requirements.",
+      "official_url": "https://jobs.sap.com/job/Madrid-SAP-Technical-Service-Senior-Manager-%28TSM%29-ECS-EMEA-North-M-28020/1430366133/"
+    },
+    {
+      "company": "Amazon",
+      "role": "First Deployment Technical Program Manager, Robotics Delivery & Packaging Innovation",
+      "location": "Barcelona / other European hubs",
+      "status": "active",
+      "recommendation": "skip",
+      "fit_estimate": 62,
+      "selection_probability_estimate": 28,
+      "main_gap": "Bachelor's degree in Structural Engineering is listed as a basic qualification, alongside infrastructure/robotics deployment specialization.",
+      "official_url": "https://www.amazon.jobs/en/jobs/10450171/first-deployment-technical-program-manager-robotics-delivery-packaging-innovation"
+    }
+  ],
+  "new_and_changes": [
+    {
+      "type": "new",
+      "company": "ServiceNow",
+      "role": "Sr Advisory Solution Consultant",
+      "published": "2026-08-26",
+      "note": "New Madrid role; attractive customer-facing seniority but cybersecurity/Armis specialization lowers selection probability."
+    },
+    {
+      "type": "new",
+      "company": "Salesforce",
+      "role": "Advisory Solution Consultant",
+      "location": "Sydney, Australia",
+      "published": "2026-08-27",
+      "note": "Fresh APAC signal for solution-consulting demand; not prioritized today because platform specialization and migration friction reduce immediate ROI."
+    },
+    {
+      "type": "status",
+      "company": "SAP",
+      "role": "SAP Technical Service Senior Manager (TSM)",
+      "note": "Still active, but explicit SAP Basis/operations tenure keeps it in skip."
+    }
+  ],
+  "crm_exclusions": [
+    "Google Cloud - Technical Account Manager, Google Cloud Consulting",
+    "AWS - Partner Solutions Architect, Agentic Next Gen Development",
+    "Telefónica Tech - Data Sales Consultant",
+    "Microsoft - AI Transformation Consulting Leader",
+    "Telefónica España - IA y Estrategia de Modelos de Atención Contact Center",
+    "Telefónica España - Jefe de Proyectos Hiperautomatización & IA",
+    "Telefónica Tech - Head of Strategic Projects",
+    "Capgemini - Go-To-Market IA",
+    "ServiceNow - Advisory Solution Consultant, Telecommunications",
+    "KPMG España - AI Transformation Manager",
+    "OpenAI - Applied AI Architect, Large Enterprise",
+    "Accenture - Principal Agentic AI Transformation Lead - Hands On"
+  ],
+  "follow_ups": [
+    {"company":"KPMG España","role":"AI Transformation Manager","follow_up_date":"2026-08-24","status":"overdue"},
+    {"company":"OpenAI","role":"Applied AI Architect, Large Enterprise","follow_up_date":"2026-08-25","status":"overdue"},
+    {"company":"Capgemini","role":"Go-To-Market IA","follow_up_date":"2026-08-26","status":"overdue"},
+    {"company":"ServiceNow","role":"Advisory Solution Consultant, Telecommunications","follow_up_date":"2026-08-26","status":"overdue"},
+    {"company":"Telefónica Tech","role":"Head of Strategic Projects","follow_up_date":"2026-08-29","status":"upcoming"},
+    {"company":"Telefónica Tech","role":"Data Sales Consultant","follow_up_date":"2026-08-31","status":"upcoming"},
+    {"company":"Microsoft","role":"AI Transformation Consulting Leader","follow_up_date":"2026-08-31","status":"upcoming"},
+    {"company":"AWS","role":"Partner Solutions Architect, Agentic Next Gen Development","follow_up_date":"2026-09-01","status":"upcoming"},
+    {"company":"Google Cloud","role":"Technical Account Manager, Google Cloud Consulting","follow_up_date":"2026-09-02","status":"upcoming"}
+  ],
+  "email_response_check": {
+    "checked_after": "2026-08-27",
+    "material_application_responses_found": 0,
+    "note": "No new recruiting/application response detected in Gmail for the tracked employers during the checked period."
+  },
+  "crm_url": "https://s2a2dynamics.github.io/gabriel-job-radar/anibal/candidaturas.html"
+}
