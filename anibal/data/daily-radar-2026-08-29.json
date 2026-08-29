@@ -1,0 +1,206 @@
+{
+  "date": "2026-08-29",
+  "generated_at": "2026-08-29T07:58:00+02:00",
+  "summary": {
+    "priority_count": 3,
+    "verified_recommended_count": 8,
+    "new_notable_count": 2,
+    "application_responses_since_last_run": 0,
+    "notes": "Applied opportunities in CRM are excluded from attack recommendations. All active recommendations were rechecked against official employer career pages."
+  },
+  "attack_today": [
+    {
+      "rank": 1,
+      "company": "Capgemini",
+      "role": "AI Growth Lead",
+      "reference": "479693",
+      "location": "Madrid, Spain",
+      "fit_estimate": 92,
+      "selection_probability_estimate": 73,
+      "recommendation": "attack",
+      "why": "Exceptionally strong strategic match: C-suite trusted advisory, country AI GTM, multi-year AI transformation roadmaps, strategic accounts, hyperscaler ecosystem orchestration and complex deal leadership.",
+      "gaps": ["Vacancy asks for extensive formal AI/data/technology consulting or professional-services experience", "Existing hyperscaler partner relationships and relevant cloud/AI certifications are explicitly valued", "Need quantified evidence of large strategic deals/pipeline/revenue"],
+      "cv_recommended": "AI Transformation & GTM | Strategic Enterprise Accounts | C-suite Advisory | Cloud & Telecom",
+      "official_url": "https://careers.capgemini.com/job/Madrid-AI-Growth-Lead/1394003433/",
+      "action_center_url": "https://s2a2dynamics.github.io/gabriel-job-radar/anibal/accion.html?company=Capgemini&role=AI%20Growth%20Lead&ref=479693"
+    },
+    {
+      "rank": 2,
+      "company": "Telefónica España",
+      "role": "Account Specialist Data, Inteligencia Artificial y Servicios Gestionados",
+      "location": "Cataluña / Aragón, Spain",
+      "fit_estimate": 93,
+      "selection_probability_estimate": 82,
+      "recommendation": "attack",
+      "why": "Very strong fit across strategic enterprise customers, consultative selling, Data/AI, cloud, managed services, executive interlocution and telecom transformation.",
+      "gaps": ["Role territory is Cataluña/Aragón rather than Madrid", "Data/AI governance certifications are valued", "Need to foreground recent Data/AI sales and governance evidence"],
+      "cv_recommended": "Strategic Accounts | Data & AI | Cloud Transformation | Telecom",
+      "official_url": "https://jobs.telefonica.com/job/BARCELONA-TE_FC_ACCOUNT-SPECIALISTDATA%2C-INTELIGENCIA-ARTIFICIAL-Y-SERVICIOS-GESTIONADOS/1407584833/",
+      "action_center_url": "https://s2a2dynamics.github.io/gabriel-job-radar/anibal/accion.html?company=Telefonica&role=Account%20Specialist%20Data%20AI%20Servicios%20Gestionados"
+    },
+    {
+      "rank": 3,
+      "company": "Telefónica España",
+      "role": "Account Specialist Cloud",
+      "location": "Madrid, Spain",
+      "fit_estimate": 91,
+      "selection_probability_estimate": 81,
+      "recommendation": "attack",
+      "why": "Strong Madrid fit combining strategic account leadership, telecom, cloud transformation, complex consultative sales and executive customer engagement.",
+      "gaps": ["Architecture/security/network cloud certifications are valued", "Need to foreground recent hyperscaler/cloud evidence and quantified commercial impact"],
+      "cv_recommended": "Strategic Accounts | Cloud Transformation | Enterprise Technology | Telecom",
+      "official_url": "https://jobs.telefonica.com/job/MADRID-TE_FC_ACCOUNT-SPECIALIST-CLOUD/1402503633/",
+      "action_center_url": "https://s2a2dynamics.github.io/gabriel-job-radar/anibal/accion.html?company=Telefonica&role=Account%20Specialist%20Cloud"
+    }
+  ],
+  "recommended_verified": [
+    {
+      "company": "Salesforce",
+      "role": "Client Solution Consultant, Data Foundation",
+      "location": "London, United Kingdom",
+      "status": "active",
+      "recommendation": "apply",
+      "fit_estimate": 85,
+      "selection_probability_estimate": 67,
+      "main_gap": "Direct hands-on data-governance/catalog tooling and UK work authorization are the main barriers.",
+      "official_url": "https://careers.salesforce.com/en/jobs/jr341592/solution-engineer-mulesoft/"
+    },
+    {
+      "company": "ServiceNow",
+      "role": "Sr Advisory Solution Consultant",
+      "location": "Madrid, Spain",
+      "status": "active",
+      "recommendation": "stretch",
+      "fit_estimate": 74,
+      "selection_probability_estimate": 55,
+      "main_gap": "Role is specialized in Armis/cybersecurity and asks for 5+ years of technical pre-sales plus complex cybersecurity SaaS sales.",
+      "official_url": "https://careers.servicenow.com/jobs/744000145754969/sr-advisory-solution-consultant/"
+    },
+    {
+      "company": "Amazon",
+      "role": "Sr. Technical Program Manager, Procurement",
+      "location": "Spain",
+      "status": "active",
+      "recommendation": "stretch",
+      "fit_estimate": 77,
+      "selection_probability_estimate": 57,
+      "main_gap": "Explicit software-development and direct engineering-team tenure may reduce eligibility despite strong program/transformation overlap.",
+      "official_url": "https://www.amazon.jobs/en/jobs/10479721/sr-technical-program-manager-procurement"
+    },
+    {
+      "company": "Capgemini Invent",
+      "role": "AI Strategist - Managing Consultant / Senior Manager",
+      "location": "London / Manchester / Glasgow, United Kingdom",
+      "status": "active",
+      "recommendation": "apply",
+      "fit_estimate": 88,
+      "selection_probability_estimate": 65,
+      "main_gap": "Formal AI strategy consulting tenure and UK work authorization are material selection barriers.",
+      "official_url": "https://careers.capgemini.com/job/London-AI-Strategist-Managing-Consultant-Senior-Manager/1403499633/"
+    },
+    {
+      "company": "Capgemini Invent",
+      "role": "Senior Consultant - AI Strategy & Governance",
+      "location": "Milan, Italy",
+      "status": "active",
+      "recommendation": "apply",
+      "fit_estimate": 82,
+      "selection_probability_estimate": 65,
+      "main_gap": "Direct AI governance consulting tenure and Italian-language/local-market expectations need validation.",
+      "official_url": "https://careers.capgemini.com/job/Milano-Senior-Consultant-AI-Strategy-%26-Governance/1414547633/"
+    },
+    {
+      "company": "Amazon Web Services",
+      "role": "Customer Solutions Manager, ANZ",
+      "location": "Australia / New Zealand",
+      "status": "active",
+      "recommendation": "apply",
+      "fit_estimate": 87,
+      "selection_probability_estimate": 60,
+      "main_gap": "AWS certification and ANZ work authorization/mobility are the main barriers; role otherwise matches customer-facing transformation leadership well.",
+      "official_url": "https://prod.gamma.amazon.jobs/de/jobs/10490038/customer-solutions-manager-anz"
+    },
+    {
+      "company": "Amazon",
+      "role": "Sr. Technical Program Manager, Amazon Customer Service",
+      "location": "Toronto, Canada",
+      "status": "active",
+      "recommendation": "stretch",
+      "fit_estimate": 78,
+      "selection_probability_estimate": 54,
+      "main_gap": "Requires 3+ years software development and 5+ years TPM directly with software engineering teams.",
+      "official_url": "https://amazon.jobs/en/jobs/10496165/sr-technical-program-manager-amazon-customer-service"
+    },
+    {
+      "company": "Amazon",
+      "role": "Sr. Technical Program Manager, Applied AI Solutions Finance",
+      "location": "United States",
+      "status": "active",
+      "recommendation": "stretch",
+      "fit_estimate": 84,
+      "selection_probability_estimate": 50,
+      "main_gap": "Strong AI-transformation narrative fit, but US work authorization and formal engineering/TPM depth materially reduce practical eligibility.",
+      "official_url": "https://www.amazon.jobs/fr/jobs/10485270/sr-technical-program-manager-applied-ai-solutions-finance-aws-applied-ai-solutions-finance"
+    }
+  ],
+  "new_and_changes": [
+    {
+      "type": "new_priority",
+      "company": "Capgemini",
+      "role": "AI Growth Lead",
+      "published": "2026-08-10",
+      "note": "Official page remains active. Promoted to #1 today because the country-level AI GTM/C-suite advisory remit maps unusually well to the target positioning; distinct from the already-applied Capgemini Go-To-Market IA requisition."
+    },
+    {
+      "type": "fresh_market_signal",
+      "company": "Amazon Web Services",
+      "role": "Customer Solutions Manager, ANZ",
+      "note": "Official listing remains active and confirms demand in Australia for customer-facing cloud transformation leaders spanning business cases, executive engagement and multi-domain technology knowledge."
+    },
+    {
+      "type": "status",
+      "company": "Telefónica Tech",
+      "role": "Head of Strategic Projects",
+      "note": "Official posting remains active, but it is already in CRM as Applied and therefore excluded from attack recommendations. Follow-up date is today."
+    }
+  ],
+  "crm_exclusions": [
+    "Google Cloud - Technical Account Manager, Google Cloud Consulting",
+    "AWS - Partner Solutions Architect, Agentic Next Gen Development",
+    "Telefónica Tech - Data Sales Consultant",
+    "Microsoft - AI Transformation Consulting Leader",
+    "Telefónica España - IA y Estrategia de Modelos de Atención Contact Center",
+    "Telefónica España - Jefe de Proyectos Hiperautomatización & IA",
+    "Telefónica Tech - Head of Strategic Projects",
+    "Capgemini - Go-To-Market IA",
+    "ServiceNow - Advisory Solution Consultant, Telecommunications",
+    "KPMG España - AI Transformation Manager",
+    "OpenAI - Applied AI Architect, Large Enterprise",
+    "Accenture - Principal Agentic AI Transformation Lead - Hands On"
+  ],
+  "follow_ups": [
+    {"company":"KPMG España","role":"AI Transformation Manager","follow_up_date":"2026-08-24","status":"overdue"},
+    {"company":"OpenAI","role":"Applied AI Architect, Large Enterprise","follow_up_date":"2026-08-25","status":"overdue"},
+    {"company":"Capgemini","role":"Go-To-Market IA","follow_up_date":"2026-08-26","status":"overdue"},
+    {"company":"ServiceNow","role":"Advisory Solution Consultant, Telecommunications","follow_up_date":"2026-08-26","status":"overdue"},
+    {"company":"Telefónica Tech","role":"Head of Strategic Projects","follow_up_date":"2026-08-29","status":"due_today"},
+    {"company":"Telefónica Tech","role":"Data Sales Consultant","follow_up_date":"2026-08-31","status":"upcoming"},
+    {"company":"Microsoft","role":"AI Transformation Consulting Leader","follow_up_date":"2026-08-31","status":"upcoming"},
+    {"company":"Telefónica España","role":"IA y Estrategia de Modelos de Atención Contact Center","follow_up_date":"2026-08-31","status":"upcoming"},
+    {"company":"Telefónica España","role":"Jefe de Proyectos Hiperautomatización & IA","follow_up_date":"2026-08-31","status":"upcoming"},
+    {"company":"AWS","role":"Partner Solutions Architect, Agentic Next Gen Development","follow_up_date":"2026-09-01","status":"upcoming"},
+    {"company":"Google Cloud","role":"Technical Account Manager, Google Cloud Consulting","follow_up_date":"2026-09-02","status":"upcoming"}
+  ],
+  "email_response_check": {
+    "checked_after": "2026-08-28",
+    "material_application_responses_found": 0,
+    "note": "No new material recruiting/application response detected in Gmail for tracked employers during the checked period."
+  },
+  "market_signals": [
+    "Capgemini AI Growth Lead explicitly rewards C-suite AI advisory, GTM ownership, hyperscaler ecosystem orchestration and strategic deal leadership.",
+    "Telefónica Data/AI Specialist explicitly values Data/AI governance credentials, cloud architectures and complex B2B Data/AI sales.",
+    "AWS Customer Solutions Manager ANZ values large-scale transformation leadership plus multi-domain cloud knowledge; AWS certifications are preferred rather than always mandatory.",
+    "Amazon TPM roles continue to expose the recurring eligibility gap: explicit software-development tenure and direct work with software engineering teams."
+  ],
+  "crm_url": "https://s2a2dynamics.github.io/gabriel-job-radar/anibal/candidaturas.html"
+}
