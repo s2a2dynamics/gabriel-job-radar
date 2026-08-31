@@ -1,0 +1,86 @@
+{
+  "date": "2026-08-31",
+  "generated_at": "2026-08-31T07:57:00+02:00",
+  "summary": {
+    "priority_count": 3,
+    "verified_recommended_count": 8,
+    "application_responses_since_last_run": 0,
+    "notes": "Capgemini AI Growth Lead and Telefonica Account Specialist Cloud were submitted on 30 Aug and are excluded from attack recommendations. No material recruiting response found in Gmail since the prior run."
+  },
+  "attack_today": [
+    {
+      "rank": 1,
+      "company": "Telefónica España",
+      "role": "Account Executive Grandes Clientes - Territorio Centro",
+      "reference": "1402333733",
+      "location": "Madrid / Valencia, Spain",
+      "fit_estimate": 90,
+      "selection_probability_estimate": 80,
+      "recommendation": "attack",
+      "why": "Strong direct overlap with strategic enterprise account ownership, telecom, consultative selling, executive customer management, proposal orchestration and digital transformation.",
+      "cv_recommended": "Strategic Enterprise Accounts | Telecom & Cloud Transformation | Executive Customer Leadership",
+      "official_url": "https://jobs.telefonica.com/job/MADRID-TE_FC_ACCOUNT-EXECUTIVE-GRANDES-CLIENTES-TERRITORIO-CENTRO/1402333733/",
+      "action_center_url": "https://s2a2dynamics.github.io/gabriel-job-radar/anibal/accion.html?company=Telefonica&role=Account%20Executive%20Grandes%20Clientes&ref=1402333733"
+    },
+    {
+      "rank": 2,
+      "company": "Telefónica",
+      "role": "Experto en Transformación Digital y Gobierno del Dato",
+      "reference": "1401300233",
+      "location": "Madrid, Spain",
+      "fit_estimate": 86,
+      "selection_probability_estimate": 72,
+      "recommendation": "attack",
+      "why": "Good transformation/governance bridge role in Madrid with cross-functional technology-business coordination; AI/data-governance narrative should be foregrounded.",
+      "cv_recommended": "Digital Transformation | Data & AI Governance | Technology Strategy | Program Leadership",
+      "official_url": "https://jobs.telefonica.com/job/MADRID-Experto-en-Transformaci%C3%B3n-Digital-y-Gobierno-del-Dato-ESG-Sostenibilidad/1401300233/",
+      "action_center_url": "https://s2a2dynamics.github.io/gabriel-job-radar/anibal/accion.html?company=Telefonica&role=Experto%20Transformacion%20Digital%20Gobierno%20Dato&ref=1401300233"
+    },
+    {
+      "rank": 3,
+      "company": "AWS Australia",
+      "role": "Customer Solutions Manager, ANZ",
+      "reference": "10490038",
+      "location": "Sydney / Melbourne, Australia",
+      "fit_estimate": 91,
+      "selection_probability_estimate": 62,
+      "recommendation": "attack_if_mobility_viable",
+      "why": "Role is unusually close to the target positioning: senior trusted advisor, AI/cloud transformation strategy, end-to-end execution, change/adoption/governance and measurable business outcomes. Mobility/work authorization is the main practical barrier.",
+      "cv_recommended": "AI & Cloud Transformation | Strategic Customer Programs | Technology Leadership | Value Realization",
+      "official_url": "https://amazon.jobs/en/jobs/10490038/customer-solutions-manager-anz",
+      "action_center_url": "https://s2a2dynamics.github.io/gabriel-job-radar/anibal/accion.html?company=AWS&role=Customer%20Solutions%20Manager%20ANZ&ref=10490038"
+    }
+  ],
+  "recommended_verified": [
+    {"company":"Telefónica","role":"Jefe de Medios - IA","reference":"1415292533","location":"Madrid, Spain","status":"active","recommendation":"review","official_url":"https://jobs.telefonica.com/job/MADRID-Jefe-de-Medios-IA/1415292533/"},
+    {"company":"Telefónica","role":"TIS Service Manager - Hyperscaler Customers","reference":"1233236201","location":"Madrid, Spain","status":"active","recommendation":"apply","official_url":"https://jobs.telefonica.com/job/MADRID-TIS_Service-Manager/1233236201/"},
+    {"company":"Telefónica Tech","role":"Arquitecto/a de Sistemas TI & Cloud","reference":"1398735833","location":"Madrid, Spain","status":"active","recommendation":"stretch","official_url":"https://jobs.telefonica.com/job/MADRID-Tech_Arquitectoa-de-Sistemas-TI-%26-Cloud/1398735833/"},
+    {"company":"ServiceNow","role":"Sr Advisory Solution Consultant","reference":"JB0074888","location":"Madrid, Spain","status":"active","recommendation":"stretch","official_url":"https://careers.servicenow.com/jobs/744000145754969/sr-advisory-solution-consultant/"},
+    {"company":"Capgemini Invent","role":"AI Strategist - Managing Consultant / Senior Manager","reference":"498574","location":"London / Glasgow / Manchester, UK","status":"active","recommendation":"apply_if_uk_eligibility","official_url":"https://careers.capgemini.com/job/London-AI-Strategist-Managing-Consultant-Senior-Manager/1403499633/"},
+    {"company":"Capgemini Invent","role":"Director - Data & AI (Telecoms & Media Sector)","reference":"411145","location":"London / Manchester, UK","status":"active","recommendation":"stretch","official_url":"https://careers.capgemini.com/job/London-Director-Data-%26-AI-%28Telecoms-%26-Media-Sector%29/1290463101/"},
+    {"company":"AWS Canada","role":"Customer Solutions Manager - AI-Migrations and Modernizations, Canada Public Sector Federal","reference":"10467832","location":"Canada","status":"active","recommendation":"low_priority_due_language_and_public_sector_constraints","official_url":"https://www.amazon.jobs/en/jobs/10467832/customer-solutions-manager-ai-migrations-and-modernizations-canada-public-sector-federal"},
+    {"company":"AWS","role":"Principal Customer Solutions Manager, Strategic Accounts","reference":"10507214","location":"USA","status":"active","recommendation":"stretch","official_url":"https://www.amazon.jobs/en/jobs/10507214/principal-customer-solutions-manager-strategic-accounts"}
+  ],
+  "new_and_changes": [
+    {"type":"crm_change","company":"Capgemini","role":"AI Growth Lead","note":"Applied on 30 Aug 2026; removed from attack recommendations."},
+    {"type":"crm_change","company":"Telefónica España","role":"Account Specialist Cloud","note":"Applied on 30 Aug 2026; removed from attack recommendations."},
+    {"type":"fresh_market_signal","company":"Telefónica España","role":"Ingeniería Senior de Seguridad Cloud (GCP)","reference":"1399266733","published":"2026-08-27","note":"Fresh Madrid cloud role, but not recommended because it is substantially more hands-on security engineering than the target positioning."}
+  ],
+  "follow_ups": [
+    {"company":"KPMG España","role":"AI Transformation Manager","follow_up_date":"2026-08-24","status":"overdue"},
+    {"company":"OpenAI","role":"Applied AI Architect, Large Enterprise","follow_up_date":"2026-08-25","status":"overdue"},
+    {"company":"Capgemini","role":"Go-To-Market IA","follow_up_date":"2026-08-26","status":"overdue"},
+    {"company":"ServiceNow","role":"Advisory Solution Consultant, Telecommunications","follow_up_date":"2026-08-26","status":"overdue"},
+    {"company":"Telefónica Tech","role":"Head of Strategic Projects","follow_up_date":"2026-08-29","status":"overdue"},
+    {"company":"Telefónica Tech","role":"Data Sales Consultant","follow_up_date":"2026-08-31","status":"due_today"},
+    {"company":"Microsoft","role":"AI Transformation Consulting Leader","follow_up_date":"2026-08-31","status":"due_today"},
+    {"company":"Telefónica España","role":"IA y Estrategia de Modelos de Atención Contact Center","follow_up_date":"2026-08-31","status":"due_today"},
+    {"company":"Telefónica España","role":"Jefe de Proyectos Hiperautomatización & IA","follow_up_date":"2026-08-31","status":"due_today"},
+    {"company":"AWS","role":"Partner Solutions Architect, Agentic Next Gen Development","follow_up_date":"2026-09-01","status":"due_tomorrow"},
+    {"company":"Google Cloud","role":"Technical Account Manager, Google Cloud Consulting","follow_up_date":"2026-09-02","status":"upcoming"},
+    {"company":"Capgemini","role":"AI Growth Lead","follow_up_date":"2026-09-07","status":"upcoming"},
+    {"company":"Telefónica España","role":"Account Specialist Cloud","follow_up_date":"2026-09-07","status":"upcoming"}
+  ],
+  "email_response_check": {"checked_after":"2026-08-30","material_application_responses_found":0,"note":"No material recruiting/application response found in Gmail; only unrelated Google Cloud operational alert matched the broad search."},
+  "crm_url": "https://s2a2dynamics.github.io/gabriel-job-radar/anibal/candidaturas.html"
+}
