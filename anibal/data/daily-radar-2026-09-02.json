@@ -1,0 +1,124 @@
+{
+  "date": "2026-09-02",
+  "generated_at": "2026-09-02T08:03:00+02:00",
+  "summary": {
+    "priority_count": 3,
+    "verified_recommended_count": 8,
+    "new_notable_count": 3,
+    "application_responses_since_last_run": 0,
+    "notes": "Priority roles were rechecked on official employer pages. Existing CRM applications remain excluded. No material recruiting/application response was found in Gmail since the prior run."
+  },
+  "attack_today": [
+    {
+      "rank": 1,
+      "company": "AWS",
+      "role": "Customer Solutions Manager, Automotive & Manufacturing",
+      "reference": "10515273",
+      "location": "Madrid, Spain",
+      "fit": 89,
+      "selection_probability": 76,
+      "gap_risk": 30,
+      "gap_closability": 78,
+      "recommendation": "attack",
+      "why": "Strong strategy-to-execution match: enterprise IT, large technical programs, business cases, measurable customer benefits, customer-facing leadership, cloud adoption and cross-functional orchestration.",
+      "gaps": [
+        {"type":"transferable","gap":"Automotive/manufacturing domain depth is not central to the profile, but is not a basic qualification."},
+        {"type":"missing","gap":"AWS or other cloud certification is preferred."},
+        {"type":"partial","gap":"CV still needs stronger quantified evidence of business cases, customer outcomes, efficiency gains and program scale."}
+      ],
+      "gap_roi": "very_high",
+      "cv_recommended": "Enterprise Technology Transformation | Strategic Customer Programs | Cloud & AI Adoption | Value Realization",
+      "official_url": "https://www.amazon.jobs/en/jobs/10515273/customer-solutions-manager-automotive-manufacturing",
+      "action_center_url": "https://s2a2dynamics.github.io/gabriel-job-radar/anibal/accion.html?company=AWS&role=Customer%20Solutions%20Manager%20Automotive%20Manufacturing&ref=10515273"
+    },
+    {
+      "rank": 2,
+      "company": "Telefónica España",
+      "role": "Account Executive Grandes Clientes - Territorio Centro",
+      "reference": "1402333733",
+      "location": "Madrid / Valencia, Spain",
+      "fit": 90,
+      "selection_probability": 82,
+      "gap_risk": 22,
+      "gap_closability": 84,
+      "recommendation": "attack",
+      "why": "Excellent overlap with strategic enterprise accounts, telecom, consultative selling, executive customer management, opportunity orchestration, retention and revenue responsibility.",
+      "gaps": [
+        {"type":"partial","gap":"Recent quantified revenue, new-sales, customer-satisfaction and account-growth evidence is not yet reconstructed."},
+        {"type":"transferable","gap":"Current Telefónica portfolio depth across cloud, security, workplace and digital business should be refreshed before interview."}
+      ],
+      "gap_roi": "very_high",
+      "cv_recommended": "Strategic Enterprise Accounts | Telecom & Cloud Transformation | Executive Customer Leadership | Commercial Growth",
+      "official_url": "https://jobs.telefonica.com/job/MADRID-TE_FC_ACCOUNT-EXECUTIVE-GRANDES-CLIENTES-TERRITORIO-CENTRO/1402333733/",
+      "action_center_url": "https://s2a2dynamics.github.io/gabriel-job-radar/anibal/accion.html?company=Telefonica&role=Account%20Executive%20Grandes%20Clientes&ref=1402333733"
+    },
+    {
+      "rank": 3,
+      "company": "Telefónica",
+      "role": "Experto en Transformación Digital y Gobierno del Dato ESG - Sostenibilidad",
+      "reference": "1401300233",
+      "location": "Madrid, Spain",
+      "fit": 86,
+      "selection_probability": 71,
+      "gap_risk": 38,
+      "gap_closability": 70,
+      "recommendation": "attack",
+      "why": "Good bridge between end-to-end technology projects, data governance, process improvement, technology evolution, stakeholder management and digital transformation.",
+      "gaps": [
+        {"type":"partial","gap":"Documented data-governance experience is weaker than the explicit role emphasis."},
+        {"type":"missing","gap":"Workiva and ESG/sustainability reporting experience are not currently evidenced."},
+        {"type":"transferable","gap":"Technology-program leadership, analytics/AI fluency and process transformation transfer directly."}
+      ],
+      "gap_roi": "high",
+      "cv_recommended": "Digital Transformation | Data & AI Governance | Technology Strategy | Program Leadership",
+      "official_url": "https://jobs.telefonica.com/job/MADRID-Experto-en-Transformaci%C3%B3n-Digital-y-Gobierno-del-Dato-ESG-Sostenibilidad/1401300233/",
+      "action_center_url": "https://s2a2dynamics.github.io/gabriel-job-radar/anibal/accion.html?company=Telefonica&role=Experto%20Transformacion%20Digital%20Gobierno%20Dato&ref=1401300233"
+    }
+  ],
+  "recommended_verified": [
+    {"company":"Accenture","role":"Senior Manager | Product Mid-Market | Business Consulting","reference":"R00348379","location":"Spain - multiple cities including Madrid","status":"active","recommendation":"stretch","fit":84,"selection_probability":58,"gap_risk":50,"gap_closability":38,"main_gap":"Strong C-level, business development, GenAI and transformation overlap, but the role requires sector experience in Agrifood, Automotive Suppliers, Retail or Life Sciences and prior business/technology consulting experience.","official_url":"https://www.accenture.com/es-es/careers/jobdetails?id=R00348379_es"},
+    {"company":"Accenture","role":"GCC Strategy & Transformation Senior Manager","reference":"R00346164","location":"Madrid, Spain","status":"active","recommendation":"stretch","fit":86,"selection_probability":63,"gap_risk":48,"gap_closability":42,"main_gap":"Explicit 8-12 years in consulting remains a structural screening risk despite strong C-suite, transformation, AI-enabled reinvention and business-development overlap.","official_url":"https://www.accenture.com/es-es/careers/jobdetails?id=R00346164_es"},
+    {"company":"Accenture","role":"Strategy Manager - Workforce & Organizational Transformation","reference":"14620940","location":"Madrid, Spain","status":"active","recommendation":"low_priority_stretch","fit":75,"selection_probability":48,"gap_risk":55,"gap_closability":35,"main_gap":"Requires 6+ years specifically in workforce, talent, organizational design, HR transformation or enterprise change; this is not central to the current evidence base.","official_url":"https://www.accenture.com/es-es/careers/jobdetails?id=14620940_es"},
+    {"company":"ServiceNow","role":"Sr Advisory Solution Consultant","reference":"JB0074888","location":"Madrid, Spain","status":"active","recommendation":"stretch","fit":74,"selection_probability":55,"gap_risk":46,"gap_closability":52,"main_gap":"Role is centered on Armis/cybersecurity technical pre-sales, which is outside the strongest telecom + AI/cloud transformation lane.","official_url":"https://careers.servicenow.com/jobs/744000145754969/sr-advisory-solution-consultant/"},
+    {"company":"Telefónica Tech","role":"Arquitecto de integración técnica y de datos - Technical Integration and Data Architect","reference":"1410764633","location":"Madrid, Spain","status":"active","recommendation":"stretch","fit":79,"selection_probability":57,"gap_risk":47,"gap_closability":60,"main_gap":"Strong strategic architecture relevance, but the vacancy expects deeper recent middleware, integration, enterprise architecture and cloud-native data-platform evidence.","official_url":"https://jobs.telefonica.com/job/MADRID-Arquitecto-de-integraci%C3%B3n-t%C3%A9cnica-y-de-datos-Technical-Integration-and-Data-Architect-M/1410764633/"},
+    {"company":"Capgemini","role":"Arquitecto de Soluciones Senior - Práctica C&CA","location":"Madrid, Spain","status":"active","recommendation":"stretch","fit":78,"selection_probability":55,"gap_risk":48,"gap_closability":62,"main_gap":"Requires 7+ years software/solution architecture, 3+ years as technical architect/lead and solid Azure/AWS, microservices, containers and DevOps depth.","official_url":"https://careers.capgemini.com/job/Madrid-Arquitecto-de-Soluciones-Senior-Pr%C3%A1ctica-C%26CA/1402361133/"},
+    {"company":"AWS France","role":"Sr. Customer Solutions Manager, AGS France CSM","reference":"10376768","location":"France","status":"active","recommendation":"international_watchlist","fit":89,"selection_probability":58,"gap_risk":40,"gap_closability":58,"main_gap":"Excellent large-enterprise cloud-transformation fit; French/local-market expectations and location practicality remain the key barriers.","official_url":"https://www.amazon.jobs/en/jobs/10376768/sr-customer-solutions-manager-ags-france-csm"},
+    {"company":"AWS Australia","role":"Customer Solutions Manager, ANZ","reference":"10490038","location":"Sydney / Melbourne, Australia","status":"active","recommendation":"international_watchlist","fit":91,"selection_probability":62,"gap_risk":42,"gap_closability":35,"main_gap":"Role strongly matches AI/cloud transformation and strategic customer programs; mobility/work authorization is the practical barrier.","official_url":"https://amazon.jobs/en/jobs/10490038/customer-solutions-manager-anz"}
+  ],
+  "new_and_changes": [
+    {"type":"new_to_radar","company":"Accenture","role":"Senior Manager | Product Mid-Market | Business Consulting","reference":"R00348379","note":"Newly surfaced senior Spain role with strong C-level, consultative growth, transformation and GenAI responsibilities; held as stretch because sector experience is an explicit must-have."},
+    {"type":"new_to_radar","company":"Accenture","role":"Strategy Manager - Workforce & Organizational Transformation","reference":"14620940","note":"New Madrid strategy role. Useful market signal for AI-enabled transformation, but not a priority because the role is explicitly workforce/organization-specialist."},
+    {"type":"market_signal","company":"Accenture","role":"Manager Generative AI | LLM & Agentic AI","reference":"R00347716","note":"Active Madrid role confirms strong demand for GenAI/Agentic leadership, but it requires hands-on Azure OpenAI, RAG and LangGraph delivery depth; keep as gap signal rather than attack role."},
+    {"type":"crm_exclusion","company":"Telefónica España","role":"Account Specialist Cloud","note":"Already Applied on 30 Aug 2026; excluded from attack recommendations."},
+    {"type":"crm_exclusion","company":"Capgemini","role":"AI Growth Lead","note":"Already Applied on 30 Aug 2026; excluded from attack recommendations."}
+  ],
+  "gap_analysis_closure": {
+    "top_3": [
+      {"gap":"Quantified enterprise/commercial impact evidence","classification":"partial","gap_roi":"very_high","horizon":"30 days","market_evidence":"Telefónica Account Executive is managed on revenue/new sales/customer satisfaction; AWS CSM explicitly requires business-case development and measurable customer benefits.","action_today":"Reconstruct Nokia/Telefónica evidence: account scope, contract/revenue ranges, proposals/RFPs, team scale and business/customer outcomes using only confirmed values or defensible ranges.","roles_benefited":["Telefónica Account Executive Grandes Clientes","AWS CSM Madrid","Google Cloud TAM","Capgemini/Accenture transformation roles"],"selection_probability_effect":"No numeric delta assigned; comparable outcomes are still insufficient."},
+      {"gap":"Formal cloud/AI credentials","classification":"missing","gap_roi":"high","horizon":"30-90 days","market_evidence":"AWS CSM prefers cloud certification; multiple cloud/architecture roles explicitly value or require hyperscaler and cloud-native certifications.","action_today":"Continue the official Google Cloud Generative AI Leader path and record actual completed modules; do not estimate progress.","roles_benefited":["Google Cloud","AWS","Telefónica Cloud","Capgemini AI/Cloud"],"selection_probability_effect":"No numeric delta assigned until outcome data support one."},
+      {"gap":"Recent hands-on AI/cloud architecture evidence","classification":"partial","gap_roi":"high","horizon":"30-60 days","market_evidence":"Accenture GenAI Manager and Capgemini architecture roles require production-level RAG/agentic/cloud-native/API evidence; strategic roles increasingly value technical credibility even when not pure engineering.","action_today":"Advance one portfolio artifact that proves API + GenAI + deployment + observability; publish architecture and measurable technical evidence when ready.","roles_benefited":["AWS CSM","Google Cloud TAM","Accenture AI transformation","Capgemini AI/Cloud"],"selection_probability_effect":"Expected to improve technical credibility, but no defensible numeric delta yet."}
+    ],
+    "structural_gap":"Major-consulting tenure and consulting-revenue history remain structural for some Accenture/Capgemini Invent roles; solve via selective targeting and evidence-backed consulting narrative, not credential accumulation."
+  },
+  "follow_ups": [
+    {"company":"KPMG España","role":"AI Transformation Manager","follow_up_date":"2026-08-24","status":"overdue"},
+    {"company":"OpenAI","role":"Applied AI Architect, Large Enterprise","follow_up_date":"2026-08-25","status":"overdue"},
+    {"company":"Capgemini","role":"Go-To-Market IA","follow_up_date":"2026-08-26","status":"overdue"},
+    {"company":"ServiceNow","role":"Advisory Solution Consultant, Telecommunications","follow_up_date":"2026-08-26","status":"overdue"},
+    {"company":"Telefónica Tech","role":"Head of Strategic Projects","follow_up_date":"2026-08-29","status":"overdue"},
+    {"company":"Telefónica Tech","role":"Data Sales Consultant","follow_up_date":"2026-08-31","status":"overdue"},
+    {"company":"Microsoft","role":"AI Transformation Consulting Leader","follow_up_date":"2026-08-31","status":"overdue"},
+    {"company":"Telefónica España","role":"IA y Estrategia de Modelos de Atención Contact Center","follow_up_date":"2026-08-31","status":"overdue"},
+    {"company":"Telefónica España","role":"Jefe de Proyectos Hiperautomatización & IA","follow_up_date":"2026-08-31","status":"overdue"},
+    {"company":"AWS","role":"Partner Solutions Architect, Agentic Next Gen Development","follow_up_date":"2026-09-01","status":"overdue"},
+    {"company":"Google Cloud","role":"Technical Account Manager, Google Cloud Consulting","follow_up_date":"2026-09-02","status":"due_today"},
+    {"company":"Telefónica España","role":"Account Specialist Cloud","follow_up_date":"2026-09-07","status":"upcoming"},
+    {"company":"Capgemini","role":"AI Growth Lead","follow_up_date":"2026-09-07","status":"upcoming"}
+  ],
+  "email_response_check": {
+    "checked_window": "since 2026-09-01",
+    "material_application_responses_found": 0,
+    "note": "Only Google Cloud/Workspace billing and operational alerts were found; no material recruiting/application response from tracked employers was detected."
+  },
+  "crm_url": "https://s2a2dynamics.github.io/gabriel-job-radar/anibal/candidaturas.html"
+}
