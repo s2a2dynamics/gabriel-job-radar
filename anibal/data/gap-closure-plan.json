@@ -1,12 +1,13 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-09-01",
+  "last_updated": "2026-09-03",
   "strategy": "Technology Leadership + AI/Cloud Transformation + Telecom/Enterprise + Strategic Customer + Strategy-to-Execution",
   "principles": [
-    "Prioritize gaps that recur across target roles and can improve screening evidence within 30-90 days.",
+    "Prioritize gaps that recur across target roles and can materially improve screening evidence within 30-90 days.",
     "Do not try to retrofit structural history such as years in a major consulting firm; use positioning and selective role targeting instead.",
     "Do not infer causality from a single rejection; require multiple comparable outcomes before recalibrating role families.",
-    "Never invent metrics. Reconstruct only figures that can be defended in interview or supported by records."
+    "Never invent metrics. Reconstruct only figures that can be defended in interview or supported by records.",
+    "Do not redirect the profile toward pure hands-on AI/ML engineering unless application outcomes show that this is strategically justified."
   ],
   "priority_gaps": [
     {
@@ -19,47 +20,67 @@
       "status": "evidence_reconstruction_required",
       "market_evidence": [
         "Telefónica Account Executive Grandes Clientes explicitly manages targets based on revenue, new sales and customer satisfaction.",
-        "AWS Customer Solutions Manager requires business cases, measurable customer benefits, efficiency gains, cost savings or growth."
+        "Telefónica Account Specialist Data, IA y Servicios Gestionados expects ownership and closing of complex, high-value Data/AI opportunities in large accounts.",
+        "Microsoft Senior Digital Solution Area Specialist - Spanish Speaking expects pipeline ownership, multi-year services agreements and measurable customer outcomes."
       ],
-      "action_today": "Reconstruct Nokia/Telefónica evidence: account scope, contract/revenue ranges, portfolio size, number/type of strategic customers, proposal/RFP wins, teams coordinated and measurable customer outcomes. Mark every figure as confirmed, defensible range or unknown.",
-      "target_evidence": "A one-page quantified achievements inventory reusable in CV, LinkedIn and interviews.",
-      "roles_benefited": ["Telefónica Account Executive Grandes Clientes", "AWS Customer Solutions Manager", "Capgemini/Accenture transformation leadership", "Google Cloud TAM"],
-      "selection_probability_effect": "Not numerically assigned yet; expected to strengthen screening and interview credibility across commercial and transformation roles, but current outcome data are insufficient for a defensible point estimate."
+      "action_today": "Create a one-page Nokia/Telefónica evidence sheet with only confirmed values or defensible ranges for account scope, contract/revenue scale, proposals/RFPs, team size, strategic customers and business/customer outcomes. Leave unknown fields blank rather than estimating.",
+      "target_evidence": "At least 8-12 defensible quantified achievements across Nokia/Telefónica, CANTV and current AI/cloud work, reusable in CV, LinkedIn and interviews.",
+      "roles_benefited": ["Telefónica Account Specialist Data & AI", "Telefónica Account Executive Grandes Clientes", "Microsoft Senior Digital Solution Area Specialist", "Google Cloud TAM", "Capgemini AI Growth Lead"],
+      "selection_probability_effect": "Not numerically assigned yet; expected to strengthen screening and interview credibility, but current outcome data are insufficient for a defensible point estimate."
     },
     {
       "id": "formal-cloud-ai-credentials",
-      "gap": "Formal cloud/AI credentials aligned with hyperscaler roles",
+      "gap": "Formal cloud/AI/governance credentials aligned with target roles",
       "classification": "missing",
       "gap_roi": "high",
       "impact": "medium_high",
       "closability_30_60_90": "30_to_90_days",
       "status": "progress_unknown",
       "market_evidence": [
-        "AWS Customer Solutions Manager lists AWS or other cloud certification as preferred.",
-        "Telefónica Account Specialist Cloud values VMware, Azure, GCP and AWS architecture/security/network certifications.",
-        "Capgemini Cloud Solution Architect lists AWS Solutions Architect, Azure Solutions Architect Expert, Terraform Associate and Kubernetes certification as must-to-have for that technical role."
+        "Telefónica Account Specialist Data, IA y Servicios Gestionados significantly values Data Governance / AI Governance certifications across Microsoft, Google, IBM, AWS and recognized governance standards.",
+        "AWS partner architecture roles value cloud certifications and hands-on AWS/AI credibility.",
+        "Capgemini and Telefónica architecture roles repeatedly value hyperscaler and cloud-native credentials."
       ],
       "plan": [
         "P0: Google Cloud Generative AI Leader",
         "P1: Google Professional Cloud Architect",
-        "P2: AWS Solutions Architect Associate",
-        "Kubernetes practical evidence before pursuing certification unless role frequency justifies it"
+        "P2: AWS Solutions Architect Associate if AWS opportunity density remains high",
+        "TOGAF Foundation + Practitioner after cloud P0/P1 milestones",
+        "Kubernetes practical evidence before certification unless role frequency justifies it"
       ],
-      "action_today": "Confirm baseline readiness for Google Cloud Generative AI Leader and complete the next official learning-path activity; record actual progress rather than estimating it.",
-      "roles_benefited": ["Google Cloud", "AWS", "Telefónica Cloud", "Capgemini AI/Cloud", "Enterprise transformation roles"],
-      "selection_probability_effect": "No numeric uplift assigned until application outcomes provide enough comparable evidence; certification is repeatedly preferred/valued in current market evidence."
+      "action_today": "Continue the official Google Cloud Generative AI Leader path and record actual completed modules only. Keep Google Professional Cloud Architect as the next major certification milestone.",
+      "roles_benefited": ["Telefónica Data & AI", "Google Cloud", "AWS", "Capgemini AI/Cloud", "Microsoft"],
+      "selection_probability_effect": "No numeric uplift assigned until application outcomes provide enough comparable evidence."
+    },
+    {
+      "id": "hands-on-ai-cloud-evidence",
+      "gap": "Recent hands-on AI/cloud architecture and production-style evidence",
+      "classification": "partial",
+      "gap_roi": "high",
+      "impact": "medium_high",
+      "closability_30_60_90": "30_to_60_days",
+      "status": "portfolio_evidence_required",
+      "market_evidence": [
+        "AWS partner architecture roles ask for agentic AI, RAG, APIs, cloud-native patterns, workshops and technical credibility.",
+        "Strategic customer roles increasingly reward technical fluency even when the job is not pure engineering.",
+        "More technical Capgemini/Telefónica roles expose recurring gaps in containers, middleware, integration, DevOps and cloud architecture."
+      ],
+      "action_today": "Advance one portfolio artifact that proves API + GenAI + deployment + observability. Publish architecture, README, tests/evaluation and measurable technical evidence when complete.",
+      "target_evidence": "Enterprise GenAI/API project with deployment, architecture diagram, evaluation/observability and defensible latency/cost/quality metrics.",
+      "roles_benefited": ["AWS", "Google Cloud TAM", "Microsoft", "Accenture AI transformation", "Capgemini AI/Cloud"],
+      "selection_probability_effect": "Expected to improve technical credibility; no defensible numeric delta yet."
     },
     {
       "id": "formal-consulting-tenure-and-revenue",
       "gap": "Formal major-consulting tenure and consulting revenue track record for senior strategy roles",
       "classification": "structural",
-      "gap_roi": "conditional",
+      "gap_roi": "nulo",
       "impact": "high_for_big_consulting_strategy_roles",
       "closability_30_60_90": "not_retroactively_closable",
       "status": "manage_by_positioning_and_role_selection",
       "market_evidence": [
         "Accenture GCC Strategy & Transformation Senior Manager asks for 8-12 years in consulting.",
-        "Capgemini Invent AI Strategist asks for a strategic consulting background and commercial contribution, including approximately GBP1m consulting revenue at senior levels."
+        "Accenture Senior Manager Product Mid-Market explicitly requires prior business/technology consulting and demonstrated business development, while preferring Big Four or transformation-consulting experience."
       ],
       "action_today": "Do not spend training time trying to simulate historical consulting tenure. Reframe verified independent advisory/technology transformation work as consulting evidence, quantify business-development outcomes where defensible, and deprioritize roles where major-firm consulting tenure is an explicit knockout criterion.",
       "roles_benefited": ["Accenture Strategy", "Capgemini Invent", "Big 4 AI transformation leadership"],
@@ -68,18 +89,18 @@
   ],
   "next_tier": [
     {
-      "gap": "Hands-on Python/APIs/GenAI and agentic production evidence",
-      "classification": "partial",
-      "gap_roi": "high",
-      "horizon": "30_to_60_days",
-      "action": "Publish a deployed enterprise GenAI/API project with architecture, evaluation, observability, cost and Responsible AI evidence."
-    },
-    {
       "gap": "Enterprise Architecture formalization",
       "classification": "missing",
       "gap_roi": "high",
       "horizon": "60_to_75_days",
       "action": "TOGAF Foundation + Practitioner after cloud P0/P1 milestones."
+    },
+    {
+      "gap": "AWS second-hyperscaler credential",
+      "classification": "missing",
+      "gap_roi": "conditional",
+      "horizon": "75_to_90_days",
+      "action": "AWS Solutions Architect Associate if AWS pipeline remains strategically important."
     },
     {
       "gap": "Cloud-native/Kubernetes evidence",
