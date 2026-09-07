@@ -1,0 +1,22 @@
+{
+  "date":"2026-09-07",
+  "summary":{"priority_count":3,"verified_recommended_count":7,"application_responses_since_last_run":0},
+  "attack_today":[
+    {"rank":1,"company":"Telefónica España","role":"Account Specialist Data, Inteligencia Artificial y Servicios Gestionados","reference":"1407584833","location":"Barcelona / Cataluña-Aragón, Spain","fit":93,"selection_probability":80,"gap_risk":28,"gap_closability":76,"gap_roi":"very_high","cv_recommended":"Strategic Accounts | Data & AI | Cloud Transformation | Telecom | Executive Advisory","official_url":"https://jobs.telefonica.com/job/BARCELONA-TE_FC_ACCOUNT-SPECIALISTDATA,-INTELIGENCIA-ARTIFICIAL-Y-SERVICIOS-GESTIONADOS/1407584833/","action_center_url":"https://s2a2dynamics.github.io/gabriel-job-radar/anibal/accion.html?company=Telefonica&role=Account%20Specialist%20Data%20AI%20Servicios%20Gestionados&ref=1407584833"},
+    {"rank":2,"company":"Telefónica España","role":"Account Executive Grandes Clientes - Territorio Centro","reference":"1402333733","location":"Madrid / Valencia, Spain","fit":90,"selection_probability":82,"gap_risk":22,"gap_closability":84,"gap_roi":"very_high","cv_recommended":"Strategic Enterprise Accounts | Telecom & Cloud Transformation | Executive Customer Leadership | Commercial Growth","official_url":"https://jobs.telefonica.com/job/MADRID-TE_FC_ACCOUNT-EXECUTIVE-GRANDES-CLIENTES-TERRITORIO-CENTRO/1402333733/","action_center_url":"https://s2a2dynamics.github.io/gabriel-job-radar/anibal/accion.html?company=Telefonica&role=Account%20Executive%20Grandes%20Clientes&ref=1402333733"},
+    {"rank":3,"company":"Amazon Web Services (AWS)","role":"Customer Solutions Manager, Automotive & Manufacturing","reference":"10515273","location":"Madrid, Spain","fit":89,"selection_probability":75,"gap_risk":32,"gap_closability":78,"gap_roi":"very_high","cv_recommended":"Technology Transformation | Strategic Enterprise Customers | Cloud & AI Adoption | Program Leadership","official_url":"https://www.amazon.jobs/en/jobs/10515273/customer-solutions-manager-automotive-manufacturing","action_center_url":"https://s2a2dynamics.github.io/gabriel-job-radar/anibal/accion.html?company=AWS&role=Customer%20Solutions%20Manager%20Automotive%20Manufacturing&ref=10515273"}
+  ],
+  "changes":[
+    {"type":"closed","company":"Telefónica","role":"TIS Service Manager - Hyperscaler Customers","reference":"1233236201","note":"Official page states the posting has expired."},
+    {"type":"reverified_active","company":"AWS","role":"Customer Solutions Manager, Automotive & Manufacturing","reference":"10515273","note":"Official page is reachable again with Apply now."},
+    {"type":"not_recommended","company":"Telefónica","role":"Technical Integration and Data Architect","reference":"1410764633","note":"Active, but advanced C/C++ and direct hands-on engineering make it a poor strategic fit."}
+  ],
+  "gap_analysis_closure":{"top_3":[
+    {"gap":"Quantified enterprise/commercial impact evidence","classification":"partial","gap_roi":"very_high","horizon":"30 days","action_today":"Complete one Nokia/Telefónica evidence block with confirmed account scope, revenue/contract range, RFPs, team scale and measurable outcomes."},
+    {"gap":"Formal cloud / AI / governance credentials","classification":"missing","gap_roi":"high","horizon":"30-90 days","action_today":"Continue Google Cloud Generative AI Leader; keep Google Professional Cloud Architect next and AWS Solutions Architect Associate conditional on pipeline density."},
+    {"gap":"Recent hands-on AI/cloud architecture evidence","classification":"partial","gap_roi":"high","horizon":"30-60 days","action_today":"Advance one deployed API + GenAI/agentic + cloud + observability portfolio artifact."}
+  ]},
+  "follow_ups_due_today":["Telefónica España - Account Specialist Cloud","Capgemini - AI Growth Lead"],
+  "email_response_check":{"checked_after":"2026-09-06","material_application_responses_found":0},
+  "crm_url":"https://s2a2dynamics.github.io/gabriel-job-radar/anibal/candidaturas.html"
+}
