@@ -1,0 +1,140 @@
+{
+  "date": "2026-09-08",
+  "summary": {
+    "priority_count": 3,
+    "verified_recommended_count": 7,
+    "new_material_opportunities": 2,
+    "application_responses_since_last_run": 0
+  },
+  "attack_today": [
+    {
+      "rank": 1,
+      "company": "Telefónica España",
+      "role": "Account Specialist Data, Inteligencia Artificial y Servicios Gestionados",
+      "reference": "1407584833",
+      "location": "Cataluña / Aragón, Spain",
+      "fit": 93,
+      "selection_probability": 80,
+      "gap_risk": 28,
+      "gap_closability": 76,
+      "gap_roi": "very_high",
+      "gaps": [
+        {"name":"Formal Data/AI Governance credential","classification":"missing"},
+        {"name":"Recent quantified Data/AI enterprise sales evidence","classification":"partial"},
+        {"name":"Modern cloud/data architecture evidence","classification":"transferable"}
+      ],
+      "cv_recommended": "Strategic Accounts | Data & AI | Cloud Transformation | Telecom | Executive Advisory",
+      "official_url": "https://jobs.telefonica.com/job/BARCELONA-TE_FC_ACCOUNT-SPECIALISTDATA,-INTELIGENCIA-ARTIFICIAL-Y-SERVICIOS-GESTIONADOS/1407584833/",
+      "action_center_url": "https://s2a2dynamics.github.io/gabriel-job-radar/anibal/accion.html?company=Telefonica&role=Account%20Specialist%20Data%20AI%20Servicios%20Gestionados&ref=1407584833"
+    },
+    {
+      "rank": 2,
+      "company": "Telefónica España",
+      "role": "Account Executive Grandes Clientes - Territorio Centro",
+      "reference": "1402333733",
+      "location": "Madrid / Valencia, Spain",
+      "fit": 90,
+      "selection_probability": 82,
+      "gap_risk": 22,
+      "gap_closability": 84,
+      "gap_roi": "very_high",
+      "gaps": [
+        {"name":"Defensible recent revenue/new-sales metrics","classification":"partial"},
+        {"name":"Recent formal large-account sales role continuity","classification":"structural"}
+      ],
+      "cv_recommended": "Strategic Enterprise Accounts | Telecom & Cloud Transformation | Executive Customer Leadership | Commercial Growth",
+      "official_url": "https://jobs.telefonica.com/job/MADRID-TE_FC_ACCOUNT-EXECUTIVE-GRANDES-CLIENTES-TERRITORIO-CENTRO/1402333733/",
+      "action_center_url": "https://s2a2dynamics.github.io/gabriel-job-radar/anibal/accion.html?company=Telefonica&role=Account%20Executive%20Grandes%20Clientes&ref=1402333733"
+    },
+    {
+      "rank": 3,
+      "company": "Telefónica / Wayra",
+      "role": "Innovation Project Manager and AI Enabler",
+      "reference": "1390445433",
+      "location": "Spain",
+      "fit": 91,
+      "selection_probability": 79,
+      "gap_risk": 24,
+      "gap_closability": 86,
+      "gap_roi": "very_high",
+      "gaps": [
+        {"name":"Formal open-innovation/startup ecosystem tenure","classification":"partial"},
+        {"name":"Quantified P&L/project-margin evidence","classification":"partial"},
+        {"name":"AI automation portfolio evidence","classification":"transferable"}
+      ],
+      "cv_recommended": "Innovation & Transformation Program Leadership | AI Adoption | P&L | Client Delivery | Technology Ecosystems",
+      "official_url": "https://jobs.telefonica.com/job/Innovation-Project-Manager-and-AI-Enabler/1390445433/",
+      "action_center_url": "https://s2a2dynamics.github.io/gabriel-job-radar/anibal/accion.html?company=Telefonica-Wayra&role=Innovation%20Project%20Manager%20and%20AI%20Enabler&ref=1390445433"
+    }
+  ],
+  "verified_recommended": [
+    {"company":"Telefónica España","role":"Account Specialist Data, Inteligencia Artificial y Servicios Gestionados","reference":"1407584833","location":"Cataluña / Aragón, Spain","status":"active_verified","official_url":"https://jobs.telefonica.com/job/BARCELONA-TE_FC_ACCOUNT-SPECIALISTDATA,-INTELIGENCIA-ARTIFICIAL-Y-SERVICIOS-GESTIONADOS/1407584833/"},
+    {"company":"Telefónica España","role":"Account Executive Grandes Clientes - Territorio Centro","reference":"1402333733","location":"Madrid / Valencia, Spain","status":"active_verified","official_url":"https://jobs.telefonica.com/job/MADRID-TE_FC_ACCOUNT-EXECUTIVE-GRANDES-CLIENTES-TERRITORIO-CENTRO/1402333733/"},
+    {"company":"Telefónica / Wayra","role":"Innovation Project Manager and AI Enabler","reference":"1390445433","location":"Spain","status":"active_verified","official_url":"https://jobs.telefonica.com/job/Innovation-Project-Manager-and-AI-Enabler/1390445433/"},
+    {"company":"Altostratus / Telefónica","role":"Product Manager","reference":"1404967433","location":"Spain; Madrid/Barcelona context, remote-friendly stated","status":"active_verified","official_url":"https://jobs.telefonica.com/job/Altostratus_Product-Manager/1404967433/"},
+    {"company":"Telefónica Tech","role":"Product Manager Advanced Computing","reference":"1414783133","location":"Madrid, Spain","status":"active_verified_stretch","official_url":"https://jobs.telefonica.com/job/MADRID-Tech_Product-Manager-Advanced-Computing/1414783133/"},
+    {"company":"Amazon Web Services","role":"Senior Customer Solutions Manager, AGS EMEA, Europe North","reference":"10529727","location":"Copenhagen, Denmark","status":"active_verified","official_url":"https://www.amazon.jobs/en/jobs/10529727/senior-customer-solutions-manager-ags-emea-europe-north-csm"},
+    {"company":"Amazon Web Services","role":"Customer Solutions Manager, ANZ","reference":"10458302","location":"Sydney / Melbourne, Australia","status":"active_verified_mobility_constraint","official_url":"https://www.amazon.jobs/en/jobs/10458302/customer-solutions-manager-anz"}
+  ],
+  "changes": [
+    {"type":"unverified_inactive","company":"Amazon Web Services","role":"Customer Solutions Manager, Automotive & Manufacturing","reference":"10515273","note":"Direct official URL returned 404 on 2026-09-08. Removed from active recommendations until reverified."},
+    {"type":"new_priority","company":"Telefónica / Wayra","role":"Innovation Project Manager and AI Enabler","reference":"1390445433","note":"Official page verified active with Apply now; strong alignment with innovation project leadership, P&L, client management and AI enablement."},
+    {"type":"new_recommended","company":"Amazon Web Services","role":"Senior Customer Solutions Manager, AGS EMEA, Europe North","reference":"10529727","note":"Official page verified active in Copenhagen; requires cloud adoption/digital transformation leadership and AWS SAA + AI Practitioner within six months of hire."}
+  ],
+  "gap_analysis_closure": {
+    "top_3": [
+      {
+        "gap":"Quantified enterprise/commercial and program-impact evidence",
+        "classification":"partial",
+        "gap_roi":"very_high",
+        "horizon":"30 days",
+        "market_evidence":"Telefónica Account Executive measures revenue/new sales/satisfaction; Wayra requires economic objectives, P&L, margins and tangible business impact; AWS CSM requires measurable customer value/business cases.",
+        "action_today":"Complete one Nokia/Telefónica evidence block with only defensible figures: account scope, revenue/contract range, RFP/deal count, team size, transformation scope and measurable result.",
+        "selection_probability_effect":"Potentially material across commercial, CSM and transformation roles, but no numeric uplift assigned without outcome evidence."
+      },
+      {
+        "gap":"Formal cloud / AI / governance credentials",
+        "classification":"missing",
+        "gap_roi":"high",
+        "horizon":"30-90 days",
+        "market_evidence":"Telefónica Data/AI explicitly values Data Governance and AI Governance certifications; AWS Copenhagen requires AWS Solutions Architect Associate and AWS AI Practitioner within six months of hire; Altostratus prefers public-cloud certification.",
+        "action_today":"Continue Google Cloud Generative AI Leader. Maintain Google Professional Cloud Architect as next target; elevate AWS SAA if AWS CSM density remains high for another 1-2 weeks.",
+        "selection_probability_effect":"Likely improves screening credibility for cloud/AI roles; numeric uplift not assigned yet."
+      },
+      {
+        "gap":"Recent hands-on AI/cloud architecture and automation evidence",
+        "classification":"partial",
+        "gap_roi":"high",
+        "horizon":"30-60 days",
+        "market_evidence":"Wayra asks for AI tools applied to automation/project management; AWS values practical AI/cloud plus multi-domain technical fluency; Telefónica Advanced Computing signals RAG, agents, MCP, MLOps and Kubernetes demand.",
+        "action_today":"Advance one deployable portfolio artifact showing API + GenAI/agentic workflow + cloud deployment + logging/observability, documented as a business use case rather than an ML-engineering exercise.",
+        "selection_probability_effect":"Useful for overcoming the 'strategic but not current hands-on' risk; no numeric uplift assigned without interview/outcome calibration."
+      }
+    ]
+  },
+  "follow_ups": {
+    "overdue": [
+      "Telefónica Tech - Data Sales Consultant",
+      "Microsoft - AI Transformation Consulting Leader",
+      "Telefónica - IA y Estrategia de Modelos de Atención Contact Center",
+      "Telefónica - Jefe de Proyectos Hiperautomatización & IA",
+      "AWS - Partner Solutions Architect, Agentic Next Gen Development",
+      "Google Cloud - Technical Account Manager",
+      "Telefónica España - Account Specialist Cloud",
+      "Capgemini - AI Growth Lead"
+    ],
+    "email_response_check":{"checked_after":"2026-09-07","material_application_responses_found":0}
+  },
+  "direct_contacts": {
+    "verified_named_contacts_for_new_priority_roles": [],
+    "note":"No new named direct recruiting or hiring contacts were verified today; do not invent contacts. Use official applications and existing verified network contacts only."
+  },
+  "action_plan": [
+    "Apply/tailor first to Telefónica Data & AI, then Account Executive Grandes Clientes, then Wayra Innovation Project Manager & AI Enabler if not already submitted outside CRM.",
+    "Build today's Nokia/Telefónica quantified-evidence block before finalizing CV bullets.",
+    "Continue Google Cloud Generative AI Leader and record completion evidence.",
+    "Send concise follow-ups on overdue A+ applications where a legitimate channel/contact already exists; do not fabricate recruiter addresses.",
+    "Advance one business-oriented AI/cloud portfolio artifact with API, agentic/GenAI workflow and observability."
+  ],
+  "crm_url":"https://s2a2dynamics.github.io/gabriel-job-radar/anibal/candidaturas.html"
+}
