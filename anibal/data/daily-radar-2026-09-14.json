@@ -2,8 +2,8 @@
   "date": "2026-09-14",
   "summary": {
     "priority_count": 3,
-    "verified_recommended_count": 8,
-    "new_material_opportunities": 1,
+    "verified_recommended_count": 9,
+    "new_material_opportunities": 2,
     "application_responses_since_last_run": 0
   },
   "attack_today": [
@@ -76,93 +76,27 @@
     {"company": "Telefónica", "role": "Experto en Transformación Digital y Gobierno del Dato", "reference": "1401300233", "status": "active_verified"},
     {"company": "Capgemini Engineering", "role": "Global Service Manager", "reference": "512605", "status": "active_verified"},
     {"company": "Amazon Web Services", "role": "Senior Customer Solutions Manager, AGS EMEA Europe North", "reference": "10529727", "status": "active_verified_europe"},
-    {"company": "Accenture", "role": "Data & AI Strategy - Senior Manager / Enterprise AI Value Strategist", "reference": "R00344194", "location": "London / Birmingham / Bristol / Manchester, UK", "status": "active_verified_europe_new_to_radar", "fit": 94, "selection_probability": 61, "gap_risk": 43, "gap_closability": 55, "gaps": [{"name": "Direct enterprise AI value-strategy case studies with quantified business cases", "classification": "partial"}, {"name": "UK work authorization / sponsorship dependency", "classification": "structural"}, {"name": "Recent formal high-value consulting tenure", "classification": "transferable"}]}
+    {"company": "Accenture", "role": "Data & AI Strategy - Senior Manager / Enterprise AI Value Strategist", "reference": "R00344194", "location": "London / Birmingham / Bristol / Manchester, UK", "status": "active_verified_europe_new_to_radar", "fit": 94, "selection_probability": 61, "gap_risk": 43, "gap_closability": 55, "gaps": [{"name": "Direct enterprise AI value-strategy case studies with quantified business cases", "classification": "partial"}, {"name": "UK work authorization / sponsorship dependency", "classification": "structural"}, {"name": "Recent formal high-value consulting tenure", "classification": "transferable"}]},
+    {"company": "Capgemini Invent", "role": "Senior Manager - Enterprise Data & Analytics - AI Factory", "reference": "535272", "location": "London / Manchester / Glasgow, UK", "status": "active_verified_europe_new_to_radar", "fit": 91, "selection_probability": 58, "gap_risk": 46, "gap_closability": 52, "gaps": [{"name": "Formal AI consulting/practice leadership continuity", "classification": "partial"}, {"name": "UK work authorization / sponsorship dependency", "classification": "structural"}, {"name": "Quantified enterprise AI transformation cases", "classification": "partial"}]}
   ],
   "changes": [
-    {
-      "type": "new_verified_secondary",
-      "company": "Accenture",
-      "role": "Data & AI Strategy - Senior Manager / Enterprise AI Value Strategist",
-      "reference": "R00344194",
-      "note": "Official vacancy is active and allows relevant industry/functional experience as an alternative to high-value consulting experience. Strong conceptual fit with AI strategy, value cases, operating models, Responsible AI and strategy-to-execution; UK geography and work-authorization/sponsorship dependency reduce near-term selection probability versus Spain roles."
-    },
-    {
-      "type": "verification_hold",
-      "company": "Accenture",
-      "role": "Senior Manager Client Account Lead - Communications, Media & Technology",
-      "reference": "R00353993",
-      "note": "Direct Spain official URL still redirects to Accenture job search on 14 Sep 2026. Search indexing still shows the role description, but strict policy keeps it out of active recommendations until the direct official requisition resolves again."
-    }
+    {"type": "new_verified_secondary", "company": "Accenture", "role": "Data & AI Strategy - Senior Manager / Enterprise AI Value Strategist", "reference": "R00344194", "note": "Official UK vacancy active on 14 Sep 2026. Strong conceptual fit with AI strategy, value cases, operating models, Responsible AI, C-suite advisory and strategy-to-execution. Geography/work authorization reduce near-term selection probability versus Spain roles."},
+    {"type": "new_verified_secondary", "company": "Capgemini Invent", "role": "Senior Manager - Enterprise Data & Analytics - AI Factory", "reference": "535272", "note": "Official UK vacancy posted 10 Sep 2026 and active. Strong enterprise AI transformation, agentic systems, C-suite advisory and measurable-value fit. Secondary due geography, consulting-continuity and work-authorization constraints."},
+    {"type": "verification_hold", "company": "Accenture", "role": "Senior Manager Client Account Lead - Communications, Media & Technology", "reference": "R00353993", "note": "Direct Spain official URL still redirects to Accenture job search on 14 Sep 2026. Search indexing still shows the role description, but strict policy keeps it out of active recommendations until the direct official requisition resolves again."},
+    {"type": "market_signal_not_recommended", "company": "Telefónica", "role": "Jefe de Arquitectura Global de Seguridad", "reference": "1415573633", "note": "New Madrid role dated 12 Sep 2026. Senior technology-leadership overlap exists, but security architecture specialization is outside the target positioning, so it is not recommended."}
   ],
   "gap_analysis_closure": {
     "top_3": [
-      {
-        "gap": "Quantified strategic-account, commercial and transformation impact evidence",
-        "classification": "partial",
-        "gap_roi": "very_high",
-        "horizon": "30 days",
-        "market_evidence": [
-          "Telefónica Account Executive Grandes Clientes measures revenue, new sales and customer satisfaction.",
-          "Telefónica Data/AI requires building and closing high-value Data/AI opportunities.",
-          "Telefónica/Wayra requires P&L, project profitability and tangible business impact.",
-          "Accenture Data & AI Strategy requires value cases, investment profiles, roadmaps and measurable business outcomes."
-        ],
-        "action_today": "Reconstruct Nokia/Telefónica evidence: account/territory scope, commercial targets where documented, pipeline and RFP/deal ownership, contract or revenue values only where defensible, team size, executive stakeholders, transformation scope and measured outcome. Mark unknowns explicitly; do not estimate.",
-        "roles_benefited": ["Telefónica Data/AI", "Telefónica Account Executive", "Accenture Data & AI Strategy", "AWS CSM", "Strategic Customer / AI Transformation roles"],
-        "selection_probability_effect": "Potentially material, but no numeric uplift assigned because comparable interview/outcome evidence remains insufficient."
-      },
-      {
-        "gap": "Production-style Agentic AI / GenAI product evidence",
-        "classification": "partial",
-        "gap_roi": "very_high",
-        "horizon": "30-60 days",
-        "market_evidence": [
-          "Capgemini Senior Product Owner - Agentic AI requires proven GenAI/Agentic AI delivery from discovery through deployment, plus RAG, agents, evaluation, guardrails, APIs and cloud.",
-          "The recurring target market increasingly expects practical AI/cloud evidence even in product and transformation leadership roles."
-        ],
-        "action_today": "Advance one portfolio case using a real current project: architecture, API contract, agent/RAG workflow if applicable, deployment evidence, evaluation/guardrails and observability. Do not claim production scale that is not demonstrated.",
-        "roles_benefited": ["Capgemini Senior Product Owner Agentic AI", "Telefónica Wayra", "AI Product/Program", "AI Transformation"],
-        "selection_probability_effect": "Expected to improve credibility; no defensible numeric delta yet."
-      },
-      {
-        "gap": "Formal cloud / AI / governance credentials",
-        "classification": "missing",
-        "gap_roi": "high",
-        "horizon": "30-90 days",
-        "market_evidence": [
-          "Telefónica Data/AI significantly values Data Governance and AI Governance credentials.",
-          "AWS Senior Customer Solutions Manager Europe North values solution architecture and multi-domain cloud fluency.",
-          "Accenture Data & AI Strategy emphasizes AI platform blueprints, Responsible AI and operationalization."
-        ],
-        "action_today": "Continue Google Cloud Generative AI Leader preparation; keep Google Professional Cloud Architect next. AWS Solutions Architect Associate remains high-ROI while AWS opportunity density persists; TOGAF follows cloud priorities; prioritize practical Kubernetes evidence before certification.",
-        "roles_benefited": ["Telefónica Data/AI", "AWS CSM", "Accenture Data & AI Strategy", "Cloud Transformation"],
-        "selection_probability_effect": "Likely screening benefit, but no numeric estimate justified yet."
-      }
+      {"gap": "Quantified strategic-account, commercial and transformation impact evidence", "classification": "partial", "gap_roi": "very_high", "horizon": "30 days", "action_today": "Reconstruct Nokia/Telefónica evidence: account/territory scope, commercial targets where documented, pipeline and RFP/deal ownership, contract or revenue values only where defensible, team size, executive stakeholders, transformation scope and measured outcome. Mark unknowns explicitly; do not estimate.", "roles_benefited": ["Telefónica Data/AI", "Telefónica Account Executive", "Accenture Data & AI Strategy", "AWS CSM", "Capgemini AI Factory"], "selection_probability_effect": "Potentially material, but no numeric uplift assigned because comparable interview/outcome evidence remains insufficient."},
+      {"gap": "Production-style Agentic AI / GenAI product evidence", "classification": "partial", "gap_roi": "very_high", "horizon": "30-60 days", "action_today": "Advance one portfolio case using a real current project: business problem, architecture, API contract, agent/RAG workflow if applicable, deployment evidence, evaluation/guardrails, observability and measured adoption/value. Do not claim production scale that is not demonstrated.", "roles_benefited": ["Capgemini Senior Product Owner Agentic AI", "Capgemini AI Factory", "Telefónica Wayra", "AI Product/Program", "AI Transformation"], "selection_probability_effect": "Expected to improve credibility; no defensible numeric delta yet."},
+      {"gap": "Formal cloud / AI / governance credentials", "classification": "missing", "gap_roi": "high", "horizon": "30-90 days", "action_today": "Continue Google Cloud Generative AI Leader preparation; keep Google Professional Cloud Architect next. AWS Solutions Architect Associate remains high-ROI while AWS opportunity density persists; TOGAF follows cloud priorities; prioritize practical Kubernetes evidence before certification.", "roles_benefited": ["Telefónica Data/AI", "AWS CSM", "Accenture Data & AI Strategy", "Capgemini AI Factory", "Cloud Transformation"], "selection_probability_effect": "Likely screening benefit, but no numeric estimate justified yet."}
     ]
   },
   "follow_ups": {
-    "overdue": [
-      "Telefónica Tech - Data Sales Consultant",
-      "Microsoft - AI Transformation Consulting Leader",
-      "Telefónica - IA y Estrategia de Modelos de Atención Contact Center",
-      "Telefónica - Jefe de Proyectos Hiperautomatización & IA",
-      "AWS - Partner Solutions Architect, Agentic Next Gen Development",
-      "Google Cloud - Technical Account Manager",
-      "Telefónica España - Account Specialist Cloud",
-      "Capgemini - AI Growth Lead"
-    ],
+    "overdue": ["Telefónica Tech - Data Sales Consultant", "Microsoft - AI Transformation Consulting Leader", "Telefónica - IA y Estrategia de Modelos de Atención Contact Center", "Telefónica - Jefe de Proyectos Hiperautomatización & IA", "AWS - Partner Solutions Architect, Agentic Next Gen Development", "Google Cloud - Technical Account Manager", "Telefónica España - Account Specialist Cloud", "Capgemini - AI Growth Lead"],
     "email_response_check": {"checked_after": "2026-09-13", "material_application_responses_found": 0}
   },
-  "direct_contacts": {
-    "verified_named_contacts_for_new_priority_roles": [],
-    "note": "No new named recruiter or hiring-manager contact was verified from an authoritative source today. Suggested outreach should target the relevant hiring/practice leadership roles without inventing names."
-  },
-  "action_plan": [
-    "Prioritize Telefónica Data/AI if not already submitted; tailor around Data/AI opportunity ownership, enterprise customers, cloud and governance.",
-    "Prepare the Capgemini Agentic AI Product Owner version around product ownership, GenAI/agents, APIs/cloud and measurable business outcomes.",
-    "Evaluate Telefónica/Wayra as the third Spain attack role using innovation-program, client, P&L and AI-adoption evidence.",
-    "Complete today's Nokia/Telefónica evidence reconstruction without inventing metrics.",
-    "Continue Google Cloud Generative AI Leader while advancing one portfolio-grade Agentic AI/cloud case."
-  ],
+  "direct_contacts": {"verified_named_contacts_for_new_priority_roles": [], "note": "No new named recruiter or hiring-manager contact was verified from an authoritative source today. Suggested outreach should target relevant hiring/practice leadership roles without inventing names."},
+  "action_plan": ["Prioritize Telefónica Data/AI if not already submitted; tailor around Data/AI opportunity ownership, enterprise customers, cloud and governance.", "Prepare the Capgemini Agentic AI Product Owner version around product ownership, GenAI/agents, APIs/cloud and measurable business outcomes.", "Evaluate Telefónica/Wayra as the third Spain attack role using innovation-program, client, P&L and AI-adoption evidence.", "Complete today's Nokia/Telefónica evidence reconstruction without inventing metrics.", "Continue Google Cloud Generative AI Leader while advancing one portfolio-grade Agentic AI/cloud case."],
   "crm_url": "https://s2a2dynamics.github.io/gabriel-job-radar/anibal/candidaturas.html"
 }
