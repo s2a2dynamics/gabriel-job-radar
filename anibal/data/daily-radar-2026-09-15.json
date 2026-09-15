@@ -1,0 +1,103 @@
+{
+  "date": "2026-09-15",
+  "summary": {
+    "priority_count": 3,
+    "verified_recommended_count": 6,
+    "new_material_opportunities": 0,
+    "application_responses_since_last_run": 0
+  },
+  "attack_today": [
+    {
+      "rank": 1,
+      "company": "Telefónica España",
+      "role": "Account Specialist Data, Inteligencia Artificial y Servicios Gestionados",
+      "reference": "1407584833",
+      "location": "Cataluña / Aragón, Spain",
+      "fit": 93,
+      "selection_probability": 80,
+      "gap_risk": 28,
+      "gap_closability": 76,
+      "gap_roi": "very_high",
+      "gaps": [
+        {"name":"Formal Data/AI Governance credential","classification":"missing"},
+        {"name":"Recent quantified Data/AI enterprise sales evidence","classification":"partial"},
+        {"name":"Modern cloud/data architecture evidence","classification":"transferable"}
+      ],
+      "cv_recommended": "Strategic Accounts | Data & AI | Cloud Transformation | Telecom | Executive Advisory",
+      "official_url": "https://jobs.telefonica.com/job/BARCELONA-TE_FC_ACCOUNT-SPECIALISTDATA,-INTELIGENCIA-ARTIFICIAL-Y-SERVICIOS-GESTIONADOS/1407584833/",
+      "action_center_url": "https://s2a2dynamics.github.io/gabriel-job-radar/anibal/accion.html?company=Telefonica&role=Account%20Specialist%20Data%20AI%20Servicios%20Gestionados&ref=1407584833"
+    },
+    {
+      "rank": 2,
+      "company": "Capgemini",
+      "role": "Senior Product Owner - Agentic AI",
+      "reference": "551611",
+      "location": "Madrid, Spain / Spain-France-Italy-UK",
+      "fit": 92,
+      "selection_probability": 74,
+      "gap_risk": 30,
+      "gap_closability": 88,
+      "gap_roi": "very_high",
+      "gaps": [
+        {"name":"Formal recent Product Owner title/continuity","classification":"partial"},
+        {"name":"Proven production delivery of GenAI/Agentic AI solutions","classification":"partial"},
+        {"name":"Formal consulting-environment tenure","classification":"transferable"}
+      ],
+      "cv_recommended": "AI Product & Program Leadership | Agentic AI | Cloud/API Architecture | Business Transformation | Strategy-to-Execution",
+      "official_url": "https://careers.capgemini.com/job/Madrid-Senior-Product-Owner-Agentic-AI/1435301633/",
+      "action_center_url": "https://s2a2dynamics.github.io/gabriel-job-radar/anibal/accion.html?company=Capgemini&role=Senior%20Product%20Owner%20Agentic%20AI&ref=551611"
+    },
+    {
+      "rank": 3,
+      "company": "Telefónica / Wayra",
+      "role": "Innovation Project Manager and AI Enabler",
+      "reference": "1390445433",
+      "location": "Spain",
+      "fit": 91,
+      "selection_probability": 79,
+      "gap_risk": 24,
+      "gap_closability": 86,
+      "gap_roi": "very_high",
+      "gaps": [
+        {"name":"Formal open-innovation/startup-program continuity","classification":"partial"},
+        {"name":"Defensible P&L / project profitability evidence","classification":"partial"},
+        {"name":"Quantified AI-enabled process improvement outcomes","classification":"partial"}
+      ],
+      "cv_recommended": "Innovation & AI Adoption | Technology Programs | Telecom | P&L | Strategy-to-Execution",
+      "official_url": "https://jobs.telefonica.com/job/Customer-Success-Specialist/1390445433/",
+      "action_center_url": "https://s2a2dynamics.github.io/gabriel-job-radar/anibal/accion.html?company=Telefonica-Wayra&role=Innovation%20Project%20Manager%20and%20AI%20Enabler&ref=1390445433"
+    }
+  ],
+  "verified_recommended": [
+    {"company":"Telefónica España","role":"Account Specialist Data, Inteligencia Artificial y Servicios Gestionados","reference":"1407584833","status":"active_verified_2026-09-15"},
+    {"company":"Capgemini","role":"Senior Product Owner - Agentic AI","reference":"551611","status":"active_verified_2026-09-15"},
+    {"company":"Telefónica / Wayra","role":"Innovation Project Manager and AI Enabler","reference":"1390445433","status":"active_verified_2026-09-15"},
+    {"company":"Telefónica","role":"Experto en Transformación Digital y Gobierno del Dato","reference":"1401300233","status":"active_verified_2026-09-15"},
+    {"company":"Capgemini Engineering","role":"Global Service Manager","reference":"512605","status":"active_verified_2026-09-15"},
+    {"company":"Amazon Web Services","role":"Senior Customer Solutions Manager, AGS EMEA Europe North","reference":"10529727","location":"Copenhagen, Denmark","status":"active_verified_europe_2026-09-15"}
+  ],
+  "changes": [
+    {"type":"no_material_new_priority","note":"No newly discovered Spain role today exceeded the existing Top 3 after strict official-source verification."},
+    {"type":"market_signal_not_recommended","company":"Accenture","role":"AI & HPC Infrastructure Engineer","reference":"R00339803","note":"Official role is active but requires 5+ years hands-on accelerated computing, GPU/DPU/LPU, Kubernetes/Slurm and AI infrastructure. Classified structural mismatch for the target leadership strategy; do not pivot toward pure infrastructure engineering."}
+  ],
+  "gap_analysis_closure": {
+    "top_3": [
+      {"gap":"Quantified strategic-account, commercial and transformation impact evidence","classification":"partial","gap_roi":"very_high","horizon":"30 days","action_today":"Reconstruct one CANTV achievement: exact program or operational scope, stakeholders, team size, budget/contract/revenue only if documented, baseline KPI, intervention and measured result. Mark unknown fields explicitly and locate source evidence instead of estimating.","roles_benefited":["Telefónica Data/AI","Telefónica Wayra","AWS CSM","Capgemini Global Service Manager"],"selection_probability_effect":"Potentially material; no numeric uplift assigned because comparable outcome evidence remains insufficient."},
+      {"gap":"Production-style Agentic AI / GenAI product evidence","classification":"partial","gap_roi":"very_high","horizon":"30-60 days","action_today":"Turn one current S2A2Dynamics/AI-cloud project into a portfolio case with architecture diagram, APIs, agent/RAG workflow where real, deployment evidence, evaluation/guardrails, observability and measured adoption/value. Do not claim production scale without evidence.","roles_benefited":["Capgemini Senior Product Owner Agentic AI","Telefónica Wayra","AI Product/Program","AI Transformation"],"selection_probability_effect":"Expected credibility benefit; no defensible numeric delta yet."},
+      {"gap":"Formal cloud / AI / governance credentials","classification":"missing","gap_roi":"high","horizon":"30-90 days","action_today":"Continue Google Cloud Generative AI Leader preparation; keep Google Professional Cloud Architect next. AWS Solutions Architect Associate remains high ROI because current AWS CSM explicitly requires it within six months of hire; TOGAF follows cloud priorities. Build practical Kubernetes evidence before considering certification.","roles_benefited":["Telefónica Data/AI","AWS CSM","Cloud Transformation","AI Strategy"],"selection_probability_effect":"Likely screening benefit; no numeric estimate justified yet."}
+    ]
+  },
+  "follow_ups": {
+    "overdue": ["Telefónica Tech - Data Sales Consultant","Microsoft - AI Transformation Consulting Leader","Telefónica - IA y Estrategia de Modelos de Atención Contact Center","Telefónica - Jefe de Proyectos Hiperautomatización & IA","AWS - Partner Solutions Architect, Agentic Next Gen Development","Google Cloud - Technical Account Manager","Telefónica España - Account Specialist Cloud","Capgemini - AI Growth Lead"],
+    "email_response_check": {"checked_after":"2026-09-14","material_application_responses_found":0}
+  },
+  "direct_contacts": {"verified_named_contacts_for_new_priority_roles":[],"note":"No authoritative named recruiter/hiring-manager contact verified today; do not invent names."},
+  "action_plan": [
+    "Submit or finalize Telefónica Data/AI if not already applied, using the Strategic Accounts + Data/AI + Cloud CV.",
+    "Prepare Capgemini Agentic AI Product Owner application around product delivery, APIs/cloud, agents/RAG and measurable business outcomes.",
+    "Evaluate Telefónica/Wayra with innovation-program, P&L, client and AI-adoption evidence.",
+    "Complete today's CANTV evidence reconstruction without inventing metrics.",
+    "Continue Google Cloud Generative AI Leader and advance one portfolio-grade Agentic AI/cloud case."
+  ],
+  "crm_url":"https://s2a2dynamics.github.io/gabriel-job-radar/anibal/candidaturas.html"
+}
