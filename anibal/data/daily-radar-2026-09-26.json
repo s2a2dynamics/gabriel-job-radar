@@ -1,0 +1,160 @@
+{
+  "date": "2026-09-26",
+  "generated_at": "2026-09-26T08:00:00+02:00",
+  "strategy": "Technology Leadership + AI/Cloud Transformation + Telecom/Enterprise + Strategic Customer + Strategy-to-Execution",
+  "attack_today": [
+    {
+      "company": "Capgemini Engineering",
+      "role": "Agentic AI & Network Transformation Manager",
+      "ref": "564395",
+      "location": "Madrid",
+      "fit": 99,
+      "selection_probability": 88,
+      "gap_risk": 12,
+      "gap_closability": 90,
+      "status": "officially_verified_active",
+      "source": "https://careers.capgemini.com/job/Madrid-Agentic-AI-%26-Network-Transformation-Manager/1440970233/",
+      "gaps": [
+        [
+          "NOC/SOC/Service Assurance recent evidence",
+          "transferable"
+        ],
+        [
+          "TM Forum/Autonomous Networks",
+          "partial"
+        ],
+        [
+          "Agentic AI production evidence",
+          "partial"
+        ]
+      ]
+    },
+    {
+      "company": "Telefónica",
+      "role": "EXP 1_MARKETING INFRAESTRUCTURAS PRODUCTO EDGE",
+      "location": "Spain / national",
+      "fit": 94,
+      "selection_probability": 72,
+      "gap_risk": 31,
+      "gap_closability": 78,
+      "status": "officially_verified_active",
+      "source": "https://jobs.telefonica.com/job/EXP-1_MARKETING-INFRAESTRUCTURAS-PRODUCTO-EDGE/1439949533/",
+      "gaps": [
+        [
+          "Recent hands-on cloud architecture depth",
+          "partial"
+        ],
+        [
+          "Cloud sovereignty/NIS2/DORA explicit evidence",
+          "partial"
+        ],
+        [
+          "Hyperscaler certifications",
+          "missing"
+        ]
+      ]
+    },
+    {
+      "company": "Telefónica",
+      "role": "TE_FC_ACCOUNT SPECIALIST DATA, INTELIGENCIA ARTIFICIAL Y SERVICIOS GESTIONADOS",
+      "location": "Cataluña / Aragón",
+      "fit": 93,
+      "selection_probability": 80,
+      "gap_risk": 28,
+      "gap_closability": 76,
+      "status": "officially_verified_active",
+      "source": "https://jobs.telefonica.com/job/BARCELONA-TE_FC_ACCOUNT-SPECIALISTDATA%2C-INTELIGENCIA-ARTIFICIAL-Y-SERVICIOS-GESTIONADOS/1407584833/",
+      "gaps": [
+        [
+          "Data/AI Governance certification",
+          "missing"
+        ],
+        [
+          "Quantified Data/AI commercial outcomes",
+          "partial"
+        ],
+        [
+          "Modern cloud/data architecture evidence",
+          "transferable"
+        ]
+      ]
+    }
+  ],
+  "recommended_verified": [
+    {
+      "company": "Telefónica",
+      "role": "ARQUITECTURA DE SOLUCIONES",
+      "location": "Madrid",
+      "fit": 93,
+      "selection_probability": 74,
+      "status": "officially_verified_active",
+      "source": "https://jobs.telefonica.com/job/ARQUITECTURA-DE-SOLUCIONES/1440182033/"
+    },
+    {
+      "company": "Telefónica",
+      "role": "IA LEADER",
+      "location": "Madrid",
+      "fit": 96,
+      "selection_probability": null,
+      "status": "officially_verified_active_but_prior_similar_application_requires_deduplication",
+      "source": "https://jobs.telefonica.com/job/IA-LEADER/1440020333/"
+    },
+    {
+      "company": "GE Vernova",
+      "role": "Governance & Responsible AI Leader",
+      "location": "Barcelona",
+      "fit": 90,
+      "selection_probability": 68,
+      "status": "officially_verified_active",
+      "source": "https://careers.gevernova.com/fr/governance-responsible-ai-leader/job/R5048292"
+    },
+    {
+      "company": "Capgemini Engineering",
+      "role": "Global Service Manager",
+      "location": "Madrid",
+      "fit": 88,
+      "selection_probability": 77,
+      "status": "officially_verified_active",
+      "source": "https://careers.capgemini.com/job/Madrid-Global-Service-Manager/1413791833/"
+    },
+    {
+      "company": "Capgemini Invent",
+      "role": "Data Strategy Consultant",
+      "location": "Madrid",
+      "fit": 83,
+      "selection_probability": 55,
+      "status": "officially_verified_active",
+      "source": "https://careers.capgemini.com/job/Madrid-Data-Strategy-Consultant/1440938333/"
+    }
+  ],
+  "changes": [
+    "New priority: Telefónica EXP 1 Marketing Infraestructuras Producto Edge, officially active, published 2026-09-22.",
+    "Telefónica Arquitectura de Soluciones officially active, published 2026-09-22; strong secondary fit.",
+    "No material recruiting outcome found in Gmail in the last 24 hours."
+  ],
+  "gap_analysis": [
+    {
+      "gap": "Quantified impact evidence",
+      "class": "partial",
+      "roi": "muy alto",
+      "horizon": "30d",
+      "action_today": "Reconstruct one defensible Nokia/Telefónica achievement: baseline, scope, personal responsibility, stakeholders, team, KPI and measured result; no invented numbers."
+    },
+    {
+      "gap": "Agentic AI / GenAI production evidence",
+      "class": "partial",
+      "roi": "muy alto",
+      "horizon": "30-60d",
+      "action_today": "Advance one S2A2Dynamics production case with real architecture, APIs/Python, agents/RAG only where actually used, cloud deployment, evaluation, guardrails, observability and real metrics."
+    },
+    {
+      "gap": "Cloud/AI/Governance credentials",
+      "class": "missing",
+      "roi": "alto",
+      "horizon": "30-90d",
+      "action_today": "Prioritize Google Cloud Generative AI Leader, then Professional Cloud Architect; follow with AWS SAA and TOGAF. Add targeted TM Forum/Autonomous Networks refresh."
+    }
+  ],
+  "outcome_calibration": "No new Applied→Rejected→Interview→Finalist→Offer outcome today; insufficient comparable observations to infer causal patterns.",
+  "email_status": "pending"
+}
