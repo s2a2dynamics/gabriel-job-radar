@@ -2,3 +2,6 @@ node_modules/
 coverage/
 .DS_Store
 *.log
+
+# Datos personales retirados del sitio público (12-oct-2026): se conservan solo en local
+privado/

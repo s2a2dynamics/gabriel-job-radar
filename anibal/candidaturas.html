@@ -27,7 +27,7 @@ function pipelineStage(x){
  if(/network|contacted|outreach|connection/.test(s))return 'networking';
  return 'applied';
 }
-fetch('./data/applications.json',{cache:'no-store'}).then(r=>{if(!r.ok)throw Error('No se pudo cargar el registro');return r.json()}).then(data=>{
+fetch('./data/applications.json',{cache:'no-store'}).then(r=>{if(!r.ok)throw Error('El registro de candidaturas ya no se publica en este sitio público.');return r.json()}).then(data=>{
  const a=data.applications||[]; document.getElementById('total').textContent=a.length; document.getElementById('active').textContent=a.filter(x=>!['Rejected','Withdrawn','Closed','Offer declined'].includes(x.status)).length; document.getElementById('interviews').textContent=a.filter(x=>/interview/i.test(x.stage||'')).length;
  const today='2026-08-18'; document.getElementById('next').textContent=a.filter(x=>x.follow_up_date&&x.follow_up_date>=today).length;
  document.getElementById('pipeline').innerHTML=stages.map(st=>{const items=a.filter(x=>pipelineStage(x)===st.id);return `<section class="stage ${items.length?'':'emptyStage'} ${st.id==='closed'?'closed':''}"><div class="stagehead"><b>${st.label}</b><span class="stagecount">${items.length}</span></div>${items.length?items.map(x=>`<div class="stageitem"><div class="company">${x.company}</div><strong>${x.role}</strong><div class="date">${fmt(x.applied_date)} · ${x.priority||'—'}</div></div>`).join(''):'<div class="muted" style="font-size:12px">Sin candidaturas</div>'}</section>`}).join('');
